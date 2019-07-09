@@ -44,11 +44,32 @@ class Solution {
         return maxSubCount
     }
     
+    
     func lengthOfLongestSubstring2(_ s: String) -> Int {
-        
+        var longest = 0, left = 0, set = Set<Character>()
+        let sChars = Array(s)
+        for (i,char) in sChars.enumerated() {
+            if set.contains(char) {
+                //存在
+                longest = max(longest, i-left)
+                while sChars[left] != char {
+                    // 将窗口左侧移到 与当前 字符相同字符的位置
+                    set.remove(sChars[left])
+                    left += 1
+                }
+                left += 1
+            }else{
+                set.insert(char)
+            }
+        }
+        if longest < set.count {
+            // 处理单个字符的情况
+            return set.count
+        }
+        return longest
     }
 }
 
-let result = Solution().lengthOfLongestSubstring("pwwkew")
+let result = Solution().lengthOfLongestSubstring2("pwwkew")
 
 
