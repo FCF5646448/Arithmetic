@@ -11,36 +11,36 @@
 
 #include <stdio.h>
 
-typedef int ElementType;
-
-struct Node;
-typedef struct Node * PtrToNode;
-typedef PtrToNode List; //表
-typedef PtrToNode Position; //位置
-
-List MakeEmpty(List L);
-
-int isEmpty(List L);
-
-int IsLast(Position P, List L);
-
-Position Fint(ElementType X, List L);
-
-void Delete(ElementType X, List L);
-//查找前驱
-Position FindPrevious(ElementType X, List L);
-
-void Insert(ElementType X, List L, Position P);
-
-void DeleteList(List L);
-
-Position Header(List L);
-
-Position First(List L);
-
-Position Advance(List L);
-//获取P的元素
-ElementType Retrieve(Position P);
-
-
-#endif /* __1LinkList_h */
+//typedef int ElementType;
+//
+//struct Node;
+//typedef struct Node * PtrToNode;
+//typedef PtrToNode List; //表
+//typedef PtrToNode Position; //位置
+//
+//void MakeEmpty(List L);
+//
+//int isEmpty(List L);
+//
+//int IsLast(Position P, List L);
+//
+//Position Fint(ElementType X, List L);
+//
+//void Delete(ElementType X, List L);
+////查找前驱
+//Position FindPrevious(ElementType X, List L);
+//
+//void Insert(ElementType X, List L, Position P);
+//
+//void DeleteList(List L);
+//
+//Position Header(List L);
+//
+//Position First(List L);
+//
+//Position Advance(List L);
+////获取P的元素
+//ElementType Retrieve(Position P);
+//
+//
+//#endif /* __1LinkList_h */
