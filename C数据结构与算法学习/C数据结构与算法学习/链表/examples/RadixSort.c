@@ -121,6 +121,8 @@ void testRadix(void)
         insert(P, arr[i]);
         P = P->Next;
     }
+    
+    P = source;
     while (NULL != P->Next) {
         printf("%d",P->Element);
         P = P->Next;
