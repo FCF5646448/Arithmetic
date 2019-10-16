@@ -10,6 +10,7 @@
 		310D3B6E2354CDB9007E9165 /* 3-3Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B6D2354CDB9007E9165 /* 3-3Stack.c */; };
 		310D3B712354D512007E9165 /* 3-2-7Examples.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B702354D512007E9165 /* 3-2-7Examples.c */; };
 		310D3B742354D5A7007E9165 /* 3-3-3Examples.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B732354D5A7007E9165 /* 3-3-3Examples.c */; };
+		310D3B7923561FFC007E9165 /* RadixSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B7823561FFC007E9165 /* RadixSort.c */; };
 		31A5DC07234F8893003392C3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 31A5DC06234F8893003392C3 /* main.c */; };
 		31A5DC10234F88F0003392C3 /* 3-1LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 31A5DC0F234F88F0003392C3 /* 3-1LinkList.c */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,8 @@
 		310D3B702354D512007E9165 /* 3-2-7Examples.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-2-7Examples.c"; sourceTree = "<group>"; };
 		310D3B722354D5A7007E9165 /* 3-3-3Examples.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3-3-3Examples.h"; sourceTree = "<group>"; };
 		310D3B732354D5A7007E9165 /* 3-3-3Examples.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-3-3Examples.c"; sourceTree = "<group>"; };
+		310D3B7723561FFC007E9165 /* RadixSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadixSort.h; sourceTree = "<group>"; };
+		310D3B7823561FFC007E9165 /* RadixSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = RadixSort.c; sourceTree = "<group>"; };
 		31A5DC03234F8893003392C3 /* C数据结构与算法学习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C数据结构与算法学习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A5DC06234F8893003392C3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		31A5DC0E234F88F0003392C3 /* 3-1LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3-1LinkList.h"; sourceTree = "<group>"; };
@@ -61,6 +64,22 @@
 			path = "栈";
 			sourceTree = "<group>";
 		};
+		310D3B752354D7D7007E9165 /* 队列 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "队列";
+			sourceTree = "<group>";
+		};
+		310D3B7623561FDE007E9165 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				310D3B7723561FFC007E9165 /* RadixSort.h */,
+				310D3B7823561FFC007E9165 /* RadixSort.c */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
 		31A5DBFA234F8893003392C3 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +99,7 @@
 		31A5DC05234F8893003392C3 /* C数据结构与算法学习 */ = {
 			isa = PBXGroup;
 			children = (
+				310D3B752354D7D7007E9165 /* 队列 */,
 				310D3B6B2354CC9F007E9165 /* 栈 */,
 				31A5DC0D234F88AF003392C3 /* 链表 */,
 				31A5DC06234F8893003392C3 /* main.c */,
@@ -90,6 +110,7 @@
 		31A5DC0D234F88AF003392C3 /* 链表 */ = {
 			isa = PBXGroup;
 			children = (
+				310D3B7623561FDE007E9165 /* examples */,
 				31A5DC0E234F88F0003392C3 /* 3-1LinkList.h */,
 				31A5DC0F234F88F0003392C3 /* 3-1LinkList.c */,
 				310D3B6F2354D512007E9165 /* 3-2-7Examples.h */,
@@ -157,6 +178,7 @@
 			files = (
 				310D3B742354D5A7007E9165 /* 3-3-3Examples.c in Sources */,
 				31A5DC07234F8893003392C3 /* main.c in Sources */,
+				310D3B7923561FFC007E9165 /* RadixSort.c in Sources */,
 				310D3B712354D512007E9165 /* 3-2-7Examples.c in Sources */,
 				310D3B6E2354CDB9007E9165 /* 3-3Stack.c in Sources */,
 				31A5DC10234F88F0003392C3 /* 3-1LinkList.c in Sources */,

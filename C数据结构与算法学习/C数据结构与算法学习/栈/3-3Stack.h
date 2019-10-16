@@ -13,6 +13,7 @@
 
 typedef int ElementType;
 
+//栈的数据实现
 struct StackRecord;
 typedef struct StackRecord * Stack;
 
