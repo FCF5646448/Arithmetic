@@ -11,29 +11,29 @@
 
 #include <stdio.h>
 
-//typedef int ElementType;
-//
-////栈的数据实现
-//struct StackRecord;
-//typedef struct StackRecord * Stack;
-//
-//int IsEmpty(Stack S);
-//
-//int IsFull(Stack S);
-//
-//Stack CreateStack(int MaxElements);
-//
-//void DisposeStack(Stack S);
-//
-//void MakeEmpty(Stack S);
-//
-//void Push(ElementType X, Stack S);
-//
-//ElementType Top(Stack S);
-//
-//void Pop(Stack S);
-//
-//ElementType TopAndPop(Stack S);
+typedef int StackElementType;
+
+//栈的数据实现
+struct StackRecord;
+typedef struct StackRecord * Stack;
+
+int Stack_IsEmpty(Stack S);
+
+int Stack_IsFull(Stack S);
+
+Stack Stack_CreateStack(int MaxElements);
+
+void Stack_DisposeStack(Stack S);
+
+void Stack_MakeEmpty(Stack S);
+
+void Stack_Push(StackElementType X, Stack S);
+
+StackElementType Stack_Top(Stack S);
+
+void Stack_Pop(Stack S);
+
+StackElementType Stack_TopAndPop(Stack S);
 
 
 

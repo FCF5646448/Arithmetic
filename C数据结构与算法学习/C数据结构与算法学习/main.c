@@ -7,8 +7,10 @@
 //
 
 #include <stdio.h>
-#include "RadixSort.h"
-#include "反正单链表.h"
+//#include "RadixSort.h"
+//#include "反正单链表.h"
+//#include "快慢指针.h"
+#include "3-2-7Examples.h"
 
 
 int main(int argc, const char * argv[]) {
@@ -17,7 +19,10 @@ int main(int argc, const char * argv[]) {
     
 //    testRadix();
     
-    test();
+//    testFS();
+    
+    testMergeTwoLists();
+    
     return 0;
 }
 

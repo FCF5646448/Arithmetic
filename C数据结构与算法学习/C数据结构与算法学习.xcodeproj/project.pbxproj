@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1997CFBA2358083B00869FD4 /* 快慢指针.c in Sources */ = {isa = PBXBuildFile; fileRef = 1997CFB92358083B00869FD4 /* 快慢指针.c */; };
 		310D3B6E2354CDB9007E9165 /* 3-3Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B6D2354CDB9007E9165 /* 3-3Stack.c */; };
 		310D3B712354D512007E9165 /* 3-2-7Examples.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B702354D512007E9165 /* 3-2-7Examples.c */; };
 		310D3B742354D5A7007E9165 /* 3-3-3Examples.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B732354D5A7007E9165 /* 3-3-3Examples.c */; };
@@ -29,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1997CFB82358083B00869FD4 /* 快慢指针.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "快慢指针.h"; sourceTree = "<group>"; };
+		1997CFB92358083B00869FD4 /* 快慢指针.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "快慢指针.c"; sourceTree = "<group>"; };
 		310D3B6C2354CDB9007E9165 /* 3-3Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3-3Stack.h"; sourceTree = "<group>"; };
 		310D3B6D2354CDB9007E9165 /* 3-3Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-3Stack.c"; sourceTree = "<group>"; };
 		310D3B6F2354D512007E9165 /* 3-2-7Examples.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3-2-7Examples.h"; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 				310D3B7823561FFC007E9165 /* RadixSort.c */,
 				310D3B7A2357EAB8007E9165 /* 反正单链表.h */,
 				310D3B7B2357EAB8007E9165 /* 反正单链表.c */,
+				1997CFB82358083B00869FD4 /* 快慢指针.h */,
+				1997CFB92358083B00869FD4 /* 快慢指针.c */,
 			);
 			path = examples;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 				310D3B742354D5A7007E9165 /* 3-3-3Examples.c in Sources */,
 				310D3B7C2357EAB8007E9165 /* 反正单链表.c in Sources */,
 				31A5DC07234F8893003392C3 /* main.c in Sources */,
+				1997CFBA2358083B00869FD4 /* 快慢指针.c in Sources */,
 				310D3B7923561FFC007E9165 /* RadixSort.c in Sources */,
 				310D3B712354D512007E9165 /* 3-2-7Examples.c in Sources */,
 				310D3B6E2354CDB9007E9165 /* 3-3Stack.c in Sources */,
