@@ -8,14 +8,16 @@
 
 #include <stdio.h>
 #include "RadixSort.h"
+#include "反正单链表.h"
 
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
     
-    testRadix();
+//    testRadix();
     
+    test();
     return 0;
 }
 
