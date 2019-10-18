@@ -21,7 +21,9 @@ int main(int argc, const char * argv[]) {
     
 //    testFS();
     
-    testMergeTwoLists();
+//    testMergeTwoLists();
+    
+    testGetIntersectionNode();
     
     return 0;
 }
