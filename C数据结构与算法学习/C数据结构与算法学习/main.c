@@ -23,7 +23,9 @@ int main(int argc, const char * argv[]) {
     
 //    testMergeTwoLists();
     
-    testGetIntersectionNode();
+//    testdeleteDuplicates();
+    
+    testhasCycle();
     
     return 0;
 }

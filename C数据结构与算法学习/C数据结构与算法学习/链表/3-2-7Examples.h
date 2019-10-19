@@ -24,5 +24,12 @@ void testMergeTwoLists();
 
 //查找两个
 void testGetIntersectionNode();
+
+//删除已排序链表中的重复元素
+void testdeleteDuplicates();
+
+//测试链表是否有环
+void testhasCycle();
+
 #endif /* __2_7Examples_h */
 
