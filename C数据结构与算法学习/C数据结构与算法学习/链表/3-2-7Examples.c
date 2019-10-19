@@ -82,6 +82,86 @@ PtrToNode getIntersectionNode(List headA, List headB) {
     return PA;
 }
 
+
+////LeetCode 206 反转单链表
+List reverseList(List head) {
+    PtrToNode first,target;
+    first = head;
+    if (NULL == first || NULL ==first->Next) return head;
+    target = first->Next;
+    while (NULL != target) {
+        //把目标节点提出来
+        first->Next = target->Next;
+        target->Next = head;
+        head = target;
+        target = first->Next;
+    }
+    return head;
+}
+
+
+//回文链表
+int isPalindrome(List head){
+    
+    if ( NULL == head || NULL == head->Next ) {
+        return 1;
+    }
+    
+    PtrToNode slower,fast;
+    slower = head;
+    fast = head;
+    
+    //第一步，先找到中间节点,slower就是中间节点
+    // NULL != fast->Next 是链表数量为奇数的时候，NULL != fast 是链表数量为偶数时
+    while (NULL != fast && NULL != fast->Next) {
+        fast = fast->Next->Next;
+        slower = slower->Next;
+    }
+    
+    //翻转单链表
+    //slower不懂，将从头节点到slower节点或前一节点的子链表翻转
+    PtrToNode target;
+    if (fast == NULL) {
+        //链表数量为偶数时
+        fast = head;
+        target = fast->Next;
+        while (target != slower) {
+            fast->Next = target->Next;
+            target->Next = head;
+            head = target;
+            target = fast->Next;
+        }
+    }else{
+        //链表数量为奇数
+        fast = head;
+        target = fast->Next;
+        while (target != slower) {
+            fast->Next = target->Next;
+            target->Next = head;
+            head = target;
+            target = fast->Next;
+        }
+        slower = slower->Next;
+    }
+    
+    while (NULL != slower) {
+        if (head->element != slower->element) {
+            return 0;
+        }
+        slower = slower->Next;
+        head = head->Next;
+    }
+    return 1;
+}
+
+
+
+
+
+
+
+
+
 void testMergeTwoLists() {
     List l1 = Link_createL();
     List l2 = Link_createL();
@@ -169,5 +249,54 @@ void testGetIntersectionNode() {
          printf("结果：no find");
     }
    
+    
+}
+
+
+void testReverseList() {
+    List l1 = Link_createL();
+    
+    PtrToNode n0 =  makeNode(0);
+    PtrToNode n1 =  makeNode(1);
+    PtrToNode n2 = makeNode(2);
+    PtrToNode n3 = makeNode(3);
+    PtrToNode n4 = makeNode(4);
+    PtrToNode n5 = makeNode(5);
+    
+    l1->Next = n0;
+    n0->Next = n1;
+    n1->Next = n2;
+    n2->Next = n3;
+    n3->Next = n4;
+    n4->Next = n5;
+    
+    List result = reverseList(l1->Next);
+    while (result != NULL) {
+        printf("%d ",result->element);
+        result = result->Next;
+    }
+    
+}
+
+
+void testIsPalindrome() {
+    List l1 = Link_createL();
+    
+    PtrToNode n0 =  makeNode(0);
+    PtrToNode n1 =  makeNode(1);
+    PtrToNode n2 = makeNode(2);
+    PtrToNode n3 = makeNode(2);
+    PtrToNode n4 = makeNode(1);
+    PtrToNode n5 = makeNode(0);
+    
+    l1->Next = n0;
+    n0->Next = n1;
+//    n1->Next = n2;
+//    n2->Next = n3;
+//    n3->Next = n4;
+//    n4->Next = n5;
+    
+    int result = isPalindrome(l1->Next);
+    printf("结果：%d",result);
     
 }

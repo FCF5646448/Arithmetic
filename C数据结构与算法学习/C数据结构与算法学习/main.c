@@ -23,7 +23,10 @@ int main(int argc, const char * argv[]) {
     
 //    testMergeTwoLists();
     
-    testGetIntersectionNode();
+//    testGetIntersectionNode();
+    
+//    testReverseList();
+    testIsPalindrome();
     
     return 0;
 }

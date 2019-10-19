@@ -24,5 +24,12 @@ void testMergeTwoLists();
 
 //查找两个
 void testGetIntersectionNode();
+
+//反转单链表
+void testReverseList();
+
+//是否回文链表
+void testIsPalindrome();
+
 #endif /* __2_7Examples_h */
 
