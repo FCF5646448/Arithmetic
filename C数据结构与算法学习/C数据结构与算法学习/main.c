@@ -23,9 +23,15 @@ int main(int argc, const char * argv[]) {
     
 //    testMergeTwoLists();
     
+//    testGetIntersectionNode();
+    
 //    testdeleteDuplicates();
     
-    testhasCycle();
+//    testReverseList();
+    
+//    testhasCycle();
+    
+    testIsPalindrome();
     
     return 0;
 }
