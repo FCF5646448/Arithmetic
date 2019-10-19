@@ -13,7 +13,7 @@
 		310D3B742354D5A7007E9165 /* 3-3-3Examples.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B732354D5A7007E9165 /* 3-3-3Examples.c */; };
 		310D3B7923561FFC007E9165 /* RadixSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B7823561FFC007E9165 /* RadixSort.c */; };
 		310D3B7C2357EAB8007E9165 /* 反正单链表.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B7B2357EAB8007E9165 /* 反正单链表.c */; };
-		310D3B80235A8F95007E9165 /* LeetCodeExamples.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B7F235A8F95007E9165 /* LeetCodeExamples.c */; };
+		310D3B80235A8F95007E9165 /* LeetCodeStackExamples.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B7F235A8F95007E9165 /* LeetCodeStackExamples.c */; };
 		310D3B83235A92AF007E9165 /* 平衡符合.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B82235A92AF007E9165 /* 平衡符合.c */; };
 		31A5DC07234F8893003392C3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 31A5DC06234F8893003392C3 /* main.c */; };
 		31A5DC10234F88F0003392C3 /* 3-1LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 31A5DC0F234F88F0003392C3 /* 3-1LinkList.c */; };
@@ -44,8 +44,8 @@
 		310D3B7823561FFC007E9165 /* RadixSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = RadixSort.c; sourceTree = "<group>"; };
 		310D3B7A2357EAB8007E9165 /* 反正单链表.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "反正单链表.h"; sourceTree = "<group>"; };
 		310D3B7B2357EAB8007E9165 /* 反正单链表.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "反正单链表.c"; sourceTree = "<group>"; };
-		310D3B7E235A8F95007E9165 /* LeetCodeExamples.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCodeExamples.h; sourceTree = "<group>"; };
-		310D3B7F235A8F95007E9165 /* LeetCodeExamples.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LeetCodeExamples.c; sourceTree = "<group>"; };
+		310D3B7E235A8F95007E9165 /* LeetCodeStackExamples.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCodeStackExamples.h; sourceTree = "<group>"; };
+		310D3B7F235A8F95007E9165 /* LeetCodeStackExamples.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LeetCodeStackExamples.c; sourceTree = "<group>"; };
 		310D3B81235A92AF007E9165 /* 平衡符合.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "平衡符合.h"; sourceTree = "<group>"; };
 		310D3B82235A92AF007E9165 /* 平衡符合.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "平衡符合.c"; sourceTree = "<group>"; };
 		31A5DC03234F8893003392C3 /* C数据结构与算法学习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C数据结构与算法学习"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,8 +71,8 @@
 				310D3B7D235A8F19007E9165 /* 3.3.3课本练习 */,
 				310D3B6C2354CDB9007E9165 /* 3-3Stack.h */,
 				310D3B6D2354CDB9007E9165 /* 3-3Stack.c */,
-				310D3B7E235A8F95007E9165 /* LeetCodeExamples.h */,
-				310D3B7F235A8F95007E9165 /* LeetCodeExamples.c */,
+				310D3B7E235A8F95007E9165 /* LeetCodeStackExamples.h */,
+				310D3B7F235A8F95007E9165 /* LeetCodeStackExamples.c */,
 			);
 			path = "栈";
 			sourceTree = "<group>";
@@ -204,7 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				310D3B80235A8F95007E9165 /* LeetCodeExamples.c in Sources */,
+				310D3B80235A8F95007E9165 /* LeetCodeStackExamples.c in Sources */,
 				310D3B742354D5A7007E9165 /* 3-3-3Examples.c in Sources */,
 				310D3B7C2357EAB8007E9165 /* 反正单链表.c in Sources */,
 				31A5DC07234F8893003392C3 /* main.c in Sources */,

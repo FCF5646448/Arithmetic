@@ -1,5 +1,5 @@
 //
-//  LeetCodeExamples.h
+//  LeetCodeStackExamples.h
 //  C数据结构与算法学习
 //
 //  Created by 冯才凡 on 2019/10/19.
@@ -14,4 +14,4 @@
 // 这里存放一些LeetCode练习
 
 
-#endif /* LeetCodeExamples_h */
+#endif /* LeetCodeStackExamples_h*/
