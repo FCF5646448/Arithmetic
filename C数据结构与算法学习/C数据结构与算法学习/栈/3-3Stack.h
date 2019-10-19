@@ -13,7 +13,10 @@
 
 typedef int StackElementType;
 
-//栈的数据实现
+/*
+ 栈的数据实现：
+ 这里用的是栈的数组实现，具体实现看代码。顺便说一下栈的链表实现。栈的链表实现，是指用链表存储栈里的元素，链表head始终指向栈顶元素，所以每一次push都是使用malloc生成一个链表元素Node，然后将其插入到栈顶，每次pop都是将链表head弹出，这样就导致重复地malloc和free。使用数组实现则只是避免了重复调用malloc和free
+ */
 struct StackRecord;
 typedef struct StackRecord * Stack;
 
