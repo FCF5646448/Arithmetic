@@ -8,7 +8,14 @@
 
 #include "平衡符合.h"
 
+//
 Stack  blanceSymbol(Stack S) {
+    char leftArr[] = {'(','[','{'};
+    char rightArr[] = {')',']','}'};
+    
+    
+    
+    
     return NULL;
 }
 

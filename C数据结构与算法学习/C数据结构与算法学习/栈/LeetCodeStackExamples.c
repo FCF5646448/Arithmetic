@@ -7,3 +7,9 @@
 //
 
 #include "LeetCodeStackExamples.h"
+#include <stdlib.h>
+/*
+ S.length <= 10000
+ S[i] 为 "(" 或 ")"
+ S 是一个有效括号字符串
+ */
