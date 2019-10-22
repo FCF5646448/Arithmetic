@@ -17,6 +17,7 @@ int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
     
+    //链表
 //    testRadix();
     
 //    testFS();
@@ -28,10 +29,16 @@ int main(int argc, const char * argv[]) {
 //    testdeleteDuplicates();
     
 //    testReverseList();
-    
+//    testIsPalindrome();
+
 //    testhasCycle();
     
-    testIsPalindrome();
+//    testIsPalindrome();
+
+    
+    //栈
+//    testremoveOuterParentheses();
+    testcalPoints();
     
     return 0;
 }
