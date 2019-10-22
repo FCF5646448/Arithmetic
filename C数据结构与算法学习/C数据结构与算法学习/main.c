@@ -26,9 +26,15 @@ int main(int argc, const char * argv[]) {
     
 //    testGetIntersectionNode();
     
+//    testdeleteDuplicates();
+    
 //    testReverseList();
 //    testIsPalindrome();
+
+//    testhasCycle();
     
+//    testIsPalindrome();
+
     
     //栈
     testremoveOuterParentheses();

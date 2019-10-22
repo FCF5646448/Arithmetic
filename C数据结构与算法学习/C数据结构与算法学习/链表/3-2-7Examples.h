@@ -25,8 +25,17 @@ void testMergeTwoLists();
 //查找两个
 void testGetIntersectionNode();
 
+//删除已排序链表中的重复元素
+void testdeleteDuplicates();
+
 //反转单链表
 void testReverseList();
+
+//测试链表是否有环
+void testhasCycle();
+
+
+
 
 //是否回文链表
 void testIsPalindrome();

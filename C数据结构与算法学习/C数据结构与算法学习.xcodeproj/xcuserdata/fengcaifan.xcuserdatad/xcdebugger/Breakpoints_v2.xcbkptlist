@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "C&#x6570;&#x636e;&#x7ed3;&#x6784;&#x4e0e;&#x7b97;&#x6cd5;&#x5b66;&#x4e60;/&#x94fe;&#x8868;/examples/&#x5feb;&#x6162;&#x6307;&#x9488;.c"
-            timestampString = "592989273.232718"
+            timestampString = "593069783.995986"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "81"
@@ -22,80 +22,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "C&#x6570;&#x636e;&#x7ed3;&#x6784;&#x4e0e;&#x7b97;&#x6cd5;&#x5b66;&#x4e60;/&#x94fe;&#x8868;/3-2-7Examples.c"
-            timestampString = "592989273.232838"
+            timestampString = "593143288.842629"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
-            landmarkName = "testMergeTwoLists()"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "deleteDuplicates()"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "C&#x6570;&#x636e;&#x7ed3;&#x6784;&#x4e0e;&#x7b97;&#x6cd5;&#x5b66;&#x4e60;/&#x94fe;&#x8868;/3-2-7Examples.c"
-            timestampString = "592989273.233404"
+            timestampString = "593143288.84308"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "mergeTwoLists()"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "C&#x6570;&#x636e;&#x7ed3;&#x6784;&#x4e0e;&#x7b97;&#x6cd5;&#x5b66;&#x4e60;/&#x94fe;&#x8868;/3-2-7Examples.c"
-            timestampString = "592989273.234836"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
-            landmarkName = "testMergeTwoLists()"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "C&#x6570;&#x636e;&#x7ed3;&#x6784;&#x4e0e;&#x7b97;&#x6cd5;&#x5b66;&#x4e60;/&#x94fe;&#x8868;/3-2-7Examples.c"
-            timestampString = "592989273.235238"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "mergeTwoLists()"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "C&#x6570;&#x636e;&#x7ed3;&#x6784;&#x4e0e;&#x7b97;&#x6cd5;&#x5b66;&#x4e60;/&#x94fe;&#x8868;/3-2-7Examples.c"
-            timestampString = "592989273.236012"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "mergeTwoLists()"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "deleteDuplicates()"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
