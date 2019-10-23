@@ -142,7 +142,7 @@ int calPoints(char ** ops, int opsSize){
     
     int sum = 0;
     
-    int score[opsSize] = {0}; //表示每一轮有效回合得分
+    int score[1000] = {0}; //表示每一轮有效回合得分
     int index = 0;
     
     for (int i = 0; i<opsSize; i++) {
@@ -199,6 +199,44 @@ int calPoints(char ** ops, int opsSize){
 }
 
 
+//LeetCode 1047 删除字符串中所有相邻重复项
+/*
+ 输入："abbaca"
+ 输出："ca"
+ 解释：
+ 例如，在 "abbaca" 中，我们可以删除 "bb" 由于两字母相邻且相同，这是此时唯一可以执行删除操作的重复项。之后我们得到字符串 "aaca"，其中又只有 "aa" 可以执行重复项删除操作，所以最后的字符串为 "ca"。
+ 
+ 来源：力扣（LeetCode）
+ 链接：https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string
+ 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ 1 <= S.length <= 20000
+ S 仅由小写英文字母组成。
+ */
+
+char * removeDuplicates(char * S){
+    if (S == NULL) {
+        return S;
+    }
+    
+    char C[20000] = {'\0'};
+    int index = 0;
+    char last = '\0';
+    char *t = S;
+    while (*t != '\0') {
+        printf("%c",*t);
+        if (last == '\0') {
+            last = *t;
+        }
+        
+        C[index] = *t;
+        
+        t++;
+    }
+    
+    char * o = C;
+    return o;
+}
+
 
 /**********************************************************/
 /*************************test**************************/
@@ -211,8 +249,15 @@ void testremoveOuterParentheses() {
 }
 
 void testcalPoints() {
-    char * opsArr[] = {"5","2","C","D","+"};
+    char * opsArr[] = {"5","-2","4","C","D","9","+","+"};
     char ** ops = opsArr;
-    int r = calPoints(ops,5);
-    printf("%d",r);
+    int r = calPoints(ops,8);
+    printf("\nresult:%d\n",r);
+}
+
+
+void testremoveDuplicates() {
+    char * S = "abbaca";
+    char * r = removeDuplicates(S);
+    printf("%s",r);
 }

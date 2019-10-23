@@ -41,7 +41,10 @@ int main(int argc, const char * argv[]) {
     
     //栈
 //    testremoveOuterParentheses();
-    testcalPoints();
+    
+//    testcalPoints();
+    
+    testremoveDuplicates();
     
     return 0;
 }

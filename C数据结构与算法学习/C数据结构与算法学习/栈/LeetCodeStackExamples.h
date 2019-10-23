@@ -20,6 +20,9 @@ void testremoveOuterParentheses();
 //LeetCode 682 棒球比赛 计算总分
 void testcalPoints();
 
+//LeetCode 1047 删除字符串中所有相邻重复项
+void testremoveDuplicates();
+
 
 
 #endif /* LeetCodeStackExamples_h*/
