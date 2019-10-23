@@ -11,11 +11,14 @@
 //#include "反正单链表.h"
 //#include "快慢指针.h"
 #include "3-2-7Examples.h"
-
+#include "CPointer.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
+    
+    //C指针学习
+//    testCPointer();
     
     //链表
 //    testRadix();

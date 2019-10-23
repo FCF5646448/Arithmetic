@@ -131,6 +131,9 @@ char * removeOuterParentheses3(char * S){
  来源：力扣（LeetCode）
  链接：https://leetcode-cn.com/problems/baseball-game
  著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ 
+ //注：
+ char ** 与 char *[] 的区别：https://blog.csdn.net/daiyutage/article/details/8604720
  */
 int calPoints(char ** ops, int opsSize){
     if (opsSize <= 0) {
@@ -139,20 +142,60 @@ int calPoints(char ** ops, int opsSize){
     
     int sum = 0;
     
+    int score[opsSize] = {0}; //表示每一轮有效回合得分
+    int index = 0;
+    
     for (int i = 0; i<opsSize; i++) {
-        char * temp = ops;
+        char * temp = ops[i];
         printf("%s ", temp);
         if (*temp == 'C') {
-            
+            //取上一个值
+            index -= 1;
+            if (index >= 0) {
+                int tempS = score[index];
+                sum -= tempS; //移除最后一个有效得分
+            }else{
+                break;
+            }
         }else if (*temp == 'D') {
+            int tempIndx = index;
+            tempIndx -= 1;
+            if (tempIndx >= 0) {
+                int tempS = score[tempIndx];
+                score[index] = tempS*2;
+                sum += tempS*2;
+                index++;
+            }else{
+                break;
+            }
             
         }else if (*temp == '+') {
-            
+            int tempIndx = index;
+            tempIndx -= 1;
+            if (tempIndx >= 0) {
+                int tempSum = 0;
+                int tempS = score[tempIndx];
+                tempSum += tempS;
+                tempIndx -= 1;
+                if (tempIndx >= 0) {
+                    int tempS1 = score[tempIndx];
+                    tempSum += tempS1;
+                }
+                score[index] = tempSum;
+                sum += tempSum;
+                index++;
+                
+            }else{
+                break;
+            }
+        }else{
+            int s = atoi(temp);
+            sum += s;
+            score[index++] = s;
         }
-        ops++;
     }
     
-    return 0;
+    return sum;
 }
 
 
@@ -168,8 +211,8 @@ void testremoveOuterParentheses() {
 }
 
 void testcalPoints() {
-    char * opsArr = {"5","2","C","D","+"};
-    char ** ops = &opsArr;
+    char * opsArr[] = {"5","2","C","D","+"};
+    char ** ops = opsArr;
     int r = calPoints(ops,5);
     printf("%d",r);
 }
