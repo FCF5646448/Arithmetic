@@ -211,6 +211,8 @@ int calPoints(char ** ops, int opsSize){
  著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  1 <= S.length <= 20000
  S 仅由小写英文字母组成。
+ 
+ 解析： 这道题最主要的是赋值的先后顺序性
  */
 
 char * removeDuplicates(char * S){
@@ -218,19 +220,29 @@ char * removeDuplicates(char * S){
         return S;
     }
     
-    char C[20000] = {'\0'};
+    printf("%lu",strlen(S));
+    
+    char C[200000] = {'\0'}; //注意这个数组大小
     int index = 0;
     char last = '\0';
-    char *t = S;
-    while (*t != '\0') {
-        printf("%c",*t);
-        if (last == '\0') {
-            last = *t;
+    while (*S != '\0') {
+        C[index] = *S;
+        if (index > 0) {
+            int tempIndex = index - 1;
+            last = C[tempIndex];
         }
         
-        C[index] = *t;
+        if (last == C[index]) {
+            // 减两次
+            C[index--] = '\0';
+            C[index--] = '\0';
+            last = '\0';
+        }
         
-        t++;
+        
+        index++;
+        
+        S++;
     }
     
     char * o = C;
@@ -257,7 +269,7 @@ void testcalPoints() {
 
 
 void testremoveDuplicates() {
-    char * S = "abbaca";
+    char * S = "aaaaaaaaa";
     char * r = removeDuplicates(S);
-    printf("%s",r);
+    printf("%s \n",r);
 }
