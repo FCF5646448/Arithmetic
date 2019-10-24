@@ -13,6 +13,13 @@
 #include "3-2-7Examples.h"
 #include "CPointer.h"
 
+#include "桶排序.h"
+
+
+
+void testAHA();
+
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
@@ -44,8 +51,19 @@ int main(int argc, const char * argv[]) {
     
 //    testcalPoints();
     
-    testremoveDuplicates();
+//    testremoveDuplicates();
+    
+    
+    
+    testAHA();
     
     return 0;
 }
 
+
+// 啊哈算法系列 学习
+void testAHA() {
+//    testTongSort();
+    
+    testMPSort();
+}

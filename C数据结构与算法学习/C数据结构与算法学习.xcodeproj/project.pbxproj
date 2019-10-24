@@ -16,6 +16,8 @@
 		310D3B80235A8F95007E9165 /* LeetCodeStackExamples.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B7F235A8F95007E9165 /* LeetCodeStackExamples.c */; };
 		310D3B83235A92AF007E9165 /* 平衡符合.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B82235A92AF007E9165 /* 平衡符合.c */; };
 		310D3B87235FD360007E9165 /* CPointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B86235FD360007E9165 /* CPointer.c */; };
+		310D3B982361F7ED007E9165 /* 冒泡排序.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B972361F7ED007E9165 /* 冒泡排序.c */; };
+		310D3B9B2361F800007E9165 /* 桶排序.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B9A2361F800007E9165 /* 桶排序.c */; };
 		31A5DC07234F8893003392C3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 31A5DC06234F8893003392C3 /* main.c */; };
 		31A5DC10234F88F0003392C3 /* 3-1LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 31A5DC0F234F88F0003392C3 /* 3-1LinkList.c */; };
 /* End PBXBuildFile section */
@@ -51,6 +53,10 @@
 		310D3B82235A92AF007E9165 /* 平衡符合.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "平衡符合.c"; sourceTree = "<group>"; };
 		310D3B85235FD360007E9165 /* CPointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPointer.h; sourceTree = "<group>"; };
 		310D3B86235FD360007E9165 /* CPointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CPointer.c; sourceTree = "<group>"; };
+		310D3B962361F7ED007E9165 /* 冒泡排序.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "冒泡排序.h"; sourceTree = "<group>"; };
+		310D3B972361F7ED007E9165 /* 冒泡排序.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "冒泡排序.c"; sourceTree = "<group>"; };
+		310D3B992361F800007E9165 /* 桶排序.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "桶排序.h"; sourceTree = "<group>"; };
+		310D3B9A2361F800007E9165 /* 桶排序.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "桶排序.c"; sourceTree = "<group>"; };
 		31A5DC03234F8893003392C3 /* C数据结构与算法学习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C数据结构与算法学习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A5DC06234F8893003392C3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		31A5DC0E234F88F0003392C3 /* 3-1LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3-1LinkList.h"; sourceTree = "<group>"; };
@@ -120,6 +126,89 @@
 			path = "C语言语法复习";
 			sourceTree = "<group>";
 		};
+		310D3B882361E8A5007E9165 /* 啊哈算法系列 */ = {
+			isa = PBXGroup;
+			children = (
+				310D3B892361E94F007E9165 /* 排序 */,
+				310D3B8A2361E968007E9165 /* 栈、队列、链表 */,
+				310D3B8B2361E981007E9165 /* 枚举 */,
+				310D3B8C2361E98E007E9165 /* 搜索 */,
+				310D3B8D2361E996007E9165 /* 图的遍历 */,
+				310D3B8E2361E9AA007E9165 /* 最短路径 */,
+				310D3B902361E9B6007E9165 /* 树 */,
+				310D3B912361E9BD007E9165 /* 精彩算法 */,
+			);
+			path = "啊哈算法系列";
+			sourceTree = "<group>";
+		};
+		310D3B892361E94F007E9165 /* 排序 */ = {
+			isa = PBXGroup;
+			children = (
+				310D3B922361EA14007E9165 /* 桶排序 */,
+			);
+			path = "排序";
+			sourceTree = "<group>";
+		};
+		310D3B8A2361E968007E9165 /* 栈、队列、链表 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "栈、队列、链表";
+			sourceTree = "<group>";
+		};
+		310D3B8B2361E981007E9165 /* 枚举 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "枚举";
+			sourceTree = "<group>";
+		};
+		310D3B8C2361E98E007E9165 /* 搜索 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "搜索";
+			sourceTree = "<group>";
+		};
+		310D3B8D2361E996007E9165 /* 图的遍历 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "图的遍历";
+			sourceTree = "<group>";
+		};
+		310D3B8E2361E9AA007E9165 /* 最短路径 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "最短路径";
+			sourceTree = "<group>";
+		};
+		310D3B902361E9B6007E9165 /* 树 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "树";
+			sourceTree = "<group>";
+		};
+		310D3B912361E9BD007E9165 /* 精彩算法 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "精彩算法";
+			sourceTree = "<group>";
+		};
+		310D3B922361EA14007E9165 /* 桶排序 */ = {
+			isa = PBXGroup;
+			children = (
+				310D3B992361F800007E9165 /* 桶排序.h */,
+				310D3B9A2361F800007E9165 /* 桶排序.c */,
+				310D3B962361F7ED007E9165 /* 冒泡排序.h */,
+				310D3B972361F7ED007E9165 /* 冒泡排序.c */,
+			);
+			path = "桶排序";
+			sourceTree = "<group>";
+		};
 		31A5DBFA234F8893003392C3 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +228,7 @@
 		31A5DC05234F8893003392C3 /* C数据结构与算法学习 */ = {
 			isa = PBXGroup;
 			children = (
+				310D3B882361E8A5007E9165 /* 啊哈算法系列 */,
 				310D3B84235FD339007E9165 /* C语言语法复习 */,
 				310D3B752354D7D7007E9165 /* 队列 */,
 				310D3B6B2354CC9F007E9165 /* 栈 */,
@@ -217,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				310D3B982361F7ED007E9165 /* 冒泡排序.c in Sources */,
 				310D3B87235FD360007E9165 /* CPointer.c in Sources */,
 				310D3B80235A8F95007E9165 /* LeetCodeStackExamples.c in Sources */,
 				310D3B742354D5A7007E9165 /* 3-3-3Examples.c in Sources */,
@@ -226,6 +317,7 @@
 				310D3B83235A92AF007E9165 /* 平衡符合.c in Sources */,
 				310D3B7923561FFC007E9165 /* RadixSort.c in Sources */,
 				310D3B712354D512007E9165 /* 3-2-7Examples.c in Sources */,
+				310D3B9B2361F800007E9165 /* 桶排序.c in Sources */,
 				310D3B6E2354CDB9007E9165 /* 3-3Stack.c in Sources */,
 				31A5DC10234F88F0003392C3 /* 3-1LinkList.c in Sources */,
 			);
