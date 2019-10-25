@@ -10,8 +10,8 @@
 
 // 从大到小排序
 void MPSort(int * arr,int size) {
-    for (int i=1; i<=size-1; i++) {
-        for (int j=1; j<=size-i; j++) {
+    for (int i=0; i<size-1; i++) {
+        for (int j=0; j<size-i; j++) {
             if (arr[j] < arr[j+1]) {
                 int temp = arr[j];
                 arr[j] = arr[j+1];
@@ -19,15 +19,21 @@ void MPSort(int * arr,int size) {
             }
         }
     }
-    
-    while (size > 0) {
-        printf("%d  ",arr[size--]);
+    printf("\n");
+    int i = 0;
+    while (i<size) {
+        printf("%d  ",arr[i++]);
     }
     
 }
 
 void testMPSort() {
     
-    int originArr[8] = {3,2,4,5,2,8,9,'\0'};
-    MPSort(originArr,8);
+    int originArr[] = {3,2,4,5,2,8,9,7};
+    int * p = originArr;
+    for (int i=0; i<8; i++) {
+        printf("%d ",originArr[i]);
+    }
+    
+    MPSort(p,8);
 }
