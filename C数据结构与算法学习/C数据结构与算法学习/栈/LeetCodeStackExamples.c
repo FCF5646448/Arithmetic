@@ -238,6 +238,38 @@ char * removeDuplicates(char * S){
 }
 
 
+/*
+ 给定两个没有重复元素的数组 nums1 和 nums2 ，其中nums1 是 nums2 的子集。找到 nums1 中每个元素在 nums2 中的下一个比其大的值。
+ 
+ nums1 中数字 x 的下一个更大元素是指 x 在 nums2 中对应位置的右边的第一个比 x 大的元素。如果不存在，对应位置输出-1。
+ 
+ 来源：力扣（LeetCode）
+ 链接：https://leetcode-cn.com/problems/next-greater-element-i
+ 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ 
+ // 解题：注意是要找比当前元素大的下一个值，之前的值是不需要比较的。
+ // 技巧：单调栈
+ */
+
+int* nextGreaterElement(int* nums1, int nums1Size, int* nums2, int nums2Size, int* returnSize){
+    int Stack[1000] = {-1};
+    int lastIndex = 0;
+    int *ans = "\0";
+    
+    for (int i=0; i<nums1Size; i++) {
+        for (int j=nums2Size-1; j>-1; j--) {
+            
+            while (lastIndex>=0) {
+                
+            }
+                
+        }
+    }
+    
+    
+    return ans;
+}
+
 /**********************************************************/
 /*************************test**************************/
 /**********************************************************/
@@ -259,5 +291,15 @@ void testcalPoints() {
 void testremoveDuplicates() {
     char * S = "abbaca";
     char * r = removeDuplicates(S);
+    printf("%s",r);
+}
+
+
+void testnextGreaterElement() {
+    int *num1 = {4,1,2};
+    int *num2 = {1,3,4,2};
+    int *R = "\0";
+    
+    int *r = nextGreaterElement(num1,3,num2,4,R);
     printf("%s",r);
 }

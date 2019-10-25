@@ -23,6 +23,8 @@ void testcalPoints();
 //LeetCode 1047 删除字符串中所有相邻重复项
 void testremoveDuplicates();
 
+//LeetCode 496 下一个更大元素
+void testnextGreaterElement();
 
 
 #endif /* LeetCodeStackExamples_h*/
