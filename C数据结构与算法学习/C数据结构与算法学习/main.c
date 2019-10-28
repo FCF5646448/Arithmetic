@@ -54,6 +54,9 @@ int main(int argc, const char * argv[]) {
 //    testremoveDuplicates();
     
     
+    testnextGreaterElement();
+    
+    
     
     testAHA();
     
@@ -65,5 +68,7 @@ int main(int argc, const char * argv[]) {
 void testAHA() {
 //    testTongSort();
     
-    testMPSort();
+//    testMPSort();
+    
+    
 }

@@ -264,22 +264,74 @@ char * removeDuplicates(char * S){
  */
 
 int* nextGreaterElement(int* nums1, int nums1Size, int* nums2, int nums2Size, int* returnSize){
+    
+    int ans[1000] = {-1};
+    
+    //1、 给定1个数，怎么使用单调栈查找后一个更大值
+    // 从后往前查找，
+    int findX = 4; //假设查找的值
+    int lastIndex = -1; //初始无值
     int Stack[1000] = {-1};
-    int lastIndex = 0;
-    int *ans = "\0";
     
     for (int i=0; i<nums1Size; i++) {
-        for (int j=nums2Size-1; j>-1; j--) {
-            
-            while (lastIndex>=0) {
-                
+        for (int j=nums2Size-1; j>=0; j--) {
+            int tempNum = nums2[j];
+            if(tempNum > findX) {
+                // 只将大于查找数的数放到栈里
+                // 将栈里小于当前的入栈数出栈，保持栈的单调性
+                while (lastIndex >= 0 && Stack[lastIndex] < tempNum) {
+                    Stack[lastIndex--] = -1; //丢弃小的数
+                }
+                Stack[++lastIndex] = tempNum;
+            }else if (tempNum == findX) {
+                break;
             }
-                
+        }
+        
+        if (lastIndex >= 0) {
+            //找到了
+            ans[i] = Stack[lastIndex];
+        }else{
+            //没找到
+            ans[i] = -1;
+        }
+        
+        lastIndex = -1;
+    }
+    
+    int * o = ans;
+    
+    return o;
+}
+
+//单调栈的简单实践
+void testnextGreaterElement1(int* nums2, int nums2Size,int targetNum) {
+    //1、 给定1个数，怎么使用单调栈查找后一个更大值
+    // 从后往前查找，
+    int findX = targetNum; //假设查找的值
+    int lastIndex = -1; //初始无值
+    int Stack[1000] = {-1};
+    
+    for (int j=nums2Size-1; j>=0; j--) {
+        int tempNum = nums2[j];
+        if(tempNum > findX) {
+            // 只将大于查找数的数放到栈里
+            // 将栈里小于当前的入栈数出栈，保持栈的单调性
+            while (lastIndex >= 0 && Stack[lastIndex] < tempNum) {
+                Stack[lastIndex--] = -1; //丢弃小的数
+            }
+            Stack[++lastIndex] = tempNum;
+        }else if (tempNum == findX) {
+            break;
         }
     }
     
+    if (lastIndex >= 0) {
+        printf("%d 's next GreaterElement is %d",targetNum,Stack[lastIndex]);
+    }else{
+        printf("no next GreaterElement for %d",targetNum);
+    }
     
-    return ans;
 }
 
 /**********************************************************/
@@ -308,10 +360,16 @@ void testremoveDuplicates() {
 
 
 void testnextGreaterElement() {
-    int *num1 = {4,1,2};
-    int *num2 = {1,3,4,2};
-    int *R = "\0";
     
+    int nums[] = {1,3,4,2};
+    int subnum[] = {4,1,2};
+    
+    int *num2 = nums;
+    int *num1 = subnum;
+    int *R = "\0";
+//
     int *r = nextGreaterElement(num1,3,num2,4,R);
     printf("%s",r);
+    
+//    testnextGreaterElement1(num2,7,55);
 }
