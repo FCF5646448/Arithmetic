@@ -8,6 +8,7 @@
 
 #include "LeetCodeStackExamples.h"
 #include <String.h>
+#include <stdlib.h>
 
 /*
  S.length <= 10000
@@ -262,18 +263,13 @@ char * removeDuplicates(char * S){
  // 解题：注意是要找比当前元素大的下一个值，之前的值是不需要比较的。
  // 技巧：单调栈
  */
-
+// LeetCode不通过，不知道为啥  o(╥﹏╥)o
 int* nextGreaterElement(int* nums1, int nums1Size, int* nums2, int nums2Size, int* returnSize){
-    
-    int ans[1000] = {-1};
-    
-    //1、 给定1个数，怎么使用单调栈查找后一个更大值
-    // 从后往前查找，
-    int findX = 4; //假设查找的值
     int lastIndex = -1; //初始无值
-    int Stack[1000] = {-1};
-    
+    int *Stack = (int *)malloc(nums2Size*sizeof(int));
+//    returnSize = (int *)malloc(nums1Size*sizeof(int));
     for (int i=0; i<nums1Size; i++) {
+        int findX = nums1[i];
         for (int j=nums2Size-1; j>=0; j--) {
             int tempNum = nums2[j];
             if(tempNum > findX) {
@@ -287,21 +283,17 @@ int* nextGreaterElement(int* nums1, int nums1Size, int* nums2, int nums2Size, in
                 break;
             }
         }
-        
         if (lastIndex >= 0) {
             //找到了
-            ans[i] = Stack[lastIndex];
+            returnSize[i] = Stack[lastIndex];
         }else{
             //没找到
-            ans[i] = -1;
+            returnSize[i] = -1;
         }
-        
         lastIndex = -1;
     }
-    
-    int * o = ans;
-    
-    return o;
+    free(Stack);
+    return returnSize;
 }
 
 //单调栈的简单实践
@@ -362,14 +354,20 @@ void testremoveDuplicates() {
 void testnextGreaterElement() {
     
     int nums[] = {1,3,4,2};
-    int subnum[] = {4,1,2};
-    
     int *num2 = nums;
+    
+    int indexN = 3;
+    int subnum[] = {4,1,2};
     int *num1 = subnum;
-    int *R = "\0";
-//
-    int *r = nextGreaterElement(num1,3,num2,4,R);
-    printf("%s",r);
+    
+    int result[3] = {};
+    int *R = result;
+// 不知道为啥在LeetCode通不过
+    int *r = nextGreaterElement(num1,indexN,num2,4,R);
+    int i = 0;
+    while (i < indexN) {
+        printf("%d ",r[i++]);
+    }
     
 //    testnextGreaterElement1(num2,7,55);
 }
