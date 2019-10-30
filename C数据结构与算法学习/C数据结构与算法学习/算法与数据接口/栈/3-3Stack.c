@@ -13,12 +13,6 @@
 #define MinStackSize (5)
 #define EmptyTOS (-1)
 
-struct StackRecord {
-    StackElementType * Array; //使用数组实现
-    int Capacity;
-    int TopOfStack;
-};
-
 Stack Stack_CreateStack(int MaxElements) {
     Stack S;
     if (MaxElements < MinStackSize) {
