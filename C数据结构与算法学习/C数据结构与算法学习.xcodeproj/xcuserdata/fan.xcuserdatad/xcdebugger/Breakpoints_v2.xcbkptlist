@@ -112,7 +112,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "274"
             endingLineNumber = "274"
-            landmarkName = "testremoveDuplicates()"
+            landmarkName = "nextGreaterElement(nums1, nums1Size, nums2, nums2Size, returnSize)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
