@@ -9,6 +9,14 @@
 #include "冒泡排序.h"
 
 // 从大到小排序
+/*
+ 注：冒泡排序：实质就是相邻的数相比较。
+    然后i到size之间的都是未排好序的；
+    j到i之间的都是已排好序的。
+    所以每次插进一个i到size区间的数，
+    都需要将0到i之后的数相邻之间比较一下，确保排好序
+ 
+ */
 void MPSort(int * arr,int size) {
     for (int i=0; i<size-1; i++) {
         for (int j=0; j<size-i; j++) {
