@@ -20,6 +20,13 @@ typedef int StackElementType;
 struct StackRecord;
 typedef struct StackRecord * Stack;
 
+struct StackRecord {
+    StackElementType * Array; //使用数组实现
+    int Capacity; //总数量size
+    int TopOfStack; //栈顶下标
+};
+
+
 int Stack_IsEmpty(Stack S);
 
 int Stack_IsFull(Stack S);
