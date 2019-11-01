@@ -263,11 +263,14 @@ char * removeDuplicates(char * S){
  // 解题：注意是要找比当前元素大的下一个值，之前的值是不需要比较的。
  // 技巧：单调栈
  */
-// LeetCode不通过，不知道为啥  o(╥﹏╥)o
+// LeetCode不通过，不知道为啥  o(╥﹏╥)o， 后续发现 returnSize的主要作用是返回 return数组的size，而不是依赖于外部参数。这样就可以通过了。
 int* nextGreaterElement(int* nums1, int nums1Size, int* nums2, int nums2Size, int* returnSize){
     int lastIndex = -1; //初始无值
     int *Stack = (int *)malloc(nums2Size*sizeof(int));
-//    returnSize = (int *)malloc(nums1Size*sizeof(int));
+    
+    *returnSize = nums1Size;
+    int *p = (int *)malloc(nums1Size*sizeof(int));
+
     for (int i=0; i<nums1Size; i++) {
         int findX = nums1[i];
         for (int j=nums2Size-1; j>=0; j--) {
@@ -285,15 +288,15 @@ int* nextGreaterElement(int* nums1, int nums1Size, int* nums2, int nums2Size, in
         }
         if (lastIndex >= 0) {
             //找到了
-            returnSize[i] = Stack[lastIndex];
+            p[i] = Stack[lastIndex];
         }else{
             //没找到
-            returnSize[i] = -1;
+            p[i] = -1;
         }
         lastIndex = -1;
     }
     free(Stack);
-    return returnSize;
+    return p;
 }
 
 //单调栈的简单实践

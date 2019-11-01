@@ -13,7 +13,9 @@
 #include "3-2-7Examples.h"
 #include "CPointer.h"
 
+
 #include "桶排序.h"
+#include "快速排序.h"
 
 
 
@@ -54,7 +56,7 @@ int main(int argc, const char * argv[]) {
 //    testremoveDuplicates();
     
     
-    testnextGreaterElement();
+//    testnextGreaterElement();
     
     
     
@@ -70,5 +72,6 @@ void testAHA() {
     
 //    testMPSort();
     
+    testQuickSort();
     
 }
