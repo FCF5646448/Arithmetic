@@ -48,17 +48,26 @@ void MakeEmpty(Queue Q) {
 }
 
 void Enqueue(ElementType X,Queue Q) {
-    
+    Q->Front++;
+    Q->Size++;
+    Q->Array[Q->Front] = X;
 }
 
 ElementType Front(Queue Q) {
-    
+    return Q->Array[Q->Front];
 }
 
 void Dequeue(Queue Q) {
-    
+    while (Q->Front != Q->Rear) {
+        printf("%d", Q->Array[Q->Front]);
+        Q->Front--;
+        Q->Size--;
+    }
 }
 
 ElementType FrontAndDequeue(Queue Q) {
-    
+    ElementType temp = Q->Array[Q->Front];
+    Q->Front--;
+    Q->Size--;
+    return temp;
 }
