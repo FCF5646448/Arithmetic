@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19209DE823717FF900ED05DF /* 4-2BinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 19209DE723717FF900ED05DF /* 4-2BinaryTree.c */; };
+		19209DEB2371837000ED05DF /* 4-3ADT二叉查找树.c in Sources */ = {isa = PBXBuildFile; fileRef = 19209DEA2371837000ED05DF /* 4-3ADT二叉查找树.c */; };
 		19318C06236BE4A7008487AC /* 3TestPractice.c in Sources */ = {isa = PBXBuildFile; fileRef = 19318C05236BE4A7008487AC /* 3TestPractice.c */; };
 		1997CFBA2358083B00869FD4 /* 快慢指针.c in Sources */ = {isa = PBXBuildFile; fileRef = 1997CFB92358083B00869FD4 /* 快慢指针.c */; };
 		19E6F0C8236963E900EDE26A /* 3-4Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 19E6F0C7236963E900EDE26A /* 3-4Queue.c */; };
@@ -38,6 +40,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		19209DDF23717F6E00ED05DF /* 数据结构与算法笔记.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "数据结构与算法笔记.md"; sourceTree = "<group>"; };
+		19209DE623717FF800ED05DF /* 4-2BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "4-2BinaryTree.h"; sourceTree = "<group>"; };
+		19209DE723717FF900ED05DF /* 4-2BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4-2BinaryTree.c"; sourceTree = "<group>"; };
+		19209DE92371837000ED05DF /* 4-3ADT二叉查找树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "4-3ADT二叉查找树.h"; sourceTree = "<group>"; };
+		19209DEA2371837000ED05DF /* 4-3ADT二叉查找树.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4-3ADT二叉查找树.c"; sourceTree = "<group>"; };
 		19318C04236BE4A7008487AC /* 3TestPractice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 3TestPractice.h; sourceTree = "<group>"; };
 		19318C05236BE4A7008487AC /* 3TestPractice.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3TestPractice.c; sourceTree = "<group>"; };
 		1997CFB82358083B00869FD4 /* 快慢指针.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "快慢指针.h"; sourceTree = "<group>"; };
@@ -83,6 +90,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19209DD923711CD800ED05DF /* 树 */ = {
+			isa = PBXGroup;
+			children = (
+				19209DE623717FF800ED05DF /* 4-2BinaryTree.h */,
+				19209DE723717FF900ED05DF /* 4-2BinaryTree.c */,
+				19209DE92371837000ED05DF /* 4-3ADT二叉查找树.h */,
+				19209DEA2371837000ED05DF /* 4-3ADT二叉查找树.c */,
+			);
+			path = "树";
+			sourceTree = "<group>";
+		};
 		19318C02236BE465008487AC /* 表、栈、队列 */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +124,7 @@
 		19E6F0C42369628D00EDE26A /* 算法与数据结构 */ = {
 			isa = PBXGroup;
 			children = (
+				19209DD923711CD800ED05DF /* 树 */,
 				19318C02236BE465008487AC /* 表、栈、队列 */,
 			);
 			path = "算法与数据结构";
@@ -245,6 +264,7 @@
 		31A5DBFA234F8893003392C3 = {
 			isa = PBXGroup;
 			children = (
+				19209DDF23717F6E00ED05DF /* 数据结构与算法笔记.md */,
 				31A5DC05234F8893003392C3 /* C数据结构与算法学习 */,
 				31A5DC04234F8893003392C3 /* Products */,
 			);
@@ -339,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31092E1C236B32A8003162EA /* 快速排序.c in Sources */,
+				19209DE823717FF900ED05DF /* 4-2BinaryTree.c in Sources */,
 				310D3B982361F7ED007E9165 /* 冒泡排序.c in Sources */,
 				310D3B87235FD360007E9165 /* CPointer.c in Sources */,
 				310D3B80235A8F95007E9165 /* LeetCodeStackExamples.c in Sources */,
@@ -353,6 +374,7 @@
 				310D3B9B2361F800007E9165 /* 桶排序.c in Sources */,
 				310D3B6E2354CDB9007E9165 /* 3-3Stack.c in Sources */,
 				19318C06236BE4A7008487AC /* 3TestPractice.c in Sources */,
+				19209DEB2371837000ED05DF /* 4-3ADT二叉查找树.c in Sources */,
 				31A5DC10234F88F0003392C3 /* 3-1LinkList.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
