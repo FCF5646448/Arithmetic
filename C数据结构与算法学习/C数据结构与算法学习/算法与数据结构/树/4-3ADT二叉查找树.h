@@ -11,29 +11,32 @@
 
 #include <stdio.h>
 
-typedef int ElementType;
-typedef int Position;
+typedef int ADTElementType;
+typedef struct ADTTreeNode * Position;
 typedef struct ADTTreeNode * SearchTree;
 
+
 struct ADTTreeNode {
-    ElementType element;
+    ADTElementType element;
     SearchTree left;
     SearchTree right;
 };
 
-SearchTree MakeEmpty(SearchTree T);
+
+
+SearchTree MakeTreeEmpty(SearchTree T);
+
+Position Find(ADTElementType X,SearchTree T);
 //
-//Position Find(ElementType X,SearchTree T);
+Position FindMin(SearchTree T);
 //
-//Position FindMin(SearchTree T);
+Position FindMax(SearchTree T);
 //
-//Position FindMax(SearchTree T);
+SearchTree Insert(ADTElementType X,SearchTree T);
 //
-//SearchTree Insert(ElementType X,SearchTree T);
+SearchTree Delete(ADTElementType X, SearchTree T);
 //
-//SearchTree Delete(ElementType X, SearchTree T);
-//
-//ElementType Retrieve(Position P);
+//ADTElementType Retrieve(Position P);
 
 
 
