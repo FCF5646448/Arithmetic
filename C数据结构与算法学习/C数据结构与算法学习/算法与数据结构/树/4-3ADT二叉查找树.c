@@ -80,10 +80,11 @@ SearchTree Delete(ADTElementType X, SearchTree T) {
     Position tempCell;
     if (NULL == T) {
         return NULL;
-    }else if (X > T->element) {
-        T->right = Delete(X, T->left);
     }else if (X < T->element) {
-        T->left = Delete(X, T->right);
+        T->left = Delete(X, T->left);
+    }else if (X > T->element) {
+        //注意：课本上这一段是错误的
+        T->right = Delete(X, T->right);
     }else if (T->left && T->right) {
         //
         tempCell = FindMin(T->right);
