@@ -38,7 +38,7 @@ Position Find(ADTElementType X,SearchTree T) {
 //找最小，肯定是找最小左子树
 Position FindMin(SearchTree T) {
     if (NULL != T) {
-        if (NULL != T->right) {
+        if (NULL != T->left) {
             FindMin(T->left);
         }else{
             return T;
@@ -75,7 +75,11 @@ SearchTree Insert(ADTElementType X,SearchTree T) {
     }
     return T;
 }
-// 这段不太好理解
+/*删除查找二叉树节点的步骤：
+ 1、被删除节点是叶子节点：则直接删除就好了。
+ 2、被删除的节点只有一个子节点：则直接将子节点移上来替换掉被删除的节点就可以了。
+ 3、被删除的节点有两个子树：则根据二叉查找树的性质，只需要将右子树的最小节点找出来，将值替换掉，然后再回头去删掉替换后的那个“最小节点”的。
+*/
 SearchTree Delete(ADTElementType X, SearchTree T) {
     Position tempCell;
     if (NULL == T) {
