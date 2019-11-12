@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 
+
 struct AVLTreeNode;
 typedef struct AVLTreeNode * AVLTree;
 typedef AVLTree AVLPosition;
@@ -33,13 +34,17 @@ AVLTree avlDelete(AVLElement X, AVLTree T);
 // 检索
 AVLElement avlRetrieve(AVLPosition P);
 
-
+/*
+ AVL：是一种特殊的二叉查找数，它的左右子树中每个节点的左子树与右子树的高度差不超过1.这个数据结构是为了避免二叉查找树深度过高的问题。
+ */
 struct AVLTreeNode {
     AVLElement element;
     AVLTree left;
     AVLTree right;
     int height; //高度 因为得根据高度来判断是否需要旋转
 };
+
+
 
 
 #endif /* AVL__h */

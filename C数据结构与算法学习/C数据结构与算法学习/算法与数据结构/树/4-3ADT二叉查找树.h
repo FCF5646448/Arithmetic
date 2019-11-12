@@ -15,7 +15,9 @@ typedef int ADTElementType;
 typedef struct ADTTreeNode * Position;
 typedef struct ADTTreeNode * SearchTree;
 
-
+/*
+ 二叉查找树的特点就是：对于每一个节点来说，左子树的所以节点的值均小于根节点，右子树所有节点的值均大于右节点。
+ */
 struct ADTTreeNode {
     ADTElementType element;
     SearchTree left;

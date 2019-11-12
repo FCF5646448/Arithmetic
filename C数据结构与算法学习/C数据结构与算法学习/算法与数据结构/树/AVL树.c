@@ -13,6 +13,7 @@
 
 /*
  单旋、双旋： https://juejin.im/post/5d62064c6fb9a06b2c329a6f
+ 
  */
 
 // 返回节点高度
@@ -182,17 +183,20 @@ AVLTree avlInSert(AVLElement X, AVLTree T) {
 
 /*
  同理删除，先删除，再调整平衡。但是删除的话，同样要借助FindMin函数来替换掉
+ 这里可以简单地画图进行实践。
  */
 AVLTree avlDelete(AVLElement X, AVLTree T) {
     if ( NULL == T) {
         return NULL;
     }else if (X < T->element) {
+        // 删除的是左子树节点。
         T->left = avlDelete(X, T->left);
         
-        // 删完左子树上的节点后，左子树高度降低。所以应该调整右子树高度
+        // 删完左子树上的节点后，左子树高度降低。所以应该调整右子树
         if (avlHeight(T->right) - avlHeight(T->left) == 2) {
             AVLTree temp = T->right;
-            // 右子树高度大于左子树
+            //子树的左子树高于右子树，则需要对T进行一次双旋转，让其回到平衡状态；
+            //子树的左子树低于右子树，则直接对T进行一次右子树左旋就可以了。
             if (avlHeight(temp->left) > avlHeight(temp->right)) {
                 T = DoubleReroteWithRight(T);
             }else{
@@ -200,11 +204,14 @@ AVLTree avlDelete(AVLElement X, AVLTree T) {
             }
         }
     }else if (X > T->element) {
+        //删除的是右子树上的节点
         T->right = avlDelete(X, T->right);
         
-        //调整左子树
+        // 删除右子树节点后，右子树节点高度肯定小于等于左子树高度。所以应该调整左子树
         if (avlHeight(T->left) - avlHeight(T->right) == 2) {
             AVLTree temp = T->left;
+            //子树的右子树高于左子树，则需要对T进行一次双旋转，让其回到平衡状态；
+            //子树的右子树低于左子树，则直接对T进行一次左子树右旋就可以了。
             if (avlHeight(temp->right) > avlHeight(temp->left)) {
                 T = DoubleReroteWithLeft(T);
             }else{
@@ -213,6 +220,10 @@ AVLTree avlDelete(AVLElement X, AVLTree T) {
         }
         
     }else if (T->left && T->right) {
+        /*  找的节点是有左右子树的话
+            如果是左子树高度小于右子树，则用右子树的最小值替换当前节点，然后再去删除最小节点；
+            如果是左子树高度大于右子树，则用左子树的最大值替换当前节点，然后再去删除最大节点。
+         */
         if (avlHeight(T->left) < avlHeight(T->right)) {
             //左子树比右子树低,将右子树的最小值代替root
             AVLPosition tempCell = avlFindMin(T->right);
@@ -227,6 +238,9 @@ AVLTree avlDelete(AVLElement X, AVLTree T) {
         }
         
     }else{
+        /*
+         找到的节点是叶子节点或者只有一个子树的节点，则直接用子树替换当期节点，然后free。
+         */
         AVLPosition tempCell = T;
         if (T->left == NULL) {
             T = T->right;

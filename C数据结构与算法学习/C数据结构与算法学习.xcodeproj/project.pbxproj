@@ -10,6 +10,7 @@
 		19209DE823717FF900ED05DF /* 4-2BinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 19209DE723717FF900ED05DF /* 4-2BinaryTree.c */; };
 		19209DEB2371837000ED05DF /* 4-3ADT二叉查找树.c in Sources */ = {isa = PBXBuildFile; fileRef = 19209DEA2371837000ED05DF /* 4-3ADT二叉查找树.c */; };
 		19318C06236BE4A7008487AC /* 3TestPractice.c in Sources */ = {isa = PBXBuildFile; fileRef = 19318C05236BE4A7008487AC /* 3TestPractice.c */; };
+		193C66E4237A609C00DD8B0D /* 伸展树.c in Sources */ = {isa = PBXBuildFile; fileRef = 193C66E3237A609C00DD8B0D /* 伸展树.c */; };
 		19709B6E2375461F00C067E2 /* AVL树.c in Sources */ = {isa = PBXBuildFile; fileRef = 19709B6D2375461F00C067E2 /* AVL树.c */; };
 		1997CFBA2358083B00869FD4 /* 快慢指针.c in Sources */ = {isa = PBXBuildFile; fileRef = 1997CFB92358083B00869FD4 /* 快慢指针.c */; };
 		19E6F0C8236963E900EDE26A /* 3-4Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 19E6F0C7236963E900EDE26A /* 3-4Queue.c */; };
@@ -48,6 +49,8 @@
 		19209DEA2371837000ED05DF /* 4-3ADT二叉查找树.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4-3ADT二叉查找树.c"; sourceTree = "<group>"; };
 		19318C04236BE4A7008487AC /* 3TestPractice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 3TestPractice.h; sourceTree = "<group>"; };
 		19318C05236BE4A7008487AC /* 3TestPractice.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3TestPractice.c; sourceTree = "<group>"; };
+		193C66E2237A609C00DD8B0D /* 伸展树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "伸展树.h"; sourceTree = "<group>"; };
+		193C66E3237A609C00DD8B0D /* 伸展树.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "伸展树.c"; sourceTree = "<group>"; };
 		19709B6C2375461F00C067E2 /* AVL树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVL树.h"; sourceTree = "<group>"; };
 		19709B6D2375461F00C067E2 /* AVL树.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "AVL树.c"; sourceTree = "<group>"; };
 		1997CFB82358083B00869FD4 /* 快慢指针.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "快慢指针.h"; sourceTree = "<group>"; };
@@ -102,6 +105,8 @@
 				19209DEA2371837000ED05DF /* 4-3ADT二叉查找树.c */,
 				19709B6C2375461F00C067E2 /* AVL树.h */,
 				19709B6D2375461F00C067E2 /* AVL树.c */,
+				193C66E2237A609C00DD8B0D /* 伸展树.h */,
+				193C66E3237A609C00DD8B0D /* 伸展树.c */,
 			);
 			path = "树";
 			sourceTree = "<group>";
@@ -371,6 +376,7 @@
 				310D3B80235A8F95007E9165 /* LeetCodeStackExamples.c in Sources */,
 				310D3B742354D5A7007E9165 /* 3-3-3Examples.c in Sources */,
 				310D3B7C2357EAB8007E9165 /* 反正单链表.c in Sources */,
+				193C66E4237A609C00DD8B0D /* 伸展树.c in Sources */,
 				31A5DC07234F8893003392C3 /* main.c in Sources */,
 				19E6F0C8236963E900EDE26A /* 3-4Queue.c in Sources */,
 				1997CFBA2358083B00869FD4 /* 快慢指针.c in Sources */,
