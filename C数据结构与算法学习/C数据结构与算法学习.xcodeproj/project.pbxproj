@@ -13,6 +13,8 @@
 		193C66E4237A609C00DD8B0D /* 伸展树.c in Sources */ = {isa = PBXBuildFile; fileRef = 193C66E3237A609C00DD8B0D /* 伸展树.c */; };
 		19709B6E2375461F00C067E2 /* AVL树.c in Sources */ = {isa = PBXBuildFile; fileRef = 19709B6D2375461F00C067E2 /* AVL树.c */; };
 		1997CFBA2358083B00869FD4 /* 快慢指针.c in Sources */ = {isa = PBXBuildFile; fileRef = 1997CFB92358083B00869FD4 /* 快慢指针.c */; };
+		19DA0DB8237BF558006EEA86 /* LeetCodeTreeExamples.c in Sources */ = {isa = PBXBuildFile; fileRef = 19DA0DB7237BF558006EEA86 /* LeetCodeTreeExamples.c */; };
+		19DA0DBD237C04FD006EEA86 /* LeetCodeArrExamples.c in Sources */ = {isa = PBXBuildFile; fileRef = 19DA0DBC237C04FD006EEA86 /* LeetCodeArrExamples.c */; };
 		19E6F0C8236963E900EDE26A /* 3-4Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 19E6F0C7236963E900EDE26A /* 3-4Queue.c */; };
 		31092E1C236B32A8003162EA /* 快速排序.c in Sources */ = {isa = PBXBuildFile; fileRef = 31092E1B236B32A8003162EA /* 快速排序.c */; };
 		310D3B6E2354CDB9007E9165 /* 3-3Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B6D2354CDB9007E9165 /* 3-3Stack.c */; };
@@ -55,6 +57,10 @@
 		19709B6D2375461F00C067E2 /* AVL树.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "AVL树.c"; sourceTree = "<group>"; };
 		1997CFB82358083B00869FD4 /* 快慢指针.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "快慢指针.h"; sourceTree = "<group>"; };
 		1997CFB92358083B00869FD4 /* 快慢指针.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "快慢指针.c"; sourceTree = "<group>"; };
+		19DA0DB6237BF558006EEA86 /* LeetCodeTreeExamples.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCodeTreeExamples.h; sourceTree = "<group>"; };
+		19DA0DB7237BF558006EEA86 /* LeetCodeTreeExamples.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LeetCodeTreeExamples.c; sourceTree = "<group>"; };
+		19DA0DBB237C04FD006EEA86 /* LeetCodeArrExamples.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCodeArrExamples.h; sourceTree = "<group>"; };
+		19DA0DBC237C04FD006EEA86 /* LeetCodeArrExamples.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LeetCodeArrExamples.c; sourceTree = "<group>"; };
 		19E6F0C6236963E900EDE26A /* 3-4Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3-4Queue.h"; sourceTree = "<group>"; };
 		19E6F0C7236963E900EDE26A /* 3-4Queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-4Queue.c"; sourceTree = "<group>"; };
 		31092E1A236B32A8003162EA /* 快速排序.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "快速排序.h"; sourceTree = "<group>"; };
@@ -107,6 +113,8 @@
 				19709B6D2375461F00C067E2 /* AVL树.c */,
 				193C66E2237A609C00DD8B0D /* 伸展树.h */,
 				193C66E3237A609C00DD8B0D /* 伸展树.c */,
+				19DA0DB6237BF558006EEA86 /* LeetCodeTreeExamples.h */,
+				19DA0DB7237BF558006EEA86 /* LeetCodeTreeExamples.c */,
 			);
 			path = "树";
 			sourceTree = "<group>";
@@ -131,9 +139,27 @@
 			path = "章节练习";
 			sourceTree = "<group>";
 		};
+		19DA0DB9237BF5B3006EEA86 /* 散列 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "散列";
+			sourceTree = "<group>";
+		};
+		19DA0DBA237C04DE006EEA86 /* 数组字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				19DA0DBB237C04FD006EEA86 /* LeetCodeArrExamples.h */,
+				19DA0DBC237C04FD006EEA86 /* LeetCodeArrExamples.c */,
+			);
+			path = "数组字符串";
+			sourceTree = "<group>";
+		};
 		19E6F0C42369628D00EDE26A /* 算法与数据结构 */ = {
 			isa = PBXGroup;
 			children = (
+				19DA0DBA237C04DE006EEA86 /* 数组字符串 */,
+				19DA0DB9237BF5B3006EEA86 /* 散列 */,
 				19209DD923711CD800ED05DF /* 树 */,
 				19318C02236BE465008487AC /* 表、栈、队列 */,
 			);
@@ -376,12 +402,14 @@
 				310D3B80235A8F95007E9165 /* LeetCodeStackExamples.c in Sources */,
 				310D3B742354D5A7007E9165 /* 3-3-3Examples.c in Sources */,
 				310D3B7C2357EAB8007E9165 /* 反正单链表.c in Sources */,
+				19DA0DB8237BF558006EEA86 /* LeetCodeTreeExamples.c in Sources */,
 				193C66E4237A609C00DD8B0D /* 伸展树.c in Sources */,
 				31A5DC07234F8893003392C3 /* main.c in Sources */,
 				19E6F0C8236963E900EDE26A /* 3-4Queue.c in Sources */,
 				1997CFBA2358083B00869FD4 /* 快慢指针.c in Sources */,
 				310D3B83235A92AF007E9165 /* 平衡符合.c in Sources */,
 				310D3B7923561FFC007E9165 /* RadixSort.c in Sources */,
+				19DA0DBD237C04FD006EEA86 /* LeetCodeArrExamples.c in Sources */,
 				310D3B712354D512007E9165 /* 3-2-7Examples.c in Sources */,
 				310D3B9B2361F800007E9165 /* 桶排序.c in Sources */,
 				310D3B6E2354CDB9007E9165 /* 3-3Stack.c in Sources */,

@@ -17,6 +17,9 @@
 #include "桶排序.h"
 #include "快速排序.h"
 
+#include "LeetCodeTreeExamples.h"
+
+#include "LeetCodeArrExamples.h"
 
 
 void testAHA();
@@ -59,8 +62,11 @@ int main(int argc, const char * argv[]) {
 //    testnextGreaterElement();
     
     
+//    testTree();
     
-    testAHA();
+    testArr();
+    
+//    testAHA();
     
     return 0;
 }

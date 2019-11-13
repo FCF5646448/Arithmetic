@@ -93,7 +93,6 @@ STTree singleReroteWithRight(STTree tree) {
  2、伸展树不存在值为val的节点，且小于最小节点：
  
  3、伸展树不存在值为val的节点，且大于最大节点：
- 
  */
 STTree sttree_STTree(STElementType val, STTree tree) {
     if (NULL == tree) {
