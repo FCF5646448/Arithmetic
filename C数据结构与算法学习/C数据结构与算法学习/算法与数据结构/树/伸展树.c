@@ -71,6 +71,22 @@ STPosition maximun_STTree(STTree tree) {
     return tree;
 }
 
+//左子树右旋
+STTree singleReroteWithLeft(STTree tree) {
+    STTree temp = tree->left;
+    tree->left = temp->right;
+    temp->right = tree;
+    return temp;
+}
+
+//右子树左旋
+STTree singleReroteWithRight(STTree tree) {
+    STTree temp = tree->right;
+    tree->right = temp->left;
+    temp->left = tree;
+    return temp;
+}
+
 //旋转key对应的节点为根节点
 /*
  1、伸展树存在值为val的节点，则将该节点旋转为根节点
@@ -84,45 +100,54 @@ STTree sttree_STTree(STElementType val, STTree tree) {
         return tree;
     }
     
-//    STPosition N;
-//    N->left = N->right = NULL;
-//    STPosition r;
-//    STPosition l;
-//    r = l = N;
-//    
-//    while (1) {
-//        if (val < tree->val) {
-//            //
-//            if (tree->left == NULL) {
-//                break;
-//            }
-//            if (val < tree->left->val) {
-//                // 将temp旋转到根,边遍历边交换
-//                STPosition temp = tree->left;
-//                tree->left = temp->right;
-//                temp->right = tree;
-//                tree = temp;
-//                
-//                if (tree->left == NULL) {
-//                    //说明走到了最右侧
-//                    break;
-//                }
-//            }
-//            
-//            //
-//            r->left = tree;
-//            r = tree;
-//            tree = tree->left;
-//            
-//        }else if (val > tree->val){
-//            //
-//            
-//        }
-//    }
+    STPosition header = NULL;
+    STPosition leftMax;
+    STPosition rightMin;
     
+    header->left = header->right = NULL;
+    leftMax = rightMin = header;
     
+    while (val != tree->val) {
+        if (val < tree->val) {
+            //
+            if (val < tree->left->val) {
+                // 将temp旋转到根,边遍历边交换
+                tree = singleReroteWithLeft(tree);
+            }
+            if (tree->left == NULL) {
+                break;
+            }
+            
+            //链接右边 (搞不懂为什么要进行这一步，感觉直接旋转就可以了)
+            rightMin->left = tree;
+            rightMin = tree;
+            tree = tree->left;
+            
+        }else if (val > tree->val){
+            //
+            
+            if (val > tree->right->val) {
+                tree = singleReroteWithRight(tree);
+            }
+            
+            if (tree->right == NULL) {
+                break;
+            }
+            
+            //链接左边
+            leftMax->right = tree;
+            leftMax = tree;
+            tree = tree->right;
+        }
+    }
     
-    return NULL;
+    //组装
+    leftMax->right = tree->left;
+    rightMin->left = tree->right;
+    tree->left = header->right;
+    tree->right = header->left;
+    
+    return tree;
 }
 
 //将节点插入到伸展树中，并返回根节点
