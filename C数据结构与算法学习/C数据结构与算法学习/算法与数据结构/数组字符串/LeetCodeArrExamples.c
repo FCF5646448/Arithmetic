@@ -44,9 +44,12 @@ int oddCells(int n, int m, int** indices, int indicesSize, int* indicesColSize){
     for (int i = 0; i<indicesSize; i++) {
         for (int j = 0; j<indicesColSize[i]; j++) {
             // 第一个数表示行，第二个数表示列
+            
+            printf("indices[%d][%d] = %d\n", i,j,*((int*)indices + indicesColSize[i]*i + j));
+            
             if (j%2 == 0) {
                 //行
-                int * item = indices[i];
+                int * item = (int*)indices + indicesColSize[i]*i;
                 int row = item[j];
                 
                 int* rows = originl[row];
@@ -55,7 +58,7 @@ int oddCells(int n, int m, int** indices, int indicesSize, int* indicesColSize){
                 }
             }else if(j%2 == 1) {
                 //列
-                int * item = indices[i];
+                int * item = (int*)indices + indicesColSize[i]*i;
                 int col = item[j];
                 
                 for (int k = 0; k < n; k++) {
@@ -70,10 +73,11 @@ int oddCells(int n, int m, int** indices, int indicesSize, int* indicesColSize){
         }
     }
     
+    printf("*****************************\n");
     int sum = 0;
     for (int i = 0; i<n; i++) {
         for (int j = 0; j<m; j++) {
-            printf("%d",originl[i][j]);
+            printf("originl[%d][%d] = %d\n",i,j,originl[i][j]);
             if (originl[i][j] % 2 == 1) {
                 sum++;
             }
@@ -87,19 +91,20 @@ int oddCells(int n, int m, int** indices, int indicesSize, int* indicesColSize){
 
 void testArr(void) {
     int indices[2][2] = {{0,1},{1,1}};
+    
     int indicesColSize[2] = {2,2};
-    int **p = (int **)indices;
+    int (*p)[2] = indices;
+
     
     for (int i = 0; i<2; i++) {
-        int *row = p[i];
         for (int j = 0 ; j<2; j++) {
-            printf("%d", row[j]);
+            printf("%d", *(*(p+i) + j));
         }
     }
     
     
-    int sum = oddCells(2, 3, p, 2, indicesColSize);
+    int sum = oddCells(2, 3, (int **)indices, 2, indicesColSize);
     
-    printf("%d",sum);
+    printf("sum = %d\n",sum);
     
 }

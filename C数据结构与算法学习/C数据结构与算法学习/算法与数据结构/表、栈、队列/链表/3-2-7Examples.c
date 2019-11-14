@@ -130,6 +130,22 @@ List reverseList(List head) {
     return head;
 }
 
+// ** 链表反转递归实现
+List reverseList2(List head) {
+    if (head == NULL || head->Next == NULL) {
+        return head;
+    }
+    
+    List newH = reverseList2(head->Next);
+    head->Next->Next = head;
+    head->Next = NULL;
+    return newH;
+}
+
+
+
+
+
 
 // 查看链表是否有环： 用快慢指针的形式，
 // 快慢指针的主要点就是1、起始位置，2、循环判断条件，3快指针是慢指针的2倍（起始只能做2倍处理）
