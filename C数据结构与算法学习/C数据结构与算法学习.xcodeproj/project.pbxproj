@@ -16,6 +16,7 @@
 		19DA0DB8237BF558006EEA86 /* LeetCodeTreeExamples.c in Sources */ = {isa = PBXBuildFile; fileRef = 19DA0DB7237BF558006EEA86 /* LeetCodeTreeExamples.c */; };
 		19DA0DBD237C04FD006EEA86 /* LeetCodeArrExamples.c in Sources */ = {isa = PBXBuildFile; fileRef = 19DA0DBC237C04FD006EEA86 /* LeetCodeArrExamples.c */; };
 		19E6F0C8236963E900EDE26A /* 3-4Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 19E6F0C7236963E900EDE26A /* 3-4Queue.c */; };
+		19E94086237EAE7C00C930C6 /* 5-3Hash分离链接法.c in Sources */ = {isa = PBXBuildFile; fileRef = 19E94085237EAE7C00C930C6 /* 5-3Hash分离链接法.c */; };
 		31092E1C236B32A8003162EA /* 快速排序.c in Sources */ = {isa = PBXBuildFile; fileRef = 31092E1B236B32A8003162EA /* 快速排序.c */; };
 		310D3B6E2354CDB9007E9165 /* 3-3Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B6D2354CDB9007E9165 /* 3-3Stack.c */; };
 		310D3B712354D512007E9165 /* 3-2-7Examples.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B702354D512007E9165 /* 3-2-7Examples.c */; };
@@ -63,6 +64,8 @@
 		19DA0DBC237C04FD006EEA86 /* LeetCodeArrExamples.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LeetCodeArrExamples.c; sourceTree = "<group>"; };
 		19E6F0C6236963E900EDE26A /* 3-4Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3-4Queue.h"; sourceTree = "<group>"; };
 		19E6F0C7236963E900EDE26A /* 3-4Queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-4Queue.c"; sourceTree = "<group>"; };
+		19E94084237EAE7C00C930C6 /* 5-3Hash分离链接法.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5-3Hash分离链接法.h"; sourceTree = "<group>"; };
+		19E94085237EAE7C00C930C6 /* 5-3Hash分离链接法.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "5-3Hash分离链接法.c"; sourceTree = "<group>"; };
 		31092E1A236B32A8003162EA /* 快速排序.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "快速排序.h"; sourceTree = "<group>"; };
 		31092E1B236B32A8003162EA /* 快速排序.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "快速排序.c"; sourceTree = "<group>"; };
 		310D3B6C2354CDB9007E9165 /* 3-3Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3-3Stack.h"; sourceTree = "<group>"; };
@@ -142,6 +145,8 @@
 		19DA0DB9237BF5B3006EEA86 /* 散列 */ = {
 			isa = PBXGroup;
 			children = (
+				19E94084237EAE7C00C930C6 /* 5-3Hash分离链接法.h */,
+				19E94085237EAE7C00C930C6 /* 5-3Hash分离链接法.c */,
 			);
 			path = "散列";
 			sourceTree = "<group>";
@@ -398,6 +403,7 @@
 				19709B6E2375461F00C067E2 /* AVL树.c in Sources */,
 				19209DE823717FF900ED05DF /* 4-2BinaryTree.c in Sources */,
 				310D3B982361F7ED007E9165 /* 冒泡排序.c in Sources */,
+				19E94086237EAE7C00C930C6 /* 5-3Hash分离链接法.c in Sources */,
 				310D3B87235FD360007E9165 /* CPointer.c in Sources */,
 				310D3B80235A8F95007E9165 /* LeetCodeStackExamples.c in Sources */,
 				310D3B742354D5A7007E9165 /* 3-3-3Examples.c in Sources */,
