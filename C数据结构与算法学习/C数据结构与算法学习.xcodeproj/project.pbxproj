@@ -20,6 +20,9 @@
 		19E94086237EAE7C00C930C6 /* 5-3Hash分离链接法.c in Sources */ = {isa = PBXBuildFile; fileRef = 19E94085237EAE7C00C930C6 /* 5-3Hash分离链接法.c */; };
 		31092E1C236B32A8003162EA /* 快速排序.c in Sources */ = {isa = PBXBuildFile; fileRef = 31092E1B236B32A8003162EA /* 快速排序.c */; };
 		31092E2023818CBB003162EA /* 6-3二叉堆.c in Sources */ = {isa = PBXBuildFile; fileRef = 31092E1F23818CBB003162EA /* 6-3二叉堆.c */; };
+		31092E2323819468003162EA /* 6-6左式堆.c in Sources */ = {isa = PBXBuildFile; fileRef = 31092E2223819468003162EA /* 6-6左式堆.c */; };
+		31092E26238194A7003162EA /* 6-7斜堆.c in Sources */ = {isa = PBXBuildFile; fileRef = 31092E25238194A7003162EA /* 6-7斜堆.c */; };
+		31092E29238194D3003162EA /* 6-8二项队列.c in Sources */ = {isa = PBXBuildFile; fileRef = 31092E28238194D3003162EA /* 6-8二项队列.c */; };
 		310D3B6E2354CDB9007E9165 /* 3-3Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B6D2354CDB9007E9165 /* 3-3Stack.c */; };
 		310D3B712354D512007E9165 /* 3-2-7Examples.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B702354D512007E9165 /* 3-2-7Examples.c */; };
 		310D3B742354D5A7007E9165 /* 3-3-3Examples.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B732354D5A7007E9165 /* 3-3-3Examples.c */; };
@@ -74,6 +77,12 @@
 		31092E1B236B32A8003162EA /* 快速排序.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "快速排序.c"; sourceTree = "<group>"; };
 		31092E1E23818CBB003162EA /* 6-3二叉堆.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "6-3二叉堆.h"; sourceTree = "<group>"; };
 		31092E1F23818CBB003162EA /* 6-3二叉堆.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "6-3二叉堆.c"; sourceTree = "<group>"; };
+		31092E2123819468003162EA /* 6-6左式堆.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "6-6左式堆.h"; sourceTree = "<group>"; };
+		31092E2223819468003162EA /* 6-6左式堆.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "6-6左式堆.c"; sourceTree = "<group>"; };
+		31092E24238194A7003162EA /* 6-7斜堆.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "6-7斜堆.h"; sourceTree = "<group>"; };
+		31092E25238194A7003162EA /* 6-7斜堆.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "6-7斜堆.c"; sourceTree = "<group>"; };
+		31092E27238194D3003162EA /* 6-8二项队列.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "6-8二项队列.h"; sourceTree = "<group>"; };
+		31092E28238194D3003162EA /* 6-8二项队列.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "6-8二项队列.c"; sourceTree = "<group>"; };
 		310D3B6C2354CDB9007E9165 /* 3-3Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3-3Stack.h"; sourceTree = "<group>"; };
 		310D3B6D2354CDB9007E9165 /* 3-3Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "3-3Stack.c"; sourceTree = "<group>"; };
 		310D3B6F2354D512007E9165 /* 3-2-7Examples.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3-2-7Examples.h"; sourceTree = "<group>"; };
@@ -194,6 +203,12 @@
 			children = (
 				31092E1E23818CBB003162EA /* 6-3二叉堆.h */,
 				31092E1F23818CBB003162EA /* 6-3二叉堆.c */,
+				31092E2123819468003162EA /* 6-6左式堆.h */,
+				31092E2223819468003162EA /* 6-6左式堆.c */,
+				31092E24238194A7003162EA /* 6-7斜堆.h */,
+				31092E25238194A7003162EA /* 6-7斜堆.c */,
+				31092E27238194D3003162EA /* 6-8二项队列.h */,
+				31092E28238194D3003162EA /* 6-8二项队列.c */,
 			);
 			path = "堆";
 			sourceTree = "<group>";
@@ -425,6 +440,7 @@
 				310D3B87235FD360007E9165 /* CPointer.c in Sources */,
 				310D3B80235A8F95007E9165 /* LeetCodeStackExamples.c in Sources */,
 				310D3B742354D5A7007E9165 /* 3-3-3Examples.c in Sources */,
+				31092E29238194D3003162EA /* 6-8二项队列.c in Sources */,
 				310D3B7C2357EAB8007E9165 /* 反正单链表.c in Sources */,
 				19DA0DB8237BF558006EEA86 /* LeetCodeTreeExamples.c in Sources */,
 				193C66E4237A609C00DD8B0D /* 伸展树.c in Sources */,
@@ -432,10 +448,12 @@
 				19E6F0C8236963E900EDE26A /* 3-4Queue.c in Sources */,
 				1997CFBA2358083B00869FD4 /* 快慢指针.c in Sources */,
 				310D3B83235A92AF007E9165 /* 平衡符合.c in Sources */,
+				31092E26238194A7003162EA /* 6-7斜堆.c in Sources */,
 				310D3B7923561FFC007E9165 /* RadixSort.c in Sources */,
 				19DA0DBD237C04FD006EEA86 /* LeetCodeArrExamples.c in Sources */,
 				31092E2023818CBB003162EA /* 6-3二叉堆.c in Sources */,
 				310D3B712354D512007E9165 /* 3-2-7Examples.c in Sources */,
+				31092E2323819468003162EA /* 6-6左式堆.c in Sources */,
 				310D3B9B2361F800007E9165 /* 桶排序.c in Sources */,
 				310D3B6E2354CDB9007E9165 /* 3-3Stack.c in Sources */,
 				19318C06236BE4A7008487AC /* 3TestPractice.c in Sources */,
