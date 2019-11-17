@@ -168,6 +168,7 @@
 		19E6F0C42369628D00EDE26A /* 算法与数据结构 */ = {
 			isa = PBXGroup;
 			children = (
+				31092E1D2381889D003162EA /* 堆 */,
 				19DA0DBA237C04DE006EEA86 /* 数组字符串 */,
 				19DA0DB9237BF5B3006EEA86 /* 散列 */,
 				19209DD923711CD800ED05DF /* 树 */,
@@ -183,6 +184,13 @@
 				19E6F0C7236963E900EDE26A /* 3-4Queue.c */,
 			);
 			path = "队列";
+			sourceTree = "<group>";
+		};
+		31092E1D2381889D003162EA /* 堆 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "堆";
 			sourceTree = "<group>";
 		};
 		310D3B6B2354CC9F007E9165 /* 栈 */ = {
