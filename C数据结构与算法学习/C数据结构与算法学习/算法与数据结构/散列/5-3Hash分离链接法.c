@@ -24,7 +24,9 @@ HashTable HashInitializeTable(int tableSize) {
     if (NULL == H) {
         return NULL;
     }
+    //这里应该是NextPrime(tableSize),意为最接近tableSize的下一个素数
     H->tablesize = tableSize;
+    //注意这里不是给结构体分配空间，而是给指针分配空间，该指针指向struct HashListNode结构体。
     H->theLists = malloc(sizeof(struct HashListNode * )*tableSize);
     if (NULL == H->theLists) {
         printf("out of space");
@@ -55,7 +57,6 @@ void HashDestoryTable(HashTable H) {
         }
         free(H->theLists);
     }
-    H->tablesize = 0;
     free(H);
 }
 
