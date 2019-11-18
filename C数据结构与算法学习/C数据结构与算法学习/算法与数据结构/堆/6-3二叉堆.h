@@ -11,4 +11,34 @@
 
 #include <stdio.h>
 
+/*
+ 二叉堆：
+ */
+
+struct HeapStruct;
+typedef struct HeapStruct * PriorityQueue;
+typedef int HeapElement;
+
+struct HeapStruct{
+    int Capacity; //容量
+    int Size; //实际大小
+    HeapElement * Elements; //一个数组存各个元素
+};
+
+PriorityQueue HeapInitialize(int MaxElements);
+
+void HeapDestory(PriorityQueue H);
+
+void HeapMakeEmpty(PriorityQueue H);
+
+void HeapInsert(HeapElement X, PriorityQueue H);
+
+HeapElement HeapDeleteMin(PriorityQueue H);
+
+HeapElement HeapFindMin(PriorityQueue H);
+
+int HeapIsEmpty(PriorityQueue H);
+
+int HeapIsFull(PriorityQueue H);
+
 #endif /* __3____h */

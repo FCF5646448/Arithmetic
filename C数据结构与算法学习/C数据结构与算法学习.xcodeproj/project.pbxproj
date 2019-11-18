@@ -61,6 +61,7 @@
 		193ADFBE237FE853003632B3 /* 5-4Hash开放定址法.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "5-4Hash开放定址法.c"; sourceTree = "<group>"; };
 		193C66E2237A609C00DD8B0D /* 伸展树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "伸展树.h"; sourceTree = "<group>"; };
 		193C66E3237A609C00DD8B0D /* 伸展树.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "伸展树.c"; sourceTree = "<group>"; };
+		1951E9EF238245240014C3DA /* 堆.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "堆.md"; sourceTree = "<group>"; };
 		19709B6C2375461F00C067E2 /* AVL树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVL树.h"; sourceTree = "<group>"; };
 		19709B6D2375461F00C067E2 /* AVL树.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "AVL树.c"; sourceTree = "<group>"; };
 		1997CFB82358083B00869FD4 /* 快慢指针.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "快慢指针.h"; sourceTree = "<group>"; };
@@ -181,7 +182,6 @@
 			isa = PBXGroup;
 			children = (
 				31092E1D2381889D003162EA /* 堆 */,
-				19DA0DBA237C04DE006EEA86 /* 数组字符串 */,
 				19DA0DB9237BF5B3006EEA86 /* 散列 */,
 				19209DD923711CD800ED05DF /* 树 */,
 				19318C02236BE465008487AC /* 表、栈、队列 */,
@@ -201,6 +201,7 @@
 		31092E1D2381889D003162EA /* 堆 */ = {
 			isa = PBXGroup;
 			children = (
+				1951E9EF238245240014C3DA /* 堆.md */,
 				31092E1E23818CBB003162EA /* 6-3二叉堆.h */,
 				31092E1F23818CBB003162EA /* 6-3二叉堆.c */,
 				31092E2123819468003162EA /* 6-6左式堆.h */,
@@ -252,6 +253,7 @@
 		310D3B84235FD339007E9165 /* C语言语法复习 */ = {
 			isa = PBXGroup;
 			children = (
+				19DA0DBA237C04DE006EEA86 /* 数组字符串 */,
 				310D3B85235FD360007E9165 /* CPointer.h */,
 				310D3B86235FD360007E9165 /* CPointer.c */,
 			);
