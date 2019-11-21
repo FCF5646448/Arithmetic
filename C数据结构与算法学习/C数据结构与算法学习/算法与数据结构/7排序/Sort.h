@@ -20,5 +20,10 @@ void insertShellSort(int A[],int N);
 
 
 
+// 堆排序
+void heapSort(int A[],int N);
 
+
+
+void sortTest(void);
 #endif /* Sort_h */

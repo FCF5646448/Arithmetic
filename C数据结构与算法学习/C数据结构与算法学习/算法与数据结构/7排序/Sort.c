@@ -54,3 +54,63 @@ void insertShellSort(int A[],int N) {
         }
     }
 }
+
+
+
+/*
+ 堆（这里使用大顶堆）排序主要分3个步骤：
+ 1、根据序列建立初始堆；
+ 2、进行查找最大值，将最大的数移到堆顶
+ 3、将堆顶从堆里移除，然后重新建堆，重复前两步操作
+ */
+
+
+/*
+ 将序列A找到最大值，订到堆顶的位置。
+ 最主要的节点i，i是堆中空穴的位置。
+ 
+ 之所以这里是2*i+1是因为起始点是从0下标开始的。。左子树的下标是2*i+1
+ */
+void BuidHeap(int A[], int i, int N) {
+    int child;
+    int tmp = A[i];
+    for (; 2*i+1 < N; i = child) {
+        child = 2*i+1;
+        if (child != N-1 && A[child + 1] > A[child]) {
+            child++;
+        }
+        
+        if (tmp < A[child]) {
+            A[i] = A[child];
+        }else{
+            break;
+        }
+    }
+    A[i] = tmp;
+}
+
+void heapSort(int A[],int N) {
+    //从倒数第2层开始
+    for (int i = N/2; i>=0; i--) {
+        BuidHeap(A, i, N);
+    }
+    
+    for (int i = N-1; i>0; i--) {
+        //将最后一个元素与堆顶交换。这样除去最后一个元素的堆又不是堆了，
+        A[0] = A[0] + A[i];
+        A[i] = A[0] - A[i];
+        A[0] = A[0] - A[i];
+        //重新构建0~i序列的堆。
+        BuidHeap(A, 0, i);
+    }
+    
+}
+
+void sortTest(void) {
+    int A[] = {1,10,8,5,7,15,35};
+    heapSort(A, 7);
+    for (int i=0; i<7; i++) {
+        printf("%d ",A[i]);
+    }
+}
+

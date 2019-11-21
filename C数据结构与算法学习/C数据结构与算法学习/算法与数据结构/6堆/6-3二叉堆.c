@@ -60,6 +60,9 @@ void HeapInsert(HeapElement X, PriorityQueue H) {
 }
 
 //类似于insert方式。将根节点的空穴“下滤”。
+/*
+ 注意这里i*2是因为最新元素，堆顶是取的下标为1的值。左子树的下标是2*i
+ */
 HeapElement HeapDeleteMin(PriorityQueue H) {
     if (HeapIsEmpty(H)) {
         return H->Elements[0];
@@ -72,6 +75,7 @@ HeapElement HeapDeleteMin(PriorityQueue H) {
     int i, Child;
     for (i = 1; i * 2 <= H->Size; i = Child) {
         Child = i*2;
+        //找到更小的儿子
         if (Child != H->Size && H->Elements[Child + 1] < H->Elements[Child]) {
             Child++;
         }

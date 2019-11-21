@@ -21,6 +21,7 @@
 
 #include "LeetCodeArrExamples.h"
 
+#include "Sort.h"
 
 void testAHA();
 
@@ -64,9 +65,11 @@ int main(int argc, const char * argv[]) {
     
 //    testTree();
     
-    testArr();
+//    testArr();
     
 //    testAHA();
+    
+    sortTest();
     
     return 0;
 }
