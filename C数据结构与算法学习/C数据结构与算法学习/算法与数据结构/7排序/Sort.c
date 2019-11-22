@@ -37,7 +37,6 @@ void insertSort(int A[],int N) {
  最后一次increment=1。则最终得到1、4、5、6、7、9、10、12
  */
 void insertShellSort(int A[],int N) {
-    
     int tmp;
     int i,j,increment;
     for (increment = N/2; increment > 0 ; increment /= 2) {
