@@ -25,7 +25,6 @@ void insertSort(int A[],int N) {
     }
 }
 
-
 /*
  希尔排序：
  希尔排序是升级后的插入排序。它是把序列逐步分割成若干个小序列排序。然后再合并，之后再分割：
@@ -105,9 +104,68 @@ void heapSort(int A[],int N) {
     
 }
 
+
+/*
+ 归并排序
+ 顾名思义：是将多个已排好序的序列合并成一个新的有序序列
+ 
+ 归并排序主要分为两个步骤：
+ 1、将n个元素分成各含n/2个元素的子序列
+ 2、用归并排序对两个字序列递归地进行排序
+ 3、合并这两个已经排序好的子序列得到排序结果
+ */
+
+#define Max 10
+//m是指midlle
+void Merge(int A[], int left, int m, int right) {
+    int aux[Max] = {0}; //
+    int i,j,k;
+    for (i = left,j=m+1,k=0; k <= right-left;k++) {
+        //若i到达第一个数组的尾部，将第二个数组余下元素复制到临时数组中
+        if (i == m+1) {
+            aux[k] = A[j++];
+            continue;
+        }
+        
+        //若j到第二个数组尾部，将第一个数组余下元素复制到临时数组
+        if (j == right+1) {
+            aux[k] = A[i++];
+            continue;
+        }
+        
+        //如果第一个数组的当前元素比第二个数组的当前元素小，将第一个数组的当前元素复制到临时数组中
+        if (A[i] < A[j]) {
+            aux[k] = A[i++];
+        }else{
+            aux[k] = A[j++];
+        }
+    }
+    //将临时数组重新给到A
+    for (i = left,j=0; i<=right; i++,j++) {
+        A[i] = aux[j];
+    }
+}
+
+void MergeSort(int A[],int star, int end) {
+    if (star < end) {
+        int i;
+        i = star + (end-star)*0.5;
+        //
+        MergeSort(A, star, i);
+        MergeSort(A, i+1, end);
+        Merge(A, star, i, end);
+    }
+}
+
+
+
+
+
+
 void sortTest(void) {
     int A[] = {1,10,8,5,7,15,35};
-    heapSort(A, 7);
+//    heapSort(A, 7);
+    MergeSort(A, 0, 6);
     for (int i=0; i<7; i++) {
         printf("%d ",A[i]);
     }
