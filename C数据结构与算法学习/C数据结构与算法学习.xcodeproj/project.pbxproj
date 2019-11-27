@@ -160,6 +160,81 @@
 			path = "章节练习";
 			sourceTree = "<group>";
 		};
+		193A4A25238E3B850099C7EE /* 10算法设计 */ = {
+			isa = PBXGroup;
+			children = (
+				193A4A57238E8A540099C7EE /* 回溯算法 */,
+				193A4A56238E8A4A0099C7EE /* 随机化算法 */,
+				193A4A55238E8A410099C7EE /* 动态规划 */,
+				193A4A54238E8A350099C7EE /* 分治算法 */,
+				193A4A53238E8A290099C7EE /* 贪婪算法 */,
+			);
+			path = "10算法设计";
+			sourceTree = "<group>";
+		};
+		193A4A26238E3B980099C7EE /* 11摊还分析 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "11摊还分析";
+			sourceTree = "<group>";
+		};
+		193A4A27238E3BA70099C7EE /* 高级数据结构 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "高级数据结构";
+			sourceTree = "<group>";
+		};
+		193A4A51238E8A0C0099C7EE /* 最小生成树 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "最小生成树";
+			sourceTree = "<group>";
+		};
+		193A4A52238E8A180099C7EE /* 深度优先搜索 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "深度优先搜索";
+			sourceTree = "<group>";
+		};
+		193A4A53238E8A290099C7EE /* 贪婪算法 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "贪婪算法";
+			sourceTree = "<group>";
+		};
+		193A4A54238E8A350099C7EE /* 分治算法 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "分治算法";
+			sourceTree = "<group>";
+		};
+		193A4A55238E8A410099C7EE /* 动态规划 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "动态规划";
+			sourceTree = "<group>";
+		};
+		193A4A56238E8A4A0099C7EE /* 随机化算法 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "随机化算法";
+			sourceTree = "<group>";
+		};
+		193A4A57238E8A540099C7EE /* 回溯算法 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "回溯算法";
+			sourceTree = "<group>";
+		};
 		19600BEF23853C3E00E5D8B4 /* 最短路径 */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +257,8 @@
 		196442052383CCDC00459AE6 /* 9图论 */ = {
 			isa = PBXGroup;
 			children = (
+				193A4A52238E8A180099C7EE /* 深度优先搜索 */,
+				193A4A51238E8A0C0099C7EE /* 最小生成树 */,
 				19600BEF23853C3E00E5D8B4 /* 最短路径 */,
 				19600BEE23851A8B00E5D8B4 /* 图.md */,
 			);
@@ -211,6 +288,9 @@
 		19E6F0C42369628D00EDE26A /* 算法与数据结构 */ = {
 			isa = PBXGroup;
 			children = (
+				193A4A27238E3BA70099C7EE /* 高级数据结构 */,
+				193A4A26238E3B980099C7EE /* 11摊还分析 */,
+				193A4A25238E3B850099C7EE /* 10算法设计 */,
 				196442052383CCDC00459AE6 /* 9图论 */,
 				196442002383C57B00459AE6 /* 8不相交集 */,
 				31092E2A2382E0CE003162EA /* 7排序 */,

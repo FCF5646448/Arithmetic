@@ -24,6 +24,9 @@ void insertShellSort(int A[],int N);
 void heapSort(int A[],int N);
 
 
+//归并排序
+void MergeSort(int A[],int star, int end);
+
 
 void sortTest(void);
 #endif /* Sort_h */
