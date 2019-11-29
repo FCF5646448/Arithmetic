@@ -34,6 +34,9 @@
 		310D3B87235FD360007E9165 /* CPointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B86235FD360007E9165 /* CPointer.c */; };
 		310D3B982361F7ED007E9165 /* 冒泡排序.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B972361F7ED007E9165 /* 冒泡排序.c */; };
 		310D3B9B2361F800007E9165 /* 桶排序.c in Sources */ = {isa = PBXBuildFile; fileRef = 310D3B9A2361F800007E9165 /* 桶排序.c */; };
+		311DE2E7238FFF1900CA4A8D /* 解密QQ号_队列.c in Sources */ = {isa = PBXBuildFile; fileRef = 311DE2E6238FFF1900CA4A8D /* 解密QQ号_队列.c */; };
+		311DE2EA2390027B00CA4A8D /* 解密回文_栈.c in Sources */ = {isa = PBXBuildFile; fileRef = 311DE2E92390027B00CA4A8D /* 解密回文_栈.c */; };
+		311DE2ED2390084500CA4A8D /* 小猫钓鱼.c in Sources */ = {isa = PBXBuildFile; fileRef = 311DE2EC2390084500CA4A8D /* 小猫钓鱼.c */; };
 		31A5DC07234F8893003392C3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 31A5DC06234F8893003392C3 /* main.c */; };
 		31A5DC10234F88F0003392C3 /* 3-1LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 31A5DC0F234F88F0003392C3 /* 3-1LinkList.c */; };
 /* End PBXBuildFile section */
@@ -109,6 +112,12 @@
 		310D3B972361F7ED007E9165 /* 冒泡排序.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "冒泡排序.c"; sourceTree = "<group>"; };
 		310D3B992361F800007E9165 /* 桶排序.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "桶排序.h"; sourceTree = "<group>"; };
 		310D3B9A2361F800007E9165 /* 桶排序.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "桶排序.c"; sourceTree = "<group>"; };
+		311DE2E5238FFF1900CA4A8D /* 解密QQ号_队列.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "解密QQ号_队列.h"; sourceTree = "<group>"; };
+		311DE2E6238FFF1900CA4A8D /* 解密QQ号_队列.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "解密QQ号_队列.c"; sourceTree = "<group>"; };
+		311DE2E82390027B00CA4A8D /* 解密回文_栈.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "解密回文_栈.h"; sourceTree = "<group>"; };
+		311DE2E92390027B00CA4A8D /* 解密回文_栈.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "解密回文_栈.c"; sourceTree = "<group>"; };
+		311DE2EB2390084500CA4A8D /* 小猫钓鱼.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "小猫钓鱼.h"; sourceTree = "<group>"; };
+		311DE2EC2390084500CA4A8D /* 小猫钓鱼.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "小猫钓鱼.c"; sourceTree = "<group>"; };
 		31A5DC03234F8893003392C3 /* C数据结构与算法学习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C数据结构与算法学习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A5DC06234F8893003392C3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		31A5DC0E234F88F0003392C3 /* 3-1LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3-1LinkList.h"; sourceTree = "<group>"; };
@@ -412,6 +421,12 @@
 		310D3B8A2361E968007E9165 /* 栈、队列、链表 */ = {
 			isa = PBXGroup;
 			children = (
+				311DE2E5238FFF1900CA4A8D /* 解密QQ号_队列.h */,
+				311DE2E6238FFF1900CA4A8D /* 解密QQ号_队列.c */,
+				311DE2E82390027B00CA4A8D /* 解密回文_栈.h */,
+				311DE2E92390027B00CA4A8D /* 解密回文_栈.c */,
+				311DE2EB2390084500CA4A8D /* 小猫钓鱼.h */,
+				311DE2EC2390084500CA4A8D /* 小猫钓鱼.c */,
 			);
 			path = "栈、队列、链表";
 			sourceTree = "<group>";
@@ -559,10 +574,12 @@
 				19709B6E2375461F00C067E2 /* AVL树.c in Sources */,
 				19209DE823717FF900ED05DF /* 4-2BinaryTree.c in Sources */,
 				310D3B982361F7ED007E9165 /* 冒泡排序.c in Sources */,
+				311DE2EA2390027B00CA4A8D /* 解密回文_栈.c in Sources */,
 				19E94086237EAE7C00C930C6 /* 5-3Hash分离链接法.c in Sources */,
 				310D3B87235FD360007E9165 /* CPointer.c in Sources */,
 				310D3B80235A8F95007E9165 /* LeetCodeStackExamples.c in Sources */,
 				310D3B742354D5A7007E9165 /* 3-3-3Examples.c in Sources */,
+				311DE2E7238FFF1900CA4A8D /* 解密QQ号_队列.c in Sources */,
 				196442032383C5A600459AE6 /* Union.c in Sources */,
 				310D3B7C2357EAB8007E9165 /* 反正单链表.c in Sources */,
 				19DA0DB8237BF558006EEA86 /* LeetCodeTreeExamples.c in Sources */,
@@ -571,6 +588,7 @@
 				19E6F0C8236963E900EDE26A /* 3-4Queue.c in Sources */,
 				31092E2D2382E0FA003162EA /* Sort.c in Sources */,
 				1997CFBA2358083B00869FD4 /* 快慢指针.c in Sources */,
+				311DE2ED2390084500CA4A8D /* 小猫钓鱼.c in Sources */,
 				310D3B83235A92AF007E9165 /* 平衡符合.c in Sources */,
 				310D3B7923561FFC007E9165 /* RadixSort.c in Sources */,
 				19DA0DBD237C04FD006EEA86 /* LeetCodeArrExamples.c in Sources */,

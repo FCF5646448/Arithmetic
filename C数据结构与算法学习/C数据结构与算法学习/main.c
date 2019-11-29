@@ -23,6 +23,11 @@
 
 #include "Sort.h"
 
+#include "解密QQ号_队列.h"
+
+#include "解密回文_栈.h"
+#include "小猫钓鱼.h"
+
 void testAHA();
 
 
@@ -67,10 +72,17 @@ int main(int argc, const char * argv[]) {
     
 //    testArr();
     
-//    testAHA();
+//    sortTest();
+
     
-    sortTest();
     
+    
+    
+    
+    
+    
+    
+    testAHA();
     return 0;
 }
 
@@ -81,6 +93,11 @@ void testAHA() {
     
 //    testMPSort();
     
-    testQuickSort();
+//    testQuickSort();
     
+//    jmQQQueue();
+    
+//    testStack();
+ 
+    dapaitest();
 }
