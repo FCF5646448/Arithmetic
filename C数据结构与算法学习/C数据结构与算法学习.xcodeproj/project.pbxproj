@@ -37,6 +37,7 @@
 		311DE2E7238FFF1900CA4A8D /* 解密QQ号_队列.c in Sources */ = {isa = PBXBuildFile; fileRef = 311DE2E6238FFF1900CA4A8D /* 解密QQ号_队列.c */; };
 		311DE2EA2390027B00CA4A8D /* 解密回文_栈.c in Sources */ = {isa = PBXBuildFile; fileRef = 311DE2E92390027B00CA4A8D /* 解密回文_栈.c */; };
 		311DE2ED2390084500CA4A8D /* 小猫钓鱼.c in Sources */ = {isa = PBXBuildFile; fileRef = 311DE2EC2390084500CA4A8D /* 小猫钓鱼.c */; };
+		311DE2F02391586F00CA4A8D /* 深度优先遍历.c in Sources */ = {isa = PBXBuildFile; fileRef = 311DE2EF2391586F00CA4A8D /* 深度优先遍历.c */; };
 		31A5DC07234F8893003392C3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 31A5DC06234F8893003392C3 /* main.c */; };
 		31A5DC10234F88F0003392C3 /* 3-1LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 31A5DC0F234F88F0003392C3 /* 3-1LinkList.c */; };
 /* End PBXBuildFile section */
@@ -118,6 +119,8 @@
 		311DE2E92390027B00CA4A8D /* 解密回文_栈.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "解密回文_栈.c"; sourceTree = "<group>"; };
 		311DE2EB2390084500CA4A8D /* 小猫钓鱼.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "小猫钓鱼.h"; sourceTree = "<group>"; };
 		311DE2EC2390084500CA4A8D /* 小猫钓鱼.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "小猫钓鱼.c"; sourceTree = "<group>"; };
+		311DE2EE2391586F00CA4A8D /* 深度优先遍历.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "深度优先遍历.h"; sourceTree = "<group>"; };
+		311DE2EF2391586F00CA4A8D /* 深度优先遍历.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "深度优先遍历.c"; sourceTree = "<group>"; };
 		31A5DC03234F8893003392C3 /* C数据结构与算法学习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C数据结构与算法学习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A5DC06234F8893003392C3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		31A5DC0E234F88F0003392C3 /* 3-1LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3-1LinkList.h"; sourceTree = "<group>"; };
@@ -441,6 +444,8 @@
 		310D3B8C2361E98E007E9165 /* 搜索 */ = {
 			isa = PBXGroup;
 			children = (
+				311DE2EE2391586F00CA4A8D /* 深度优先遍历.h */,
+				311DE2EF2391586F00CA4A8D /* 深度优先遍历.c */,
 			);
 			path = "搜索";
 			sourceTree = "<group>";
@@ -587,6 +592,7 @@
 				31A5DC07234F8893003392C3 /* main.c in Sources */,
 				19E6F0C8236963E900EDE26A /* 3-4Queue.c in Sources */,
 				31092E2D2382E0FA003162EA /* Sort.c in Sources */,
+				311DE2F02391586F00CA4A8D /* 深度优先遍历.c in Sources */,
 				1997CFBA2358083B00869FD4 /* 快慢指针.c in Sources */,
 				311DE2ED2390084500CA4A8D /* 小猫钓鱼.c in Sources */,
 				310D3B83235A92AF007E9165 /* 平衡符合.c in Sources */,
