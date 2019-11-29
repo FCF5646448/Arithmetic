@@ -10,6 +10,7 @@
 		19209DE823717FF900ED05DF /* 4-2BinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 19209DE723717FF900ED05DF /* 4-2BinaryTree.c */; };
 		19209DEB2371837000ED05DF /* 4-3ADT二叉查找树.c in Sources */ = {isa = PBXBuildFile; fileRef = 19209DEA2371837000ED05DF /* 4-3ADT二叉查找树.c */; };
 		19318C06236BE4A7008487AC /* 3TestPractice.c in Sources */ = {isa = PBXBuildFile; fileRef = 19318C05236BE4A7008487AC /* 3TestPractice.c */; };
+		1939951B238F7F01007DD326 /* Prim最小生成树.c in Sources */ = {isa = PBXBuildFile; fileRef = 1939951A238F7F01007DD326 /* Prim最小生成树.c */; };
 		193ADFBF237FE853003632B3 /* 5-4Hash开放定址法.c in Sources */ = {isa = PBXBuildFile; fileRef = 193ADFBE237FE853003632B3 /* 5-4Hash开放定址法.c */; };
 		193C66E4237A609C00DD8B0D /* 伸展树.c in Sources */ = {isa = PBXBuildFile; fileRef = 193C66E3237A609C00DD8B0D /* 伸展树.c */; };
 		19600BF223853C6D00E5D8B4 /* 迪杰斯特拉Dijkstra算法.c in Sources */ = {isa = PBXBuildFile; fileRef = 19600BF123853C6D00E5D8B4 /* 迪杰斯特拉Dijkstra算法.c */; };
@@ -57,6 +58,8 @@
 		19209DEA2371837000ED05DF /* 4-3ADT二叉查找树.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4-3ADT二叉查找树.c"; sourceTree = "<group>"; };
 		19318C04236BE4A7008487AC /* 3TestPractice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 3TestPractice.h; sourceTree = "<group>"; };
 		19318C05236BE4A7008487AC /* 3TestPractice.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3TestPractice.c; sourceTree = "<group>"; };
+		19399519238F7F01007DD326 /* Prim最小生成树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prim最小生成树.h"; sourceTree = "<group>"; };
+		1939951A238F7F01007DD326 /* Prim最小生成树.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Prim最小生成树.c"; sourceTree = "<group>"; };
 		193ADFBD237FE853003632B3 /* 5-4Hash开放定址法.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5-4Hash开放定址法.h"; sourceTree = "<group>"; };
 		193ADFBE237FE853003632B3 /* 5-4Hash开放定址法.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "5-4Hash开放定址法.c"; sourceTree = "<group>"; };
 		193C66E2237A609C00DD8B0D /* 伸展树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "伸展树.h"; sourceTree = "<group>"; };
@@ -189,6 +192,8 @@
 		193A4A51238E8A0C0099C7EE /* 最小生成树 */ = {
 			isa = PBXGroup;
 			children = (
+				19399519238F7F01007DD326 /* Prim最小生成树.h */,
+				1939951A238F7F01007DD326 /* Prim最小生成树.c */,
 			);
 			path = "最小生成树";
 			sourceTree = "<group>";
@@ -575,6 +580,7 @@
 				310D3B6E2354CDB9007E9165 /* 3-3Stack.c in Sources */,
 				19318C06236BE4A7008487AC /* 3TestPractice.c in Sources */,
 				19209DEB2371837000ED05DF /* 4-3ADT二叉查找树.c in Sources */,
+				1939951B238F7F01007DD326 /* Prim最小生成树.c in Sources */,
 				19600BF223853C6D00E5D8B4 /* 迪杰斯特拉Dijkstra算法.c in Sources */,
 				193ADFBF237FE853003632B3 /* 5-4Hash开放定址法.c in Sources */,
 				31A5DC10234F88F0003392C3 /* 3-1LinkList.c in Sources */,
