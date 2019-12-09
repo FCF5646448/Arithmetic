@@ -28,6 +28,7 @@
 #include "解密回文_栈.h"
 #include "小猫钓鱼.h"
 #include "深度优先遍历.h"
+#include "插入操作_链表.h"
 
 void testAHA();
 
@@ -102,5 +103,6 @@ void testAHA() {
  
 //    dapaitest();
     
-    testDfs();
+//    testDfs();
+    ahTestLink();
 }
