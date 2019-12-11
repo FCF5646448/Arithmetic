@@ -255,6 +255,13 @@
 			path = "回溯算法";
 			sourceTree = "<group>";
 		};
+		195917E123A0CEE800D03AFC /* 图的表示 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "图的表示";
+			sourceTree = "<group>";
+		};
 		19600BEF23853C3E00E5D8B4 /* 最短路径 */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +284,7 @@
 		196442052383CCDC00459AE6 /* 9图论 */ = {
 			isa = PBXGroup;
 			children = (
+				195917E123A0CEE800D03AFC /* 图的表示 */,
 				193A4A52238E8A180099C7EE /* 深度优先搜索 */,
 				193A4A51238E8A0C0099C7EE /* 最小生成树 */,
 				19600BEF23853C3E00E5D8B4 /* 最短路径 */,

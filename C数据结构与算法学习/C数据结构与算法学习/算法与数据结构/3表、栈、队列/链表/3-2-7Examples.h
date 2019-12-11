@@ -34,9 +34,6 @@ void testReverseList();
 //测试链表是否有环
 void testhasCycle();
 
-
-
-
 //是否回文链表
 void testIsPalindrome();
 
