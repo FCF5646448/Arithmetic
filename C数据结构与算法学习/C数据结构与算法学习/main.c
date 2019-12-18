@@ -29,6 +29,7 @@
 #include "小猫钓鱼.h"
 #include "深度优先遍历.h"
 #include "插入操作_链表.h"
+#include "3_1奥数.h"
 
 void testAHA();
 
@@ -104,5 +105,7 @@ void testAHA() {
 //    dapaitest();
     
 //    testDfs();
-    ahTestLink();
+//    ahTestLink();
+    
+    testAS();
 }

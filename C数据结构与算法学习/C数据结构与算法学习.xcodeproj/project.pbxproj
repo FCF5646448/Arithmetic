@@ -39,6 +39,7 @@
 		311DE2ED2390084500CA4A8D /* 小猫钓鱼.c in Sources */ = {isa = PBXBuildFile; fileRef = 311DE2EC2390084500CA4A8D /* 小猫钓鱼.c */; };
 		311DE2F02391586F00CA4A8D /* 深度优先遍历.c in Sources */ = {isa = PBXBuildFile; fileRef = 311DE2EF2391586F00CA4A8D /* 深度优先遍历.c */; };
 		319408AB239EA1EA000A49B3 /* 插入操作_链表.c in Sources */ = {isa = PBXBuildFile; fileRef = 319408AA239EA1EA000A49B3 /* 插入操作_链表.c */; };
+		319408B623A9137A000A49B3 /* 3_1奥数.c in Sources */ = {isa = PBXBuildFile; fileRef = 319408B423A9137A000A49B3 /* 3_1奥数.c */; };
 		31A5DC07234F8893003392C3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 31A5DC06234F8893003392C3 /* main.c */; };
 		31A5DC10234F88F0003392C3 /* 3-1LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 31A5DC0F234F88F0003392C3 /* 3-1LinkList.c */; };
 /* End PBXBuildFile section */
@@ -124,6 +125,8 @@
 		311DE2EF2391586F00CA4A8D /* 深度优先遍历.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "深度优先遍历.c"; sourceTree = "<group>"; };
 		319408A9239EA1EA000A49B3 /* 插入操作_链表.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "插入操作_链表.h"; sourceTree = "<group>"; };
 		319408AA239EA1EA000A49B3 /* 插入操作_链表.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "插入操作_链表.c"; sourceTree = "<group>"; };
+		319408B423A9137A000A49B3 /* 3_1奥数.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "3_1奥数.c"; sourceTree = "<group>"; };
+		319408B523A9137A000A49B3 /* 3_1奥数.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "3_1奥数.h"; sourceTree = "<group>"; };
 		31A5DC03234F8893003392C3 /* C数据结构与算法学习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C数据结构与算法学习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A5DC06234F8893003392C3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		31A5DC0E234F88F0003392C3 /* 3-1LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3-1LinkList.h"; sourceTree = "<group>"; };
@@ -407,9 +410,9 @@
 		310D3B882361E8A5007E9165 /* 啊哈算法系列 */ = {
 			isa = PBXGroup;
 			children = (
+				319408B323A9137A000A49B3 /* 枚举 */,
 				310D3B892361E94F007E9165 /* 排序 */,
 				310D3B8A2361E968007E9165 /* 栈、队列、链表 */,
-				310D3B8B2361E981007E9165 /* 枚举 */,
 				310D3B8C2361E98E007E9165 /* 搜索 */,
 				310D3B8D2361E996007E9165 /* 图的遍历 */,
 				310D3B8E2361E9AA007E9165 /* 最短路径 */,
@@ -447,13 +450,6 @@
 			path = "栈、队列、链表";
 			sourceTree = "<group>";
 		};
-		310D3B8B2361E981007E9165 /* 枚举 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "枚举";
-			sourceTree = "<group>";
-		};
 		310D3B8C2361E98E007E9165 /* 搜索 */ = {
 			isa = PBXGroup;
 			children = (
@@ -489,6 +485,15 @@
 			children = (
 			);
 			path = "精彩算法";
+			sourceTree = "<group>";
+		};
+		319408B323A9137A000A49B3 /* 枚举 */ = {
+			isa = PBXGroup;
+			children = (
+				319408B423A9137A000A49B3 /* 3_1奥数.c */,
+				319408B523A9137A000A49B3 /* 3_1奥数.h */,
+			);
+			path = "枚举";
 			sourceTree = "<group>";
 		};
 		31A5DBFA234F8893003392C3 = {
@@ -588,6 +593,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				319408B623A9137A000A49B3 /* 3_1奥数.c in Sources */,
 				31092E1C236B32A8003162EA /* 快速排序.c in Sources */,
 				19709B6E2375461F00C067E2 /* AVL树.c in Sources */,
 				19209DE823717FF900ED05DF /* 4-2BinaryTree.c in Sources */,
