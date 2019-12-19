@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1920473023AB737F007F812D /* 图邻接矩表表示.c in Sources */ = {isa = PBXBuildFile; fileRef = 1920472F23AB737F007F812D /* 图邻接矩表表示.c */; };
 		19209DE823717FF900ED05DF /* 4-2BinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 19209DE723717FF900ED05DF /* 4-2BinaryTree.c */; };
 		19209DEB2371837000ED05DF /* 4-3ADT二叉查找树.c in Sources */ = {isa = PBXBuildFile; fileRef = 19209DEA2371837000ED05DF /* 4-3ADT二叉查找树.c */; };
 		19318C06236BE4A7008487AC /* 3TestPractice.c in Sources */ = {isa = PBXBuildFile; fileRef = 19318C05236BE4A7008487AC /* 3TestPractice.c */; };
@@ -58,6 +59,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1920472E23AB737F007F812D /* 图邻接矩表表示.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "图邻接矩表表示.h"; sourceTree = "<group>"; };
+		1920472F23AB737F007F812D /* 图邻接矩表表示.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "图邻接矩表表示.c"; sourceTree = "<group>"; };
 		19209DDF23717F6E00ED05DF /* 数据结构与算法笔记.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "数据结构与算法笔记.md"; sourceTree = "<group>"; };
 		19209DE623717FF800ED05DF /* 4-2BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "4-2BinaryTree.h"; sourceTree = "<group>"; };
 		19209DE723717FF900ED05DF /* 4-2BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4-2BinaryTree.c"; sourceTree = "<group>"; };
@@ -266,6 +269,8 @@
 			children = (
 				195C61B123AA14EB00B88CDA /* 图邻接矩阵表示.h */,
 				195C61B223AA14EB00B88CDA /* 图邻接矩阵表示.c */,
+				1920472E23AB737F007F812D /* 图邻接矩表表示.h */,
+				1920472F23AB737F007F812D /* 图邻接矩表表示.c */,
 			);
 			path = "图的表示";
 			sourceTree = "<group>";
@@ -610,6 +615,7 @@
 				310D3B742354D5A7007E9165 /* 3-3-3Examples.c in Sources */,
 				311DE2E7238FFF1900CA4A8D /* 解密QQ号_队列.c in Sources */,
 				196442032383C5A600459AE6 /* Union.c in Sources */,
+				1920473023AB737F007F812D /* 图邻接矩表表示.c in Sources */,
 				310D3B7C2357EAB8007E9165 /* 反正单链表.c in Sources */,
 				19DA0DB8237BF558006EEA86 /* LeetCodeTreeExamples.c in Sources */,
 				193C66E4237A609C00DD8B0D /* 伸展树.c in Sources */,
