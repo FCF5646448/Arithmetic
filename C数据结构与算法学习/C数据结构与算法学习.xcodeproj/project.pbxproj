@@ -13,6 +13,7 @@
 		1939951B238F7F01007DD326 /* Prim最小生成树.c in Sources */ = {isa = PBXBuildFile; fileRef = 1939951A238F7F01007DD326 /* Prim最小生成树.c */; };
 		193ADFBF237FE853003632B3 /* 5-4Hash开放定址法.c in Sources */ = {isa = PBXBuildFile; fileRef = 193ADFBE237FE853003632B3 /* 5-4Hash开放定址法.c */; };
 		193C66E4237A609C00DD8B0D /* 伸展树.c in Sources */ = {isa = PBXBuildFile; fileRef = 193C66E3237A609C00DD8B0D /* 伸展树.c */; };
+		195C61B323AA14EB00B88CDA /* 图邻接矩阵表示.c in Sources */ = {isa = PBXBuildFile; fileRef = 195C61B223AA14EB00B88CDA /* 图邻接矩阵表示.c */; };
 		19600BF223853C6D00E5D8B4 /* 迪杰斯特拉Dijkstra算法.c in Sources */ = {isa = PBXBuildFile; fileRef = 19600BF123853C6D00E5D8B4 /* 迪杰斯特拉Dijkstra算法.c */; };
 		196442032383C5A600459AE6 /* Union.c in Sources */ = {isa = PBXBuildFile; fileRef = 196442022383C5A600459AE6 /* Union.c */; };
 		19709B6E2375461F00C067E2 /* AVL树.c in Sources */ = {isa = PBXBuildFile; fileRef = 19709B6D2375461F00C067E2 /* AVL树.c */; };
@@ -71,6 +72,8 @@
 		193C66E2237A609C00DD8B0D /* 伸展树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "伸展树.h"; sourceTree = "<group>"; };
 		193C66E3237A609C00DD8B0D /* 伸展树.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "伸展树.c"; sourceTree = "<group>"; };
 		1951E9EF238245240014C3DA /* 堆.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "堆.md"; sourceTree = "<group>"; };
+		195C61B123AA14EB00B88CDA /* 图邻接矩阵表示.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "图邻接矩阵表示.h"; sourceTree = "<group>"; };
+		195C61B223AA14EB00B88CDA /* 图邻接矩阵表示.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "图邻接矩阵表示.c"; sourceTree = "<group>"; };
 		19600BEE23851A8B00E5D8B4 /* 图.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "图.md"; sourceTree = "<group>"; };
 		19600BF023853C6D00E5D8B4 /* 迪杰斯特拉Dijkstra算法.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "迪杰斯特拉Dijkstra算法.h"; sourceTree = "<group>"; };
 		19600BF123853C6D00E5D8B4 /* 迪杰斯特拉Dijkstra算法.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "迪杰斯特拉Dijkstra算法.c"; sourceTree = "<group>"; };
@@ -261,6 +264,8 @@
 		195917E123A0CEE800D03AFC /* 图的表示 */ = {
 			isa = PBXGroup;
 			children = (
+				195C61B123AA14EB00B88CDA /* 图邻接矩阵表示.h */,
+				195C61B223AA14EB00B88CDA /* 图邻接矩阵表示.c */,
 			);
 			path = "图的表示";
 			sourceTree = "<group>";
@@ -618,6 +623,7 @@
 				310D3B7923561FFC007E9165 /* RadixSort.c in Sources */,
 				19DA0DBD237C04FD006EEA86 /* LeetCodeArrExamples.c in Sources */,
 				31092E2023818CBB003162EA /* 6-3二叉堆.c in Sources */,
+				195C61B323AA14EB00B88CDA /* 图邻接矩阵表示.c in Sources */,
 				310D3B712354D512007E9165 /* 3-2-7Examples.c in Sources */,
 				310D3B9B2361F800007E9165 /* 桶排序.c in Sources */,
 				310D3B6E2354CDB9007E9165 /* 3-3Stack.c in Sources */,

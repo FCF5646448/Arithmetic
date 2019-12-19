@@ -20,11 +20,12 @@
 #include "LeetCodeTreeExamples.h"
 
 #include "LeetCodeArrExamples.h"
+#include "图邻接矩阵表示.h"
+
+
 
 #include "Sort.h"
-
 #include "解密QQ号_队列.h"
-
 #include "解密回文_栈.h"
 #include "小猫钓鱼.h"
 #include "深度优先遍历.h"
@@ -83,6 +84,7 @@ int main(int argc, const char * argv[]) {
     
     
     
+    testCreatG();
     
     
     testAHA();
@@ -106,6 +108,6 @@ void testAHA() {
     
 //    testDfs();
 //    ahTestLink();
-    
+
     testAS();
 }
