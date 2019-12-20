@@ -10,6 +10,7 @@
 		1920473023AB737F007F812D /* 图邻接矩表表示.c in Sources */ = {isa = PBXBuildFile; fileRef = 1920472F23AB737F007F812D /* 图邻接矩表表示.c */; };
 		19209DE823717FF900ED05DF /* 4-2BinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 19209DE723717FF900ED05DF /* 4-2BinaryTree.c */; };
 		19209DEB2371837000ED05DF /* 4-3ADT二叉查找树.c in Sources */ = {isa = PBXBuildFile; fileRef = 19209DEA2371837000ED05DF /* 4-3ADT二叉查找树.c */; };
+		192820ED23ACC549005B98AF /* 深度优先搜索DFS.c in Sources */ = {isa = PBXBuildFile; fileRef = 192820EC23ACC549005B98AF /* 深度优先搜索DFS.c */; };
 		19318C06236BE4A7008487AC /* 3TestPractice.c in Sources */ = {isa = PBXBuildFile; fileRef = 19318C05236BE4A7008487AC /* 3TestPractice.c */; };
 		1939951B238F7F01007DD326 /* Prim最小生成树.c in Sources */ = {isa = PBXBuildFile; fileRef = 1939951A238F7F01007DD326 /* Prim最小生成树.c */; };
 		193ADFBF237FE853003632B3 /* 5-4Hash开放定址法.c in Sources */ = {isa = PBXBuildFile; fileRef = 193ADFBE237FE853003632B3 /* 5-4Hash开放定址法.c */; };
@@ -66,6 +67,8 @@
 		19209DE723717FF900ED05DF /* 4-2BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4-2BinaryTree.c"; sourceTree = "<group>"; };
 		19209DE92371837000ED05DF /* 4-3ADT二叉查找树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "4-3ADT二叉查找树.h"; sourceTree = "<group>"; };
 		19209DEA2371837000ED05DF /* 4-3ADT二叉查找树.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "4-3ADT二叉查找树.c"; sourceTree = "<group>"; };
+		192820EB23ACC549005B98AF /* 深度优先搜索DFS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "深度优先搜索DFS.h"; sourceTree = "<group>"; };
+		192820EC23ACC549005B98AF /* 深度优先搜索DFS.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "深度优先搜索DFS.c"; sourceTree = "<group>"; };
 		19318C04236BE4A7008487AC /* 3TestPractice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 3TestPractice.h; sourceTree = "<group>"; };
 		19318C05236BE4A7008487AC /* 3TestPractice.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3TestPractice.c; sourceTree = "<group>"; };
 		19399519238F7F01007DD326 /* Prim最小生成树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prim最小生成树.h"; sourceTree = "<group>"; };
@@ -222,11 +225,13 @@
 			path = "最小生成树";
 			sourceTree = "<group>";
 		};
-		193A4A52238E8A180099C7EE /* 深度优先搜索 */ = {
+		193A4A52238E8A180099C7EE /* 深度优先搜索DFS */ = {
 			isa = PBXGroup;
 			children = (
+				192820EB23ACC549005B98AF /* 深度优先搜索DFS.h */,
+				192820EC23ACC549005B98AF /* 深度优先搜索DFS.c */,
 			);
-			path = "深度优先搜索";
+			path = "深度优先搜索DFS";
 			sourceTree = "<group>";
 		};
 		193A4A53238E8A290099C7EE /* 贪婪算法 */ = {
@@ -298,7 +303,7 @@
 			isa = PBXGroup;
 			children = (
 				195917E123A0CEE800D03AFC /* 图的表示 */,
-				193A4A52238E8A180099C7EE /* 深度优先搜索 */,
+				193A4A52238E8A180099C7EE /* 深度优先搜索DFS */,
 				193A4A51238E8A0C0099C7EE /* 最小生成树 */,
 				19600BEF23853C3E00E5D8B4 /* 最短路径 */,
 				19600BEE23851A8B00E5D8B4 /* 图.md */,
@@ -633,6 +638,7 @@
 				310D3B712354D512007E9165 /* 3-2-7Examples.c in Sources */,
 				310D3B9B2361F800007E9165 /* 桶排序.c in Sources */,
 				310D3B6E2354CDB9007E9165 /* 3-3Stack.c in Sources */,
+				192820ED23ACC549005B98AF /* 深度优先搜索DFS.c in Sources */,
 				19318C06236BE4A7008487AC /* 3TestPractice.c in Sources */,
 				19209DEB2371837000ED05DF /* 4-3ADT二叉查找树.c in Sources */,
 				1939951B238F7F01007DD326 /* Prim最小生成树.c in Sources */,

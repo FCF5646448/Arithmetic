@@ -36,11 +36,11 @@ struct AdjVNode {
     PtrToAdjVNode Next; //指向下个邻接点的指针
 };
 
-//顶点表头节点的定义
+//这个是存放顶点元素的结构体，
 typedef struct Vnode{
     PtrToAdjVNode FirstEdge; //边表头指针
     DataType data; //存顶点的数据
-}AdjList[MaxVertexNum]; //链表
+}AdjList[MaxVertexNum]; //存放所有顶点的结构体数组。
 
 //图的定义
 typedef struct GNode * PtrToGNode;
@@ -68,19 +68,21 @@ LGraph CreateGraph(int VertexNum) {
     return grap;
 }
 
-
-//插入一条边 无向图
+// 最重要的就是理解这里
+//插入一条边 无向图 意味着要在G数组中查找到两个节点，然后分别将另一个顶点插入到对应的链表上。
 void InsertEdge(LGraph graph, Edge E) {
     PtrToAdjVNode newNode;
     
+    //生成一个链表节点.
     newNode = malloc(sizeof(struct AdjVNode));
     newNode->adjV = E->V2;
     newNode->wight = E->weight;
     
+    //将该节点插入到另一个顶点G[E-V1]的后接链表的头部（既每次添加的新边都放到前面。最近最先使用原则）。
     newNode->Next = graph->G[E->V1].FirstEdge;
     graph->G[E->V1].FirstEdge = newNode;
     
-    //无向图，另一个方向也应该添加进来
+    //同理：另一个方向也应该添加进来
     newNode = malloc(sizeof(struct AdjVNode));
     newNode->adjV = E->V1;
     newNode->wight = E->weight;
@@ -88,6 +90,35 @@ void InsertEdge(LGraph graph, Edge E) {
     newNode->Next = graph->G[E->V2].FirstEdge;
     graph->G[E->V2].FirstEdge = newNode->Next;
     
+}
+
+
+LGraph BuildGrap()
+{
+    int VertexNum;
+    printf("输入顶点个数：");
+    scanf("%d",&VertexNum);
+    
+    LGraph graph = CreateGraph(VertexNum);
+    
+    printf("\n输入边数：");
+    scanf("%d",&(graph->Ne));
+    if (graph->Ne > 0) {
+        
+        Edge E = malloc(sizeof(struct ENode));
+        for (int i=0; i<graph->Ne; i++) {
+            printf("\n输入第%d条边的起点：",i);
+            scanf("%d",&(E->V1));
+            printf("\n输入第%d条边的终点：",i);
+            scanf("%d",&(E->V2));
+            printf("\n输入第%d条边的权重：",i);
+            scanf("%d",&(E->weight));
+            
+            InsertEdge(graph, E);
+        }
+    }
+    
+    return graph;
 }
 
 
