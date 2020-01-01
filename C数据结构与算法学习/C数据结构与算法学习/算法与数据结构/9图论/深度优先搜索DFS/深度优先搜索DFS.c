@@ -108,7 +108,7 @@ LGraph BuildGraph() {
         }
     }
     
-    printf("输入个顶点名称");
+    printf("输入个顶点名称:\n");
     for (int i=0; i<graph->Nv; i++) {
         scanf("%s",&(graph->G[i].name));
     }
@@ -126,12 +126,12 @@ void DFS(LGraph graph, int i) {
     PtrToAdjVNode node;
     
     Visited[i] = 1;// 标记已访问
-    printf("^(*￣(oo)￣)^  已访问顶点：%d\n",graph->G[i].name);
+    printf("^(*￣(oo)￣)^  已访问顶点：%c\n",graph->G[i].name);
     
     node = graph->G[i].FirstEdge;
     //遍历边表的后接链表
     while (node) {
-        if (Visited[node->adjV] == 0) {
+        if (node->adjV < graph->Nv && Visited[node->adjV] == 0) {
             //没有访问
             DFS(graph, node->adjV);
         }
@@ -156,4 +156,9 @@ void DFSTraverse(LGraph G) {
         }
     }
     
+}
+
+void  TestDFS() {
+    LGraph graph = BuildGraph();
+    DFSTraverse(graph);
 }

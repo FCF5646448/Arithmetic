@@ -21,7 +21,7 @@
 
 #include "LeetCodeArrExamples.h"
 #include "图邻接矩阵表示.h"
-
+#include "深度优先搜索DFS.h"
 
 
 #include "Sort.h"
@@ -31,6 +31,7 @@
 #include "深度优先遍历.h"
 #include "插入操作_链表.h"
 #include "3_1奥数.h"
+
 
 void testAHA();
 
@@ -79,12 +80,7 @@ int main(int argc, const char * argv[]) {
 //    sortTest();
 
     
-    
-    
-    
-    
-    
-    testCreatG();
+    TestDFS();
     
     
     testAHA();
@@ -109,5 +105,5 @@ void testAHA() {
 //    testDfs();
 //    ahTestLink();
 
-    testAS();
+//    testAS();
 }
