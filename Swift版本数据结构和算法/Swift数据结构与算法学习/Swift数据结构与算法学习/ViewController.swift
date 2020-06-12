@@ -13,7 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Solution().testQuickSort()
+//        Solution().testQuickSort()
+        Tree().testLevel()
+        Test().test()
     }
 
 

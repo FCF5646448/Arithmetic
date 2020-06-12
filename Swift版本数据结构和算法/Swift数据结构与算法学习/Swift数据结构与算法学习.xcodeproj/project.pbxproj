@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191BFE392491264F0020D25F /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191BFE382491264F0020D25F /* Test.swift */; };
 		196CCC642396445600052926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CCC632396445600052926 /* AppDelegate.swift */; };
 		196CCC662396445600052926 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CCC652396445600052926 /* SceneDelegate.swift */; };
 		196CCC682396445600052926 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CCC672396445600052926 /* ViewController.swift */; };
@@ -14,9 +15,11 @@
 		196CCC6D2396445800052926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196CCC6C2396445800052926 /* Assets.xcassets */; };
 		196CCC702396445800052926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196CCC6E2396445800052926 /* LaunchScreen.storyboard */; };
 		196CCC792396447800052926 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CCC782396447800052926 /* QuickSort.swift */; };
+		19775208248FCFD100A7F44E /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19775207248FCFD100A7F44E /* Tree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		191BFE382491264F0020D25F /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		196CCC602396445600052926 /* Swift数据结构与算法学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift数据结构与算法学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		196CCC632396445600052926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		196CCC652396445600052926 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		196CCC6F2396445800052926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		196CCC712396445800052926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		196CCC782396447800052926 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		19775207248FCFD100A7F44E /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 				196CCC6C2396445800052926 /* Assets.xcassets */,
 				196CCC6E2396445800052926 /* LaunchScreen.storyboard */,
 				196CCC712396445800052926 /* Info.plist */,
+				191BFE382491264F0020D25F /* Test.swift */,
 			);
 			path = "Swift数据结构与算法学习";
 			sourceTree = "<group>";
@@ -74,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				196CCC782396447800052926 /* QuickSort.swift */,
+				19775207248FCFD100A7F44E /* Tree.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -149,10 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19775208248FCFD100A7F44E /* Tree.swift in Sources */,
 				196CCC682396445600052926 /* ViewController.swift in Sources */,
 				196CCC642396445600052926 /* AppDelegate.swift in Sources */,
 				196CCC662396445600052926 /* SceneDelegate.swift in Sources */,
 				196CCC792396447800052926 /* QuickSort.swift in Sources */,
+				191BFE392491264F0020D25F /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
