@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31140E6D2499166800421CC8 /* _102_二叉树的层次遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31140E6C2499166800421CC8 /* _102_二叉树的层次遍历.swift */; };
+		31140E6F2499168700421CC8 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31140E6E2499168700421CC8 /* BinaryTree.swift */; };
+		31140E7124991EAE00421CC8 /* _226_翻转二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31140E7024991EAE00421CC8 /* _226_翻转二叉树.swift */; };
 		3119318224983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3119318124983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift */; };
 		31D08F742497A77400EDD625 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D08F732497A77400EDD625 /* main.swift */; };
 		31D08F7C2497A80000EDD625 /* Fibonac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D08F7B2497A80000EDD625 /* Fibonac.swift */; };
@@ -29,6 +32,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		31140E6C2499166800421CC8 /* _102_二叉树的层次遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_102_二叉树的层次遍历.swift"; sourceTree = "<group>"; };
+		31140E6E2499168700421CC8 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		31140E7024991EAE00421CC8 /* _226_翻转二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_226_翻转二叉树.swift"; sourceTree = "<group>"; };
+		31140E72249921CF00421CC8 /* 二叉树.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "二叉树.md"; sourceTree = "<group>"; };
 		3119318124983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "_62_约瑟夫环_圆圈中最后剩下数字.swift"; path = "算法学习/_62_约瑟夫环_圆圈中最后剩下数字.swift"; sourceTree = SOURCE_ROOT; };
 		31D08F702497A77400EDD625 /* 算法学习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "算法学习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D08F732497A77400EDD625 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -51,6 +58,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31140E6B249913A600421CC8 /* 二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				31140E6C2499166800421CC8 /* _102_二叉树的层次遍历.swift */,
+				31140E6E2499168700421CC8 /* BinaryTree.swift */,
+				31140E7024991EAE00421CC8 /* _226_翻转二叉树.swift */,
+				31140E72249921CF00421CC8 /* 二叉树.md */,
+			);
+			path = "二叉树";
+			sourceTree = "<group>";
+		};
 		3119318024983C2D00BF558D /* 数组 */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +100,7 @@
 				31D08F7A2497A7C500EDD625 /* 算法入门 */,
 				3119318024983C2D00BF558D /* 数组 */,
 				31D08F7D2497B9EC00EDD625 /* 链表 */,
+				31140E6B249913A600421CC8 /* 二叉树 */,
 			);
 			path = "算法学习";
 			sourceTree = "<group>";
@@ -166,11 +185,14 @@
 			files = (
 				31D08F862497D21E00EDD625 /* _141_判断环形链表.swift in Sources */,
 				3119318224983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift in Sources */,
+				31140E7124991EAE00421CC8 /* _226_翻转二叉树.swift in Sources */,
 				31D08F7C2497A80000EDD625 /* Fibonac.swift in Sources */,
 				31D08F802497BAEF00EDD625 /* LinkList.swift in Sources */,
 				31D08F842497CCD900EDD625 /* _206_反转链表.swift in Sources */,
+				31140E6F2499168700421CC8 /* BinaryTree.swift in Sources */,
 				31D08F822497C40000EDD625 /* _237_删除链表中的节点.swift in Sources */,
 				31D08F742497A77400EDD625 /* main.swift in Sources */,
+				31140E6D2499166800421CC8 /* _102_二叉树的层次遍历.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
