@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3119318224983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3119318124983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift */; };
 		31D08F742497A77400EDD625 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D08F732497A77400EDD625 /* main.swift */; };
 		31D08F7C2497A80000EDD625 /* Fibonac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D08F7B2497A80000EDD625 /* Fibonac.swift */; };
 		31D08F802497BAEF00EDD625 /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D08F7F2497BAEF00EDD625 /* LinkList.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3119318124983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "_62_约瑟夫环_圆圈中最后剩下数字.swift"; path = "算法学习/_62_约瑟夫环_圆圈中最后剩下数字.swift"; sourceTree = SOURCE_ROOT; };
 		31D08F702497A77400EDD625 /* 算法学习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "算法学习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D08F732497A77400EDD625 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		31D08F7B2497A80000EDD625 /* Fibonac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonac.swift; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3119318024983C2D00BF558D /* 数组 */ = {
+			isa = PBXGroup;
+			children = (
+				3119318124983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift */,
+			);
+			path = "数组";
+			sourceTree = "<group>";
+		};
 		31D08F672497A77400EDD625 = {
 			isa = PBXGroup;
 			children = (
@@ -68,8 +78,9 @@
 		31D08F722497A77400EDD625 /* 算法学习 */ = {
 			isa = PBXGroup;
 			children = (
-				31D08F7A2497A7C500EDD625 /* 算法入门 */,
 				31D08F732497A77400EDD625 /* main.swift */,
+				31D08F7A2497A7C500EDD625 /* 算法入门 */,
+				3119318024983C2D00BF558D /* 数组 */,
 				31D08F7D2497B9EC00EDD625 /* 链表 */,
 			);
 			path = "算法学习";
@@ -154,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31D08F862497D21E00EDD625 /* _141_判断环形链表.swift in Sources */,
+				3119318224983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift in Sources */,
 				31D08F7C2497A80000EDD625 /* Fibonac.swift in Sources */,
 				31D08F802497BAEF00EDD625 /* LinkList.swift in Sources */,
 				31D08F842497CCD900EDD625 /* _206_反转链表.swift in Sources */,

@@ -9,5 +9,9 @@
 import Foundation
 
 //算法第一课，时间复杂度
-Fib().test()
+//Fib().test()
+
+print(ArrayList().lastRemaining(5, 3))
+
+
 
