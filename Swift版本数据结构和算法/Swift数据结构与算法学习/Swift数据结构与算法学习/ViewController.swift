@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
 //        Solution().testQuickSort()
+<<<<<<< HEAD
+        Tree().testLevel()
+        Test().test()
+=======
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -46,6 +50,7 @@ class ViewController: UIViewController {
             print("不是回文链表")
         }
         
+>>>>>>> c95647ec5d423bfc5befa44d553a426a04f23117
     }
 
 
