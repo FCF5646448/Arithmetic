@@ -73,4 +73,49 @@ class Solution {
         quick(head,nil)
         return head
     }
+    
+    
+    func isPalindrome(_ head: ListNode?) -> Bool {
+        //先使用快慢指针找到中间节点，然后对后半部分的链表进行翻转，最后再从头开始判断
+        if head == nil {
+            return true
+        }
+        
+        var slow = head
+        var fast = head
+        while fast != nil && fast!.next != nil {
+            fast = fast!.next!.next
+            slow = slow!.next
+        }
+        
+        //到这里slow为第二阶段的第一个节点，fast=nil
+        if fast != nil && fast!.next == nil {
+            slow = slow!.next
+        }
+        
+        let dumy = ListNode(0)
+        dumy.next = slow
+        var post = slow!.next
+        while post != nil {
+            slow!.next = post!.next
+            post!.next = dumy.next
+            dumy.next = post
+            
+            post = slow?.next
+        }
+        
+        var newN:ListNode? = dumy.next
+        fast = head
+        while newN != nil {
+            if newN!.val != fast!.val {
+                return false
+            }
+            
+            newN = newN!.next
+            fast = fast!.next
+        }
+        
+        return true
+        
+    }
 }
