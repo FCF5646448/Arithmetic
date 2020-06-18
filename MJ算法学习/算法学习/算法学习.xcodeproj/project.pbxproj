@@ -93,6 +93,13 @@
 			path = "数组";
 			sourceTree = "<group>";
 		};
+		311CE4FD249BB140002129AC /* 练习 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "练习";
+			sourceTree = "<group>";
+		};
 		31D08F672497A77400EDD625 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +119,7 @@
 		31D08F722497A77400EDD625 /* 算法学习 */ = {
 			isa = PBXGroup;
 			children = (
+				311CE4FD249BB140002129AC /* 练习 */,
 				31181872249A503000344678 /* 排序 */,
 				31D08F732497A77400EDD625 /* main.swift */,
 				31D08F7A2497A7C500EDD625 /* 算法入门 */,

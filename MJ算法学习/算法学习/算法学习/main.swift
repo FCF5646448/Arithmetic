@@ -13,8 +13,8 @@ import Foundation
 
 //print(ArrayList().lastRemaining(5, 3))
 
-var arr = [1,3,2,4,3,8,5,9,12,11]
-Sort().bubbleSort(&arr)
+//var arr = [1,3,2,4,3,8,5,9,12,11]
+Sort().mergerSort()
 
 
 
