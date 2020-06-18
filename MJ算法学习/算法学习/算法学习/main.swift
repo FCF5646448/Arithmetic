@@ -11,7 +11,12 @@ import Foundation
 //算法第一课，时间复杂度
 //Fib().test()
 
-print(ArrayList().lastRemaining(5, 3))
+//print(ArrayList().lastRemaining(5, 3))
+
+var arr = [1,3,2,4,3,8,5,9,12,11]
+Sort().bubbleSort(&arr)
+
+
 
 
 
