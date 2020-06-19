@@ -20,6 +20,17 @@ class ListNode {
 
 class LinkList {
     func test() {
+        let n1 = ListNode(1)
+        let n2 = ListNode(2)
+        let n3 = ListNode(3)
+        let n4 = ListNode(4)
+        let n5 = ListNode(5)
+        n1.next = n2
+        n2.next = n3
+        n3.next = n4
+        n4.next = n5
         
+        let n = reverseKGroup(n1,3)
+        print(n)
     }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19334D68249CBFE700250888 /* _25_K个一组翻转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19334D67249CBFE700250888 /* _25_K个一组翻转链表.swift */; };
+		19334D6A249CCBC600250888 /* _2_快速排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19334D69249CCBC600250888 /* _2_快速排序.swift */; };
 		31140E6D2499166800421CC8 /* _102_二叉树的层次遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31140E6C2499166800421CC8 /* _102_二叉树的层次遍历.swift */; };
 		31140E6F2499168700421CC8 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31140E6E2499168700421CC8 /* BinaryTree.swift */; };
 		31140E7124991EAE00421CC8 /* _226_翻转二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31140E7024991EAE00421CC8 /* _226_翻转二叉树.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		19334D67249CBFE700250888 /* _25_K个一组翻转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_25_K个一组翻转链表.swift"; sourceTree = "<group>"; };
+		19334D69249CCBC600250888 /* _2_快速排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_2_快速排序.swift"; sourceTree = "<group>"; };
 		31140E6C2499166800421CC8 /* _102_二叉树的层次遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_102_二叉树的层次遍历.swift"; sourceTree = "<group>"; };
 		31140E6E2499168700421CC8 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		31140E7024991EAE00421CC8 /* _226_翻转二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_226_翻转二叉树.swift"; sourceTree = "<group>"; };
@@ -64,6 +68,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19334D65249CBFC100250888 /* 练习 */ = {
+			isa = PBXGroup;
+			children = (
+				19334D67249CBFE700250888 /* _25_K个一组翻转链表.swift */,
+			);
+			path = "练习";
+			sourceTree = "<group>";
+		};
 		31140E6B249913A600421CC8 /* 二叉树 */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +93,7 @@
 				31181873249A504900344678 /* _0_冒泡排序.swift */,
 				31181875249A505A00344678 /* Sort.swift */,
 				31181877249A724A00344678 /* _1_归并排序.swift */,
+				19334D69249CCBC600250888 /* _2_快速排序.swift */,
 			);
 			path = "排序";
 			sourceTree = "<group>";
@@ -91,13 +104,6 @@
 				3119318124983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift */,
 			);
 			path = "数组";
-			sourceTree = "<group>";
-		};
-		311CE4FD249BB140002129AC /* 练习 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "练习";
 			sourceTree = "<group>";
 		};
 		31D08F672497A77400EDD625 = {
@@ -119,7 +125,7 @@
 		31D08F722497A77400EDD625 /* 算法学习 */ = {
 			isa = PBXGroup;
 			children = (
-				311CE4FD249BB140002129AC /* 练习 */,
+				19334D65249CBFC100250888 /* 练习 */,
 				31181872249A503000344678 /* 排序 */,
 				31D08F732497A77400EDD625 /* main.swift */,
 				31D08F7A2497A7C500EDD625 /* 算法入门 */,
@@ -208,8 +214,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19334D6A249CCBC600250888 /* _2_快速排序.swift in Sources */,
 				31181878249A724A00344678 /* _1_归并排序.swift in Sources */,
 				31D08F862497D21E00EDD625 /* _141_判断环形链表.swift in Sources */,
+				19334D68249CBFE700250888 /* _25_K个一组翻转链表.swift in Sources */,
 				3119318224983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift in Sources */,
 				31140E7124991EAE00421CC8 /* _226_翻转二叉树.swift in Sources */,
 				31D08F7C2497A80000EDD625 /* Fibonac.swift in Sources */,

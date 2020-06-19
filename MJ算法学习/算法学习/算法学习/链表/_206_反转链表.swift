@@ -39,4 +39,3 @@ extension LinkList {
         return newHead
     }
 }
-

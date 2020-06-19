@@ -22,19 +22,14 @@ extension Sort {
     
     
     func sort(_ arr:inout [Int], _ begin:Int, _ end:Int) {
-        
-        if end - begin < 2 {
-            return
-        }
-        
+        if end - begin < 2 {return}
         let mid = (begin + end)/2
-        
         sort(&arr, begin, mid)
         sort(&arr, mid, end)
         merge(&arr, begin, mid, end)
     }
     
-    
+    //用一个小数组先装arr的前半部分数据
     func merge(_ arr:inout [Int], _ begin:Int, _ mid:Int, _ end:Int) {
         var li = 0
         let le = mid - begin
@@ -42,7 +37,6 @@ extension Sort {
         let re = end
         var ai = begin
         
-        //开辟一个小数组，用于装取arr的一半数据，
         var temp = [Int]()
         for i in li..<le {
             temp.append(arr[begin + i])
@@ -50,6 +44,7 @@ extension Sort {
         
         //循环比较，直到临时小数组元素全部放到了arr中
         while li < le {
+            //数组后半部份数据和小数组数据比较，从小到大将数据依次放到原数组中
             if ri < re && (arr[ri] < temp[li]) {
                 arr[ai] = arr[ri]
                 ai += 1
@@ -60,7 +55,6 @@ extension Sort {
                 li += 1
             }
         }
-        
     }
-    
 }
+
