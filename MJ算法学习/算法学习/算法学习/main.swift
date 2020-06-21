@@ -13,9 +13,14 @@ import Foundation
 
 //print(ArrayList().lastRemaining(5, 3))
 
-var arr = [1,3,2,4,3,8,5,9,12,11]
-Sort().quickSort(&arr, 0, arr.count - 1)
+var arr = [1,2,3,0,0,0]
+var num = [2,5,6]
+
+ArrayList().merge(&arr, 3, num, 3)
 print(arr)
+
+//Sort().heapSort(&arr)
+//print(arr)
 //LinkList().test()
 
 
