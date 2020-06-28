@@ -22,7 +22,7 @@ extension ArrayList {
      */
     func findDiagonalOrder(_ matrix: [[Int]]) -> [Int] {
         let rowCount = matrix.count
-        guard let rankCount = matrix.first?.count,rowCount > 0 && rankCount > 0 else {
+        guard let rankCount = matrix.first?.count, rowCount > 0 && rankCount > 0 else {
             return []
         }
         var result = [Int]()

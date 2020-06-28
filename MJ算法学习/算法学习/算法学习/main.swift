@@ -15,8 +15,9 @@ var matrix =
   [13, 3, 6, 7],
   [15,14,12,16]
 ]
-ArrayList().rotate(&matrix)
+//ArrayList().rotate(&matrix)
 
+print(ArrayList().evalRPN(["4","13","5","/","+"]))
 
 
 

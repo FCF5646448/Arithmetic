@@ -8,15 +8,21 @@
 
 import Foundation
 
-extension ArrayList {
+extension String {
     func isValid(_ s: String) -> Bool {
-        let right = [')',']','}']
-        var subStr = s
-        while subStr.contains("()") || subStr.contains("[]") || subStr.contains("{}") {
-            if subStr.contains("()") {
-                subStr.remove(at: <#T##String.Index#>)
+        var stack = [Character]()
+        for char in s {
+            if char == "(" || char == "[" || char == "{" {
+                stack.append(char)
+            }else {
+                if stack.isEmpty {return false}
+                let left = stack.removeLast()
+                if left == "(" && char != ")" { return false }
+                if left == "[" && char != "]" { return false }
+                if left == "{" && char != "}" { return false }
             }
         }
         
+        return stack.isEmpty
     }
 }
