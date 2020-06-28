@@ -40,4 +40,8 @@ class ArrayList {
         }
         return f(n,m)
     }
+    
+    //详解
+    // https://cloud.tencent.com/developer/article/1164728
+    
 }

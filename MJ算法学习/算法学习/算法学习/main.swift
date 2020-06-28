@@ -8,21 +8,14 @@
 
 import Foundation
 
-//算法第一课，时间复杂度
-//Fib().test()
-
-//print(ArrayList().lastRemaining(5, 3))
-
-var arr = [1,2,3,0,0,0]
-var num = [2,5,6]
-
-ArrayList().merge(&arr, 3, num, 3)
-print(arr)
-
-//Sort().heapSort(&arr)
-//print(arr)
-//LinkList().test()
-
+var matrix =
+[
+  [ 5, 1, 9,11],
+  [ 2, 4, 8,10],
+  [13, 3, 6, 7],
+  [15,14,12,16]
+]
+ArrayList().rotate(&matrix)
 
 
 
