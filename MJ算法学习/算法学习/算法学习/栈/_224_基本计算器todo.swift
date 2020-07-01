@@ -32,6 +32,7 @@ extension String {
      第二步，将数字、左括号、运算符入栈，遇到右括号，一直将出栈至左括号位置，将出栈的数字和运算符入新栈进行计算，遇到运算符计算。
      */
     func calculate(_ s: String) -> Int {
-
+        
+        return 0
     }
 }
