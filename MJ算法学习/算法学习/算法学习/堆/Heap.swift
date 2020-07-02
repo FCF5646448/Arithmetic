@@ -18,15 +18,13 @@ class Heap {
     /*
      从第一个非叶子节点开始下r虑
      */
-    func siftDown(_ arr: inout [Int], _ index:Int) {
+    func siftDown(_ arr: inout [Int], _ index:Int, _ size:Int) {
         
         var i = index
         //将要执行下率的节点
         let element = arr[i]
-        
-        let heapSize = arr.count
         //第一个叶子节点的索引  == 非叶子节点的数量 == size/2
-        let half = heapSize/2
+        let half = size/2
         //必须保证index位置是非叶子节点
         while i < half {
             //index 节点有两种情况 1、只有左子节点；2、y同时有左右子节点
@@ -39,7 +37,7 @@ class Heap {
             // 先取出右子节点的索引
             let rightIndex = childIndex + 1
             //选出左右子节点最大的那个节点
-            if rightIndex < heapSize && arr[rightIndex] > child {
+            if rightIndex < size && arr[rightIndex] > child {
                 //取右边节点
                 childIndex = rightIndex
                 child = arr[rightIndex]
@@ -60,6 +58,17 @@ class Heap {
     }
     
     
+    /*
+     用n替换堆顶元素，然后调整堆（下虑）
+     */
+    func replace(_ arr:inout [Int],_ n:Int) {
+        if arr.count == 0 {
+            arr += [n]
+        }else{
+            arr[0] = n
+            siftDown(&arr, 0, arr.count)
+        }
+    }
     
     
 }

@@ -8,16 +8,10 @@
 
 import Foundation
 
-var matrix =
-[
-  [ 5, 1, 9,11],
-  [ 2, 4, 8,10],
-  [13, 3, 6, 7],
-  [15,14,12,16]
-]
-//ArrayList().rotate(&matrix)
-
-print(ArrayList().evalRPN(["4","13","5","/","+"]))
+//
+var arr = [ 5, 1, 9,11,2, 4, 8,10]
+Sort().heapSort(&arr)
+print(arr)
 
 
 

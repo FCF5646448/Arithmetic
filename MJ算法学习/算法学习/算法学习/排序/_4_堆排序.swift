@@ -9,31 +9,41 @@
 import Foundation
 
 extension Sort {
+    /*
+     所有top k问题都涉及堆排序
+     */
     func heapSort(_ arr:inout [Int]) {
         var size = arr.count
         //原地建堆
         var i = size/2 - 1
         while i >= 0 {
-            siftdown(&arr,i)
+            siftdown(&arr,i,size)
             i -= 1
         }
+        
         while size > 1 {
-            //交换堆顶元素和尾元素
+            //交换堆顶元素和尾元素,然后堆的size-1，相当于堆的数据-1，则size范围之外的数据是排好序的。
             size -= 1
             let temp = arr[0]
             arr[0] = arr[size]
             arr[size] = temp
             //对0位置进行siftdown
-            siftdown(&arr, 0)
+            siftdown(&arr, 0, size)
         }
     }
     
     //自下而上的下虑
-    func siftdown(_ arr:inout [Int], _ index:Int) {
+    /*
+     下虑：
+     如果node < 子节点，与最大的子节点交换位置；
+     如果node >= 子节点或者没有子节点，退出循环
+     必须保证index的位置是第一个非叶子节点，也就是 index < size/2
+     */
+    func siftdown(_ arr:inout [Int], _ index:Int, _ size:Int) {
         var i = index
         let element = arr[i]
-        let size = arr.count
-        let half = size/2
+//        let size = arr.count
+        let half = size/2 //第一个非叶子节点索引是size/2
         //从第一个非叶子节点开始下虑
         while i < half {
             //默认取出左子节点
@@ -45,7 +55,7 @@ extension Sort {
                 childIndex = rightIndex
                 child = arr[rightIndex]
             }
-            if element > child {
+            if element >= child {
                 //如果当前元素大于最大子节点，则无需下虑
                 break
             }
@@ -55,12 +65,4 @@ extension Sort {
         }
         arr[i] = element
     }
-    
-    
-    
-    
-    
-    
-    
-    
 }
