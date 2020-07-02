@@ -10,8 +10,8 @@ import Foundation
 
 //
 var arr = [ 5, 1, 9,11,2, 4, 8,10]
-Sort().heapSort(&arr)
-print(arr)
+
+print(Heap().minTok(&arr, 3))
 
 
 

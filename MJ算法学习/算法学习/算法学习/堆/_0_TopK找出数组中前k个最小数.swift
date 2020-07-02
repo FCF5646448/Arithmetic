@@ -9,6 +9,9 @@
 import Foundation
 
 extension Heap {
+    /*
+     前k个最小值，建大顶堆。
+     */
     func minTok(_ arr: inout [Int], _ k:Int) -> [Int] {
         func siftDown(_ arr:inout [Int],_ index:Int, _ size:Int) {
             var i = index
@@ -21,13 +24,13 @@ extension Heap {
                 
                 let rightChildIndex = childIndex + 1
                 let rightChild = arr[rightChildIndex]
-                if rightChildIndex < size && child >= rightChild {
-                    //取最小的数
+                if rightChildIndex < size && child < rightChild {
+                    //取最大的数
                     childIndex = rightChildIndex
                     child = rightChild
                 }
                 
-                if element <= child {
+                if element >= child {
                     break
                 }
                 //下虑
@@ -37,18 +40,28 @@ extension Heap {
             arr[i] = element
         }
         
-        //先将前n个数原地建一个小顶堆，然后将其他的元素进行replace
+        //先将前k个数进行原地建一个小顶堆，然后将其他的元素进行replace
         var heap = [Int]()
-        for i in 0..<arr.count {
-            if heap.count < k {
-                //建堆
-                
-                
-            }else{
-                
-                
+        for i in 0..<k {
+            heap.append(arr[i])
+        }
+        let size = k
+        var i = size/2 - 1
+        while i >= 0 {
+            siftDown(&heap, 0, size)
+            i -= 1
+        }
+        
+        for i in k..<arr.count {
+            // 如果元素比堆顶元素小，则替换堆顶元素，然后调整堆。
+            if heap[0] > arr[i]  {
+                heap[0] = arr[i]
+                siftDown(&heap, 0, size)
             }
         }
+        
+        return heap
+        
     }
     
 }
