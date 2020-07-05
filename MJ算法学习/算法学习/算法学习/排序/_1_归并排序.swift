@@ -20,22 +20,26 @@ extension Sort {
         print(arr)
     }
     
-    
-    func sort(_ arr:inout [Int], _ begin:Int, _ end:Int) {
-        if end - begin < 2 {return}
-        let mid = (begin + end)/2
-        sort(&arr, begin, mid)
-        sort(&arr, mid, end)
+    //这里的end是开区间。
+    fileprivate func sort(_ arr:inout [Int], _ begin:Int, _ end:Int) {
+        if end - begin > 2 {return}
+        
+        //先切割
+        let mid = (begin + end) >> 1
+        sort(&arr, begin, mid) //这里不包含mid
+        sort(&arr, mid, end) //这里包含了mid，不包含end元素
+        
+        //再合并
         merge(&arr, begin, mid, end)
     }
     
-    //用一个小数组先装arr的前半部分数据
-    func merge(_ arr:inout [Int], _ begin:Int, _ mid:Int, _ end:Int) {
-        var li = 0
-        let le = mid - begin
-        var ri = mid
-        let re = end
+    //都是左闭右开的，主要这里实际没有使用end
+    fileprivate func merge(_ arr:inout [Int],_ begin:Int,_ mid:Int, _ end:Int) {
+        var li = 0  //注意这个是临时数组的0下标，所以切记标成begin
+        let le = mid - begin //这个是零时数组的右边界，切忌标记成mid，因为begin不一定是从0开始
         var ai = begin
+        var ri = mid //包括mid
+        let re = end //不包括end
         
         var temp = [Int]()
         for i in li..<le {
@@ -44,17 +48,20 @@ extension Sort {
         
         //循环比较，直到临时小数组元素全部放到了arr中
         while li < le {
-            //数组后半部份数据和小数组数据比较，从小到大将数据依次放到原数组中
-            if ri < re && (arr[ri] < temp[li]) {
+            if ri < re && arr[ri] < temp[li] {
+                //将后半部分按序放到数组
                 arr[ai] = arr[ri]
                 ai += 1
                 ri += 1
-            }else{
+            }else {
+                //将零时数组中的对应元素部分按序放到数组
                 arr[ai] = temp[li]
                 ai += 1
                 li += 1
             }
         }
+        
     }
 }
+
 

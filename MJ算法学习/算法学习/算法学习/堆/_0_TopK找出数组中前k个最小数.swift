@@ -45,6 +45,8 @@ extension Heap {
         for i in 0..<k {
             heap.append(arr[i])
         }
+        
+        //将数组变成堆数组
         let size = k
         var i = size/2 - 1
         while i >= 0 {
@@ -52,8 +54,8 @@ extension Heap {
             i -= 1
         }
         
+        //比较，如果元素比堆顶元素小，则替换堆顶元素，然后调整堆。
         for i in k..<arr.count {
-            // 如果元素比堆顶元素小，则替换堆顶元素，然后调整堆。
             if heap[0] > arr[i]  {
                 heap[0] = arr[i]
                 siftDown(&heap, 0, size)

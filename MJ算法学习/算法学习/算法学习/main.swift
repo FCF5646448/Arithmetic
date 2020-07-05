@@ -10,8 +10,7 @@ import Foundation
 
 //
 var arr = [ 5, 1, 9,11,2, 4, 8,10]
-
-print(Heap().minTok(&arr, 3))
+Sort().mergerSort()
 
 
 

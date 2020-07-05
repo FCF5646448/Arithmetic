@@ -19,6 +19,7 @@
 		311612AB249E577A007AB6EB /* _88_合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311612AA249E577A007AB6EB /* _88_合并两个有序数组.swift */; };
 		311612AD249E628D007AB6EB /* _75_颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311612AC249E628D007AB6EB /* _75_颜色分类.swift */; };
 		31164A5824A7504800A95202 /* _20_有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31164A5724A7504800A95202 /* _20_有效的括号.swift */; };
+		3116BACB24B1B4B200AD4FAC /* _0_二分搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3116BACA24B1B4B200AD4FAC /* _0_二分搜索.swift */; };
 		31181874249A504900344678 /* _0_冒泡排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31181873249A504900344678 /* _0_冒泡排序.swift */; };
 		31181876249A505B00344678 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31181875249A505A00344678 /* Sort.swift */; };
 		31181878249A724A00344678 /* _1_归并排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31181877249A724A00344678 /* _1_归并排序.swift */; };
@@ -27,6 +28,7 @@
 		3119318224983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3119318124983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift */; };
 		3122273624A5D58E008D8989 /* _56_合并区间.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3122273524A5D58E008D8989 /* _56_合并区间.swift */; };
 		3122273824A5EE18008D8989 /* _0107_旋转矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3122273724A5EE18008D8989 /* _0107_旋转矩阵.swift */; };
+		312C021824B18EE000335CF7 /* _5_插入排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312C021724B18EE000335CF7 /* _5_插入排序.swift */; };
 		317AC72D24A8E6F800EAE112 /* _150_逆波兰表达式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317AC72C24A8E6F800EAE112 /* _150_逆波兰表达式.swift */; };
 		317AC72F24A8EE5B00EAE112 /* _224_基本计算器todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317AC72E24A8EE5B00EAE112 /* _224_基本计算器todo.swift */; };
 		31A5A9E1249CF22500C16F0B /* _3_选择排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A5A9E0249CF22500C16F0B /* _3_选择排序.swift */; };
@@ -69,6 +71,7 @@
 		311612AA249E577A007AB6EB /* _88_合并两个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_88_合并两个有序数组.swift"; sourceTree = "<group>"; };
 		311612AC249E628D007AB6EB /* _75_颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_75_颜色分类.swift"; sourceTree = "<group>"; };
 		31164A5724A7504800A95202 /* _20_有效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_20_有效的括号.swift"; sourceTree = "<group>"; };
+		3116BACA24B1B4B200AD4FAC /* _0_二分搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_二分搜索.swift"; sourceTree = "<group>"; };
 		31181873249A504900344678 /* _0_冒泡排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_冒泡排序.swift"; sourceTree = "<group>"; };
 		31181875249A505A00344678 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 		31181877249A724A00344678 /* _1_归并排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1_归并排序.swift"; sourceTree = "<group>"; };
@@ -77,6 +80,7 @@
 		3119318124983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "_62_约瑟夫环_圆圈中最后剩下数字.swift"; path = "算法学习/_62_约瑟夫环_圆圈中最后剩下数字.swift"; sourceTree = SOURCE_ROOT; };
 		3122273524A5D58E008D8989 /* _56_合并区间.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_56_合并区间.swift"; sourceTree = "<group>"; };
 		3122273724A5EE18008D8989 /* _0107_旋转矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0107_旋转矩阵.swift"; sourceTree = "<group>"; };
+		312C021724B18EE000335CF7 /* _5_插入排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_5_插入排序.swift"; sourceTree = "<group>"; };
 		317AC72C24A8E6F800EAE112 /* _150_逆波兰表达式.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_150_逆波兰表达式.swift"; sourceTree = "<group>"; };
 		317AC72E24A8EE5B00EAE112 /* _224_基本计算器todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_224_基本计算器todo.swift"; sourceTree = "<group>"; };
 		31A5A9E0249CF22500C16F0B /* _3_选择排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_3_选择排序.swift"; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 				19334D67249CBFE700250888 /* _25_K个一组翻转链表.swift */,
 				311612AA249E577A007AB6EB /* _88_合并两个有序数组.swift */,
 				311612AC249E628D007AB6EB /* _75_颜色分类.swift */,
+				3116BACA24B1B4B200AD4FAC /* _0_二分搜索.swift */,
 			);
 			path = "练习";
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				19334D69249CCBC600250888 /* _2_快速排序.swift */,
 				31A5A9E0249CF22500C16F0B /* _3_选择排序.swift */,
 				31A5A9E2249D029000C16F0B /* _4_堆排序.swift */,
+				312C021724B18EE000335CF7 /* _5_插入排序.swift */,
 			);
 			path = "排序";
 			sourceTree = "<group>";
@@ -299,6 +305,7 @@
 			files = (
 				31CAF3CB24ACCBD900EA0906 /* _145_二叉树的后序遍历.swift in Sources */,
 				19334D6A249CCBC600250888 /* _2_快速排序.swift in Sources */,
+				3116BACB24B1B4B200AD4FAC /* _0_二分搜索.swift in Sources */,
 				3113BA6E24A6F3F3005F8E1C /* _498_对角线遍历.swift in Sources */,
 				311612AB249E577A007AB6EB /* _88_合并两个有序数组.swift in Sources */,
 				31181878249A724A00344678 /* _1_归并排序.swift in Sources */,
@@ -327,6 +334,7 @@
 				31D08F822497C40000EDD625 /* _237_删除链表中的节点.swift in Sources */,
 				3119066D24A50D2500525CD8 /* _724._寻找数组的中心索引.swift in Sources */,
 				3122273624A5D58E008D8989 /* _56_合并区间.swift in Sources */,
+				312C021824B18EE000335CF7 /* _5_插入排序.swift in Sources */,
 				31D08F742497A77400EDD625 /* main.swift in Sources */,
 				31140E6D2499166800421CC8 /* _102_二叉树的层次遍历.swift in Sources */,
 				3113BA6C24A6EE22005F8E1C /* _0108_零矩阵.swift in Sources */,

@@ -10,7 +10,27 @@ import Foundation
 
 
 extension Sort {
+    
     func selectSort(_ arr:inout [Int]) {
+        var end = arr.count
+        while end > 0 {
+            var maxIndex = 0
+            for begin in 1..<end {
+                if arr[begin] > arr[maxIndex] {
+                    maxIndex = begin
+                }
+            }
+            
+            let temp = arr[maxIndex]
+            arr[maxIndex] = arr[end - 1]
+            arr[end - 1] = temp
+            
+            end -= 1
+        }
+        
+    }
+    
+    func selectSort0(_ arr:inout [Int]) {
         
         var end = arr.count - 1
         while end > 0 {

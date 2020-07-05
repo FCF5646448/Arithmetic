@@ -18,6 +18,8 @@ extension Sort {
      2、然后从右往左查找，找到小于等于基准数的值；再从左往右找，找到大于大于基准数的值；然后将查找到的两个元素交换位置；（注意等于很重要）
      3、重复第二步，一直到左右两个下标相遇位置，然后将基准数与相遇位置的数值进行交换；
      4、将数组分成两个数组，每个数组都重复以上步骤。
+     
+     注意：这里的right是闭区间，是一个真实的下标
      */
     func quickSort(_ arr:inout [Int],_ left:Int, _ right:Int) {
         if left > right {
@@ -28,11 +30,11 @@ extension Sort {
         let temp = arr[left]
         while l < r {
             //先从右往左查找, 找到小于基准数的值
-            while l < r && arr[r] >= temp  {
+            while l < r && arr[r] > temp  {
                 r -= 1
             }
             //再从左往右查找，找到大于基准数
-            while l < r && arr[l] <= temp {
+            while l < r && arr[l] < temp {
                 l += 1
             }
             if l < r {
