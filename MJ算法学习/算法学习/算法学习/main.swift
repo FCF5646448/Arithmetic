@@ -9,8 +9,11 @@
 import Foundation
 
 //
-var arr = [ 5, 1, 9,11,2, 4, 8,10]
-Sort().mergerSort()
+//var arr = [ 5, 1, 9,11,2, 4, 8,10]
+//Sort().mergerSort()
 
+//Recursion().hanoi(3, "A", "B", "C")
+
+print([1,2,3,4][0...2])
 
 
