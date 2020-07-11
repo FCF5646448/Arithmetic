@@ -26,6 +26,7 @@
 		3119066D24A50D2500525CD8 /* _724._寻找数组的中心索引.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3119066C24A50D2500525CD8 /* _724._寻找数组的中心索引.swift */; };
 		3119066F24A50F8700525CD8 /* _35_搜索插入位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3119066E24A50F8700525CD8 /* _35_搜索插入位置.swift */; };
 		3119318224983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3119318124983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift */; };
+		3121611A24B8C9C90003B0BB /* _0_N皇后问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3121611924B8C9C90003B0BB /* _0_N皇后问题.swift */; };
 		3122273624A5D58E008D8989 /* _56_合并区间.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3122273524A5D58E008D8989 /* _56_合并区间.swift */; };
 		3122273824A5EE18008D8989 /* _0107_旋转矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3122273724A5EE18008D8989 /* _0107_旋转矩阵.swift */; };
 		312C021824B18EE000335CF7 /* _5_插入排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312C021724B18EE000335CF7 /* _5_插入排序.swift */; };
@@ -82,6 +83,7 @@
 		3119066C24A50D2500525CD8 /* _724._寻找数组的中心索引.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_724._寻找数组的中心索引.swift"; sourceTree = "<group>"; };
 		3119066E24A50F8700525CD8 /* _35_搜索插入位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_35_搜索插入位置.swift"; sourceTree = "<group>"; };
 		3119318124983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "_62_约瑟夫环_圆圈中最后剩下数字.swift"; path = "算法学习/_62_约瑟夫环_圆圈中最后剩下数字.swift"; sourceTree = SOURCE_ROOT; };
+		3121611924B8C9C90003B0BB /* _0_N皇后问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_N皇后问题.swift"; sourceTree = "<group>"; };
 		3122273524A5D58E008D8989 /* _56_合并区间.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_56_合并区间.swift"; sourceTree = "<group>"; };
 		3122273724A5EE18008D8989 /* _0107_旋转矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0107_旋转矩阵.swift"; sourceTree = "<group>"; };
 		312C021724B18EE000335CF7 /* _5_插入排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_5_插入排序.swift"; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		19334D65249CBFC100250888 /* 练习 */ = {
 			isa = PBXGroup;
 			children = (
+				31D08F7B2497A80000EDD625 /* Fibonac.swift */,
 				19334D67249CBFE700250888 /* _25_K个一组翻转链表.swift */,
 				311612AA249E577A007AB6EB /* _88_合并两个有序数组.swift */,
 				311612AC249E628D007AB6EB /* _75_颜色分类.swift */,
@@ -182,6 +185,21 @@
 			path = "数组";
 			sourceTree = "<group>";
 		};
+		3121611724B8B5C40003B0BB /* 回溯 */ = {
+			isa = PBXGroup;
+			children = (
+				3121611924B8C9C90003B0BB /* _0_N皇后问题.swift */,
+			);
+			path = "回溯";
+			sourceTree = "<group>";
+		};
+		3121611824B8B5D90003B0BB /* 数据结构 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "数据结构";
+			sourceTree = "<group>";
+		};
 		3130D31824AA33BD00508777 /* 队列 */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +210,7 @@
 		3136FB0A24B4CCA900FAA2B1 /* 算法技巧 */ = {
 			isa = PBXGroup;
 			children = (
+				3121611724B8B5C40003B0BB /* 回溯 */,
 				3136FB0B24B4CCB700FAA2B1 /* 递归 */,
 			);
 			path = "算法技巧";
@@ -245,11 +264,11 @@
 		31D08F722497A77400EDD625 /* 算法学习 */ = {
 			isa = PBXGroup;
 			children = (
+				3121611824B8B5D90003B0BB /* 数据结构 */,
 				31D08F732497A77400EDD625 /* main.swift */,
 				3136FB0A24B4CCA900FAA2B1 /* 算法技巧 */,
 				19334D65249CBFC100250888 /* 练习 */,
 				31181872249A503000344678 /* 排序 */,
-				31D08F7A2497A7C500EDD625 /* 算法入门 */,
 				3119318024983C2D00BF558D /* 数组 */,
 				3113BA6F24A70DF5005F8E1C /* 栈 */,
 				3130D31824AA33BD00508777 /* 队列 */,
@@ -259,14 +278,6 @@
 				313B0A1A24B3717D00C7AF07 /* 图 */,
 			);
 			path = "算法学习";
-			sourceTree = "<group>";
-		};
-		31D08F7A2497A7C500EDD625 /* 算法入门 */ = {
-			isa = PBXGroup;
-			children = (
-				31D08F7B2497A80000EDD625 /* Fibonac.swift */,
-			);
-			path = "算法入门";
 			sourceTree = "<group>";
 		};
 		31D08F7D2497B9EC00EDD625 /* 链表 */ = {
@@ -351,6 +362,7 @@
 				19334D68249CBFE700250888 /* _25_K个一组翻转链表.swift in Sources */,
 				31164A5824A7504800A95202 /* _20_有效的括号.swift in Sources */,
 				3119318224983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift in Sources */,
+				3121611A24B8C9C90003B0BB /* _0_N皇后问题.swift in Sources */,
 				31A5A9E3249D029000C16F0B /* _4_堆排序.swift in Sources */,
 				317AC72D24A8E6F800EAE112 /* _150_逆波兰表达式.swift in Sources */,
 				31140E7124991EAE00421CC8 /* _226_翻转二叉树.swift in Sources */,

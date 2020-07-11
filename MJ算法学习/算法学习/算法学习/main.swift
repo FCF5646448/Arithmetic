@@ -14,6 +14,6 @@ import Foundation
 
 //Recursion().hanoi(3, "A", "B", "C")
 
-print([1,2,3,4][0...2])
+Queen().queen(8)
 
 
