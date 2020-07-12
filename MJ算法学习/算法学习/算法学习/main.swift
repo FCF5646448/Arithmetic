@@ -14,6 +14,7 @@ import Foundation
 
 //Recursion().hanoi(3, "A", "B", "C")
 
-Queen().queen(8)
+//_ = Permutation().permute([1])
+_ = Combination().combinationSum([2,3,5], 8)
 
 
