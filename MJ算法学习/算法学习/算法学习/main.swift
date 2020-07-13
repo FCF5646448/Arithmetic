@@ -15,6 +15,8 @@ import Foundation
 //Recursion().hanoi(3, "A", "B", "C")
 
 //_ = Permutation().permute([1])
-_ = Combination().combinationSum([2,3,5], 8)
+//_ = Combination().combinationSum([2,3,5], 8)
+
+_ = Greedy().coinsChange([2,10,5,100,1,20,50], 998)
 
 
