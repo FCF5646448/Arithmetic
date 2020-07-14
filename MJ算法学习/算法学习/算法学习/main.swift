@@ -17,6 +17,8 @@ import Foundation
 //_ = Permutation().permute([1])
 //_ = Combination().combinationSum([2,3,5], 8)
 
-_ = Greedy().coinsChange([2,10,5,100,1,20,50], 998)
+//_ = Greedy().coinsChange([2,10,5,100,1,20,50], 998)
+
+print(Deconcentrate().maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
 
 
