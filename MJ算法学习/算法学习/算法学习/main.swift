@@ -19,6 +19,8 @@ import Foundation
 
 //_ = Greedy().coinsChange([2,10,5,100,1,20,50], 998)
 
-print(Deconcentrate().maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
+//print(Deconcentrate().maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
+
+print(DynamicPrograming().coinChange2([474,83,404,3], 264))
 
 
