@@ -16,6 +16,31 @@ class DynamicPrograming {
      著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */
     
+    
+    //注意，这种没法处理不可兑换的问题
+    func coinChange3(_ coins: [Int], _ amount: Int) -> Int {
+        if amount < 1 {
+            return 0
+        }
+        
+        var dp = Array(repeating: 0, count: amount + 1)
+        var newCoin = coins
+        newCoin.sort(by: >)
+        
+        let minCoin = newCoin.last!
+        for i in minCoin..<(amount + 1) {
+            var minCount = dp[i - 1]
+            for j in newCoin {
+                if i >= j {
+                    minCount = min(dp[i - j], minCount)
+                }
+            }
+            dp[i] = minCount + 1
+        }
+        return dp[amount] == Int.max ? -1 : dp[amount]
+    }
+    
+    //
     func coinChange2(_ coins: [Int], _ amount: Int) -> Int {
         if amount < 1 {
             return 0
