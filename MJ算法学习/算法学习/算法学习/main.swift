@@ -21,6 +21,8 @@ import Foundation
 
 //print(Deconcentrate().maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
 
-print(DynamicPrograming().coinChange3([1,2,5], 11))
+//print(DynamicPrograming().coinChange3([1,2,5], 11))
+
+print(Solution().maxProfit2([7,1,5,3,6,4]))
 
 
