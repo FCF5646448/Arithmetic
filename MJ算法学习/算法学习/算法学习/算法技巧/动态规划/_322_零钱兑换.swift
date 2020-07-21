@@ -16,7 +16,11 @@ class DynamicPrograming {
      著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */
     
-    /*从底向上 递推*/
+    /*
+     从底向上
+     递推
+     dp[i] 表示集齐i块钱所需的最少硬币个数
+     */
     func coinChange3(_ coins: [Int], _ amount: Int) -> Int {
         if amount < 1 || coins.count == 0 {
             return 0

@@ -25,9 +25,7 @@ import Foundation
 
 //print(Solution().maxProfit2([7,1,5,3,6,4]))
 
-var hashMap = [Int:Bool]()
-if hashMap[1] == nil {
-    hashMap[1] = true
-}
+//
+print(DynamicPrograming().longestCommonSubsequence("abcdefg", "bceg"))
 
 
