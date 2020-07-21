@@ -23,6 +23,11 @@ import Foundation
 
 //print(DynamicPrograming().coinChange3([1,2,5], 11))
 
-print(Solution().maxProfit2([7,1,5,3,6,4]))
+//print(Solution().maxProfit2([7,1,5,3,6,4]))
+
+var hashMap = [Int:Bool]()
+if hashMap[1] == nil {
+    hashMap[1] = true
+}
 
 

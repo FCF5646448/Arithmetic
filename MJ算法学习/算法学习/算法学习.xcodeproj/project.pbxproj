@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1923901324C6BC40004F1ADC /* _136_只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1923901224C6BC40004F1ADC /* _136_只出现一次的数字.swift */; };
 		19334D68249CBFE700250888 /* _25_K个一组翻转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19334D67249CBFE700250888 /* _25_K个一组翻转链表.swift */; };
 		19334D6A249CCBC600250888 /* _2_快速排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19334D69249CCBC600250888 /* _2_快速排序.swift */; };
 		193B3BD524C574F400ED8C5F /* _121_买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193B3BD424C574F400ED8C5F /* _121_买卖股票的最佳时机.swift */; };
@@ -74,6 +75,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1923901224C6BC40004F1ADC /* _136_只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_136_只出现一次的数字.swift"; sourceTree = "<group>"; };
 		19334D67249CBFE700250888 /* _25_K个一组翻转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_25_K个一组翻转链表.swift"; sourceTree = "<group>"; };
 		19334D69249CCBC600250888 /* _2_快速排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_2_快速排序.swift"; sourceTree = "<group>"; };
 		193B3BD424C574F400ED8C5F /* _121_买卖股票的最佳时机.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_121_买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
@@ -143,6 +145,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1923901124C6BC1C004F1ADC /* 位运算 */ = {
+			isa = PBXGroup;
+			children = (
+				1923901224C6BC40004F1ADC /* _136_只出现一次的数字.swift */,
+			);
+			name = "位运算";
+			sourceTree = "<group>";
+		};
 		19334D65249CBFC100250888 /* 练习 */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +274,7 @@
 		3136FB0A24B4CCA900FAA2B1 /* 算法技巧 */ = {
 			isa = PBXGroup;
 			children = (
+				1923901124C6BC1C004F1ADC /* 位运算 */,
 				3115284524BF5AD2000066E8 /* 动态规划 */,
 				31175DAD24BE03DC00FC466F /* 分治算法 */,
 				31181F7C24BCA09500BB92F6 /* 贪心算法 */,
@@ -436,6 +447,7 @@
 				31181876249A505B00344678 /* Sort.swift in Sources */,
 				317AC72F24A8EE5B00EAE112 /* _224_基本计算器todo.swift in Sources */,
 				31149C5824AD65C100570E8A /* _0_TopK找出数组中前k个最小数.swift in Sources */,
+				1923901324C6BC40004F1ADC /* _136_只出现一次的数字.swift in Sources */,
 				31D08F842497CCD900EDD625 /* _206_反转链表.swift in Sources */,
 				31181874249A504900344678 /* _0_冒泡排序.swift in Sources */,
 				3122273824A5EE18008D8989 /* _0107_旋转矩阵.swift in Sources */,
