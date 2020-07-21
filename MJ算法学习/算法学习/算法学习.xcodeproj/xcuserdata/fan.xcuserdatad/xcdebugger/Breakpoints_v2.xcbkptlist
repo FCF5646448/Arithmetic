@@ -151,22 +151,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E9A68680-B8A4-449D-9C69-27D927519ED3"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x7b97;&#x6cd5;&#x5b66;&#x4e60;/&#x7b97;&#x6cd5;&#x6280;&#x5de7;/&#x52a8;&#x6001;&#x89c4;&#x5212;/_322_&#x96f6;&#x94b1;&#x5151;&#x6362;.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "unknown"
-            landmarkType = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "584877B7-0851-40CD-B4CD-2F80B2977334"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -176,22 +160,6 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
             endingLineNumber = "25"
-            landmarkName = "unknown"
-            landmarkType = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2CFD7981-BF7A-4189-A716-BEA09EAEF585"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x7b97;&#x6cd5;&#x5b66;&#x4e60;/&#x7b97;&#x6cd5;&#x6280;&#x5de7;/&#x52a8;&#x6001;&#x89c4;&#x5212;/_322_&#x96f6;&#x94b1;&#x5151;&#x6362;.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
             landmarkName = "unknown"
             landmarkType = "0">
          </BreakpointContent>
