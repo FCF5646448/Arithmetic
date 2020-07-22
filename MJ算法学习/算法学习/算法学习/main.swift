@@ -24,8 +24,7 @@ import Foundation
 //print(DynamicPrograming().coinChange3([1,2,5], 11))
 
 //print(Solution().maxProfit2([7,1,5,3,6,4]))
-
 //
-print(DynamicPrograming().longestCommonSubsequence("abcdefg", "bceg"))
+print(Solution().intersect([1,2,2,1], [1,2,2]))
 
 
