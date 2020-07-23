@@ -25,6 +25,7 @@ import Foundation
 
 //print(Solution().maxProfit2([7,1,5,3,6,4]))
 //
-print(Solution().intersect([1,2,2,1], [1,2,2]))
 
-
+var nums = [0,1,0,3,12]
+Solution().moveZeroes(&nums)
+print(nums)

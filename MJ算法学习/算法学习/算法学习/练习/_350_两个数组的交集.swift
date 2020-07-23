@@ -21,7 +21,6 @@ extension Solution {
         
         var dic = [Int:Int]()
         var result = [Int]()
-        result.remove(at: <#T##Int#>)
         if nums1.count < nums2.count {
             for n in nums1 {
                 if dic[n] != nil {
