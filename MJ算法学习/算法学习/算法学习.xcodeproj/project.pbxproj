@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1923901324C6BC40004F1ADC /* _136_只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1923901224C6BC40004F1ADC /* _136_只出现一次的数字.swift */; };
+		192D99F324CC063600A33F48 /* _0_整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192D99F224CC063600A33F48 /* _0_整数反转.swift */; };
 		19334D68249CBFE700250888 /* _25_K个一组翻转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19334D67249CBFE700250888 /* _25_K个一组翻转链表.swift */; };
 		19334D6A249CCBC600250888 /* _2_快速排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19334D69249CCBC600250888 /* _2_快速排序.swift */; };
 		193B3BD524C574F400ED8C5F /* _121_买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193B3BD424C574F400ED8C5F /* _121_买卖股票的最佳时机.swift */; };
@@ -82,6 +83,7 @@
 
 /* Begin PBXFileReference section */
 		1923901224C6BC40004F1ADC /* _136_只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_136_只出现一次的数字.swift"; sourceTree = "<group>"; };
+		192D99F224CC063600A33F48 /* _0_整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_整数反转.swift"; sourceTree = "<group>"; };
 		19334D67249CBFE700250888 /* _25_K个一组翻转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_25_K个一组翻转链表.swift"; sourceTree = "<group>"; };
 		19334D69249CCBC600250888 /* _2_快速排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_2_快速排序.swift"; sourceTree = "<group>"; };
 		193B3BD424C574F400ED8C5F /* _121_买卖股票的最佳时机.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_121_买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				194C7C0224C8102500A8B5BA /* _350_两个数组的交集.swift */,
 				197F868524C9421200DC1501 /* _283_移动零.swift */,
 				197F868824C9738F00DC1501 /* _36_*有效的数独.swift */,
+				192D99F224CC063600A33F48 /* _0_整数反转.swift */,
 			);
 			path = "练习";
 			sourceTree = "<group>";
@@ -483,6 +486,7 @@
 				312E521224BA23A600F153C5 /* _30_组合总和.swift in Sources */,
 				31175DAF24BE041900FC466F /* _53_最大子序和.swift in Sources */,
 				197F868924C9738F00DC1501 /* _36_*有效的数独.swift in Sources */,
+				192D99F324CC063600A33F48 /* _0_整数反转.swift in Sources */,
 				31D08F822497C40000EDD625 /* _237_删除链表中的节点.swift in Sources */,
 				3119066D24A50D2500525CD8 /* _724._寻找数组的中心索引.swift in Sources */,
 				3136FB0F24B4D60D00FAA2B1 /* _1_汉诺塔问题.swift in Sources */,
