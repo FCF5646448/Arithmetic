@@ -14,6 +14,8 @@ extension ArrayList {
      思想就是使用归并排序的方式，从后往前排
      初始化 nums1 和 nums2 的元素数量分别为 m 和 n 。
      你可以假设 nums1 有足够的空间（空间大小大于或等于 m + n）来保存 nums2 中的元素。
+     
+     解析：双指针算法
      */
     func merge(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
         var n1e = m - 1
