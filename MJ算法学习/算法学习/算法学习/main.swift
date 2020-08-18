@@ -48,3 +48,6 @@ import Foundation
 
 var arr = [1,3,5,7,9]
 print(Solution().subSort(arr))
+//print(Int("123") as Any)
+
+LinkList().test()

@@ -27,6 +27,7 @@ extension LinkList {
     
     //注意这个技巧
     func reverseList2(_ head: ListNode?) -> ListNode? {
+        //注意newHead为nil，相当于让第一个节点的next指针就指向了nil
         var newHead:ListNode? = nil
         var p: ListNode? = head
         while p != nil {
