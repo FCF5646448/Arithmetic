@@ -47,3 +47,5 @@ import Foundation
 //}
 
 //print(Int("123") as Any)
+
+LinkList().test()

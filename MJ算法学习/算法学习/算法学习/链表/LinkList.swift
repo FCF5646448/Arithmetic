@@ -23,14 +23,20 @@ class LinkList {
         let n1 = ListNode(1)
         let n2 = ListNode(2)
         let n3 = ListNode(3)
-        let n4 = ListNode(4)
-        let n5 = ListNode(5)
+        let n4 = ListNode(2)
+        let n5 = ListNode(1)
         n1.next = n2
-        n2.next = n3
-        n3.next = n4
-        n4.next = n5
+//        n2.next = n3
+//        n3.next = n4
+//        n4.next = n5
         
-        let n = reverseKGroup(n1,3)
-        print(n)
+//        let n = reverseKGroup(n1,3)
+//        print(n)
+        
+        if isPalindrome(n1) == true {
+            print("是回文链表")
+        }else{
+            print("不是回文链表")
+        }
     }
 }
