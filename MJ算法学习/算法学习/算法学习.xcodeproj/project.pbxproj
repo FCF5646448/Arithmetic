@@ -12,6 +12,7 @@
 		192D99F324CC063600A33F48 /* _0_整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192D99F224CC063600A33F48 /* _0_整数反转.swift */; };
 		19334D68249CBFE700250888 /* _25_K个一组翻转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19334D67249CBFE700250888 /* _25_K个一组翻转链表.swift */; };
 		19334D6A249CCBC600250888 /* _2_快速排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19334D69249CCBC600250888 /* _2_快速排序.swift */; };
+		1936B8D524ED128B00D4A0DD /* _101_对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1936B8D424ED128B00D4A0DD /* _101_对称二叉树.swift */; };
 		193B3BD524C574F400ED8C5F /* _121_买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193B3BD424C574F400ED8C5F /* _121_买卖股票的最佳时机.swift */; };
 		193B3BDF24C5A01500ED8C5F /* _122_买卖股票的最佳时机2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193B3BDE24C5A01500ED8C5F /* _122_买卖股票的最佳时机2.swift */; };
 		194C7C0324C8102500A8B5BA /* _350_两个数组的交集.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194C7C0224C8102500A8B5BA /* _350_两个数组的交集.swift */; };
@@ -89,6 +90,7 @@
 		192D99F224CC063600A33F48 /* _0_整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_整数反转.swift"; sourceTree = "<group>"; };
 		19334D67249CBFE700250888 /* _25_K个一组翻转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_25_K个一组翻转链表.swift"; sourceTree = "<group>"; };
 		19334D69249CCBC600250888 /* _2_快速排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_2_快速排序.swift"; sourceTree = "<group>"; };
+		1936B8D424ED128B00D4A0DD /* _101_对称二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_101_对称二叉树.swift"; sourceTree = "<group>"; };
 		193B3BD424C574F400ED8C5F /* _121_买卖股票的最佳时机.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_121_买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
 		193B3BDE24C5A01500ED8C5F /* _122_买卖股票的最佳时机2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_122_买卖股票的最佳时机2.swift"; sourceTree = "<group>"; };
 		194C7C0224C8102500A8B5BA /* _350_两个数组的交集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_350_两个数组的交集.swift"; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				31CAF3C624ACCB6800EA0906 /* _144_二叉树的前序遍历.swift */,
 				31CAF3C824ACCBAA00EA0906 /* _94_二叉树的中序遍历.swift */,
 				31CAF3CA24ACCBD900EA0906 /* _145_二叉树的后序遍历.swift */,
+				1936B8D424ED128B00D4A0DD /* _101_对称二叉树.swift */,
 			);
 			path = "二叉树";
 			sourceTree = "<group>";
@@ -465,6 +468,7 @@
 				3119318224983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift in Sources */,
 				3115284724BF5CDD000066E8 /* _322_零钱兑换.swift in Sources */,
 				3121611A24B8C9C90003B0BB /* _0_N皇后问题01.swift in Sources */,
+				1936B8D524ED128B00D4A0DD /* _101_对称二叉树.swift in Sources */,
 				31A5A9E3249D029000C16F0B /* _4_堆排序.swift in Sources */,
 				317AC72D24A8E6F800EAE112 /* _150_逆波兰表达式.swift in Sources */,
 				3119AA3B24C7283D0086F1DC /* _300_最长上升子序列.swift in Sources */,
