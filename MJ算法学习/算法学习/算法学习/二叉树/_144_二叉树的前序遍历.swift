@@ -12,7 +12,9 @@ import Foundation
 extension TreeNode {
     /*
      迭代：
-     
+     使用一个栈来存储节点，
+     一路遍历到最左节点，知道没有左节点为止；
+     取出最左节点的右节点，重复上述步骤。
      */
     func preorderTraversal(_ root: TreeNode?) -> [Int] {
         guard root != nil else {
