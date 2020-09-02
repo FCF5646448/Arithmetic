@@ -9,16 +9,21 @@
 import Foundation
 
 extension Heap {
+    /*
+     在未排序的数组中找到第 k 个最大的元素。请注意，你需要找的是数组排序后的第 k 个最大的元素，而不是第 k 个不同的元素。
+     */
     func findKthLargest(_ nums: [Int], _ k: Int) -> Int {
         // 先原地建一个小顶堆
         var heap = [Int]()
         for i in 0..<k {
             heap.append(nums[i])
         }
+        
+        //从堆的第一个非叶子节点开始进行下滤，使得数组成为堆
         let size = k
         var i = size/2 - 1
         while i >= 0 {
-            siftDown3(&heap, 0, size)
+            siftDown3(&heap, i, size)
             i -= 1
         }
         print(heap)
@@ -46,8 +51,8 @@ extension Heap {
                 childIndex = rightChildIndex
                 child = nums[rightChildIndex]
             }
-            guard element < child else{
-                //比最新的子元素大，则就无需再下滤
+            guard element > child else{
+                //
                 break
             }
             nums[i] = child
