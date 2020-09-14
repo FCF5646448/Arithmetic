@@ -46,11 +46,11 @@ extension Heap {
             heap.append(arr[i])
         }
         
-        //将数组变成堆数组
+        //从堆的第一个非叶子节点开始进行下滤，使得数组成为堆
         let size = k
         var i = size/2 - 1
         while i >= 0 {
-            siftDown(&heap, 0, size)
+            siftDown3(&heap, i, size)
             i -= 1
         }
         

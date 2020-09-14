@@ -46,8 +46,12 @@ import Foundation
 //    print("没问题")
 //}
 
-var arr = [1,3,5,7,9]
-print(Solution().subSort(arr))
-//print(Int("123") as Any)
+//var arr = [1,3,5,7,9]
+//print(Solution().subSort(arr))
+////print(Int("123") as Any)
+//
+//LinkList().test()
 
-LinkList().test()
+let r = Heap().findKthLargest([3,2,1,5,6,4], 2)
+print(r)
+
