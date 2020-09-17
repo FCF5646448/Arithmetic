@@ -41,6 +41,7 @@
 		31181F8024BCA33400BB92F6 /* _0_海盗装载问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31181F7F24BCA33400BB92F6 /* _0_海盗装载问题.swift */; };
 		31181F8224BCA6F000BB92F6 /* _0_零钱兑换问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31181F8124BCA6F000BB92F6 /* _0_零钱兑换问题.swift */; };
 		31181F8424BCB79700BB92F6 /* _0_0-1背包问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31181F8324BCB79700BB92F6 /* _0_0-1背包问题.swift */; };
+		311886BD2513B65B00519933 /* _203_移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311886BC2513B65B00519933 /* _203_移除链表元素.swift */; };
 		3119066D24A50D2500525CD8 /* _724._寻找数组的中心索引.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3119066C24A50D2500525CD8 /* _724._寻找数组的中心索引.swift */; };
 		3119066F24A50F8700525CD8 /* _35_搜索插入位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3119066E24A50F8700525CD8 /* _35_搜索插入位置.swift */; };
 		3119318224983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3119318124983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift */; };
@@ -125,6 +126,7 @@
 		31181F7F24BCA33400BB92F6 /* _0_海盗装载问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_海盗装载问题.swift"; sourceTree = "<group>"; };
 		31181F8124BCA6F000BB92F6 /* _0_零钱兑换问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_零钱兑换问题.swift"; sourceTree = "<group>"; };
 		31181F8324BCB79700BB92F6 /* _0_0-1背包问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_0-1背包问题.swift"; sourceTree = "<group>"; };
+		311886BC2513B65B00519933 /* _203_移除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_203_移除链表元素.swift"; sourceTree = "<group>"; };
 		3119066C24A50D2500525CD8 /* _724._寻找数组的中心索引.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_724._寻找数组的中心索引.swift"; sourceTree = "<group>"; };
 		3119066E24A50F8700525CD8 /* _35_搜索插入位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_35_搜索插入位置.swift"; sourceTree = "<group>"; };
 		3119318124983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "_62_约瑟夫环_圆圈中最后剩下数字.swift"; path = "算法学习/_62_约瑟夫环_圆圈中最后剩下数字.swift"; sourceTree = SOURCE_ROOT; };
@@ -200,6 +202,7 @@
 				192D99F224CC063600A33F48 /* _0_整数反转.swift */,
 				3119C09725126D09009D0C4A /* _164_最大间距.swift */,
 				311AA9FF2512DDD50051E9C4 /* _977_有序数组的平方.swift */,
+				311886BC2513B65B00519933 /* _203_移除链表元素.swift */,
 			);
 			path = "练习";
 			sourceTree = "<group>";
@@ -495,6 +498,7 @@
 				311C7FF024D1CD16003150E6 /* _16_16_部分排序.swift in Sources */,
 				31D08F7C2497A80000EDD625 /* Fibonac.swift in Sources */,
 				31D08F802497BAEF00EDD625 /* LinkList.swift in Sources */,
+				311886BD2513B65B00519933 /* _203_移除链表元素.swift in Sources */,
 				193B3BD524C574F400ED8C5F /* _121_买卖股票的最佳时机.swift in Sources */,
 				31A5A9E7249D0AC500C16F0B /* Heap.swift in Sources */,
 				31181876249A505B00344678 /* Sort.swift in Sources */,
