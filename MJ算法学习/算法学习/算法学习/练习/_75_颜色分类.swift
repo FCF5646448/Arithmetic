@@ -52,7 +52,26 @@ extension ArrayList {
                 right -= 1
             }
         }
-        
-        
+    }
+    
+    func sortColors2(_ nums: inout [Int]) {
+        var left = 0
+        var right = nums.count - 1
+        var current = 0
+        while current <= right {
+            if nums[current] == 2 && current < right {
+                let temp = nums[right]
+                nums[right] = nums[current]
+                nums[current] = temp
+                right -= 1
+            }else if nums[current] == 0 && current > left {
+                let temp = nums[left]
+                nums[left] = nums[current]
+                nums[current] = temp
+                left += 1
+            }else{
+                current += 1
+            }
+        }
     }
 }

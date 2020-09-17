@@ -28,12 +28,14 @@ extension Solution{
     
     func subSort(_ array: [Int]) -> [Int] {
         guard array.count > 0 else {
-            return [-1,-1]
+            return [-1, -1]
         }
-        
-        //从左往右扫描，找到最右侧的逆序对. max 记录扫描过的路径中最大的值，right记录最右逆序对的下标
+        //逆序对
+        // 从左到右应该是递增，从右到左应该是递减
+        // 从左往右：最右边位置 是最后一个逆序对的位置
+        // 从右往左：最左侧位置 是第一个逆序对的位置
         var max = array[0]
-        var right:Int = -1
+        var right = 0
         var i = 1
         while i < array.count {
             if array[i] >= max {
@@ -43,13 +45,10 @@ extension Solution{
             }
             i += 1
         }
-        
-        //提前结束
-        if right == -1 {return [-1, -1]}
-        //从右往左扫描，找到最左侧的逆序对. min 记录扫描过的路径中最小的值，left记录最左逆序对的下标
+
         var min = array[array.count - 1]
-        var left:Int = -1
         i = array.count - 2
+        var left = array.count - 1
         while i >= 0 {
             if array[i] <= min {
                 min = array[i]
@@ -58,7 +57,11 @@ extension Solution{
             }
             i -= 1
         }
-        return [left,right]
+
+        if right > left {
+            return [left, right]
+        }
+        return [-1, -1]
     }
     
 }

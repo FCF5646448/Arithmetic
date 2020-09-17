@@ -47,6 +47,8 @@
 		3119AA3924C721790086F1DC /* _53_最大连续子序列和2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3119AA3824C721790086F1DC /* _53_最大连续子序列和2.swift */; };
 		3119AA3B24C7283D0086F1DC /* _300_最长上升子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3119AA3A24C7283D0086F1DC /* _300_最长上升子序列.swift */; };
 		3119AA3D24C72F440086F1DC /* _1143_最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3119AA3C24C72F440086F1DC /* _1143_最长公共子序列.swift */; };
+		3119C09825126D09009D0C4A /* _164_最大间距.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3119C09725126D09009D0C4A /* _164_最大间距.swift */; };
+		311AAA002512DDD50051E9C4 /* _977_有序数组的平方.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AA9FF2512DDD50051E9C4 /* _977_有序数组的平方.swift */; };
 		311C7FF024D1CD16003150E6 /* _16_16_部分排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311C7FEF24D1CD16003150E6 /* _16_16_部分排序.swift */; };
 		3121611A24B8C9C90003B0BB /* _0_N皇后问题01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3121611924B8C9C90003B0BB /* _0_N皇后问题01.swift */; };
 		3122273624A5D58E008D8989 /* _56_合并区间.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3122273524A5D58E008D8989 /* _56_合并区间.swift */; };
@@ -129,6 +131,8 @@
 		3119AA3824C721790086F1DC /* _53_最大连续子序列和2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_53_最大连续子序列和2.swift"; sourceTree = "<group>"; };
 		3119AA3A24C7283D0086F1DC /* _300_最长上升子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_300_最长上升子序列.swift"; sourceTree = "<group>"; };
 		3119AA3C24C72F440086F1DC /* _1143_最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1143_最长公共子序列.swift"; sourceTree = "<group>"; };
+		3119C09725126D09009D0C4A /* _164_最大间距.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_164_最大间距.swift"; sourceTree = "<group>"; };
+		311AA9FF2512DDD50051E9C4 /* _977_有序数组的平方.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_977_有序数组的平方.swift"; sourceTree = "<group>"; };
 		311C7FEF24D1CD16003150E6 /* _16_16_部分排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_16_16_部分排序.swift"; sourceTree = "<group>"; };
 		3121611924B8C9C90003B0BB /* _0_N皇后问题01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_N皇后问题01.swift"; sourceTree = "<group>"; };
 		3122273524A5D58E008D8989 /* _56_合并区间.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_56_合并区间.swift"; sourceTree = "<group>"; };
@@ -194,6 +198,8 @@
 				197F868824C9738F00DC1501 /* _36_*有效的数独.swift */,
 				311C7FEF24D1CD16003150E6 /* _16_16_部分排序.swift */,
 				192D99F224CC063600A33F48 /* _0_整数反转.swift */,
+				3119C09725126D09009D0C4A /* _164_最大间距.swift */,
+				311AA9FF2512DDD50051E9C4 /* _977_有序数组的平方.swift */,
 			);
 			path = "练习";
 			sourceTree = "<group>";
@@ -495,6 +501,7 @@
 				317AC72F24A8EE5B00EAE112 /* _224_基本计算器todo.swift in Sources */,
 				19375EC324FE76C900326648 /* _215_数组中第K个最大元素.swift in Sources */,
 				31149C5824AD65C100570E8A /* _0_TopK找出数组中前k个最小数.swift in Sources */,
+				311AAA002512DDD50051E9C4 /* _977_有序数组的平方.swift in Sources */,
 				1923901324C6BC40004F1ADC /* _136_只出现一次的数字.swift in Sources */,
 				31D08F842497CCD900EDD625 /* _206_反转链表.swift in Sources */,
 				31181874249A504900344678 /* _0_冒泡排序.swift in Sources */,
@@ -521,6 +528,7 @@
 				31D08F742497A77400EDD625 /* main.swift in Sources */,
 				31140E6D2499166800421CC8 /* _102_二叉树的层次遍历.swift in Sources */,
 				3113BA6C24A6EE22005F8E1C /* _0108_零矩阵.swift in Sources */,
+				3119C09825126D09009D0C4A /* _164_最大间距.swift in Sources */,
 				3119AA3924C721790086F1DC /* _53_最大连续子序列和2.swift in Sources */,
 				31149C5624AD611B00570E8A /* _378_有序矩阵中第k个小元素todo.swift in Sources */,
 			);
