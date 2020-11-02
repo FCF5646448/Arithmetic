@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191360E3254FB8BD00268808 /* LCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191360E2254FB8BD00268808 /* LCTest.swift */; };
+		191360E6254FB91500268808 /* LC_01_只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191360E5254FB91500268808 /* LC_01_只出现一次的数字.swift */; };
+		191360EB254FF12C00268808 /* LC_02_多数元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191360EA254FF12C00268808 /* LC_02_多数元素.swift */; };
+		191360ED254FF83900268808 /* LC_03_搜索二维矩阵 ||.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191360EC254FF83900268808 /* LC_03_搜索二维矩阵 ||.swift */; };
 		1923901324C6BC40004F1ADC /* _136_只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1923901224C6BC40004F1ADC /* _136_只出现一次的数字.swift */; };
 		19279F6924EBF850007844C1 /* _0_回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19279F6824EBF850007844C1 /* _0_回文链表.swift */; };
 		192D99F324CC063600A33F48 /* _0_整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192D99F224CC063600A33F48 /* _0_整数反转.swift */; };
@@ -91,6 +95,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		191360E2254FB8BD00268808 /* LCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCTest.swift; sourceTree = "<group>"; };
+		191360E5254FB91500268808 /* LC_01_只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_01_只出现一次的数字.swift"; sourceTree = "<group>"; };
+		191360EA254FF12C00268808 /* LC_02_多数元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_02_多数元素.swift"; sourceTree = "<group>"; };
+		191360EC254FF83900268808 /* LC_03_搜索二维矩阵 ||.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_03_搜索二维矩阵 ||.swift"; sourceTree = "<group>"; };
 		1923901224C6BC40004F1ADC /* _136_只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_136_只出现一次的数字.swift"; sourceTree = "<group>"; };
 		19279F6824EBF850007844C1 /* _0_回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_回文链表.swift"; sourceTree = "<group>"; };
 		192D99F224CC063600A33F48 /* _0_整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_整数反转.swift"; sourceTree = "<group>"; };
@@ -177,6 +185,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		191360E1254FB89600268808 /* LC系列练习 */ = {
+			isa = PBXGroup;
+			children = (
+				191360E2254FB8BD00268808 /* LCTest.swift */,
+				191360E4254FB8FA00268808 /* 综合 */,
+			);
+			path = "LC系列练习";
+			sourceTree = "<group>";
+		};
+		191360E4254FB8FA00268808 /* 综合 */ = {
+			isa = PBXGroup;
+			children = (
+				191360E5254FB91500268808 /* LC_01_只出现一次的数字.swift */,
+				191360EA254FF12C00268808 /* LC_02_多数元素.swift */,
+				191360EC254FF83900268808 /* LC_03_搜索二维矩阵 ||.swift */,
+			);
+			path = "综合";
+			sourceTree = "<group>";
+		};
 		1923901124C6BC1C004F1ADC /* 位运算 */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,6 +406,7 @@
 		31D08F722497A77400EDD625 /* 算法学习 */ = {
 			isa = PBXGroup;
 			children = (
+				191360E1254FB89600268808 /* LC系列练习 */,
 				3121611824B8B5D90003B0BB /* 数据结构 */,
 				31D08F732497A77400EDD625 /* main.swift */,
 				3136FB0A24B4CCA900FAA2B1 /* 算法技巧 */,
@@ -476,6 +504,7 @@
 				3136FB1124B4DC0F00FAA2B1 /* _0806_汉诺塔问题.swift in Sources */,
 				3119AA3D24C72F440086F1DC /* _1143_最长公共子序列.swift in Sources */,
 				311612AB249E577A007AB6EB /* _88_合并两个有序数组.swift in Sources */,
+				191360E3254FB8BD00268808 /* LCTest.swift in Sources */,
 				31181878249A724A00344678 /* _1_归并排序.swift in Sources */,
 				31D08F862497D21E00EDD625 /* _141_判断环形链表.swift in Sources */,
 				31181F8224BCA6F000BB92F6 /* _0_零钱兑换问题.swift in Sources */,
@@ -496,6 +525,7 @@
 				31181F8024BCA33400BB92F6 /* _0_海盗装载问题.swift in Sources */,
 				312E520E24BA113800F153C5 /* _0_*N皇后问题02.swift in Sources */,
 				311C7FF024D1CD16003150E6 /* _16_16_部分排序.swift in Sources */,
+				191360E6254FB91500268808 /* LC_01_只出现一次的数字.swift in Sources */,
 				31D08F7C2497A80000EDD625 /* Fibonac.swift in Sources */,
 				31D08F802497BAEF00EDD625 /* LinkList.swift in Sources */,
 				311886BD2513B65B00519933 /* _203_移除链表元素.swift in Sources */,
@@ -511,6 +541,7 @@
 				31181874249A504900344678 /* _0_冒泡排序.swift in Sources */,
 				3122273824A5EE18008D8989 /* _0107_旋转矩阵.swift in Sources */,
 				31181F8424BCB79700BB92F6 /* _0_0-1背包问题.swift in Sources */,
+				191360EB254FF12C00268808 /* LC_02_多数元素.swift in Sources */,
 				311612AD249E628D007AB6EB /* _75_颜色分类.swift in Sources */,
 				31CAF3C724ACCB6800EA0906 /* _144_二叉树的前序遍历.swift in Sources */,
 				3119066F24A50F8700525CD8 /* _35_搜索插入位置.swift in Sources */,
@@ -532,6 +563,7 @@
 				31D08F742497A77400EDD625 /* main.swift in Sources */,
 				31140E6D2499166800421CC8 /* _102_二叉树的层次遍历.swift in Sources */,
 				3113BA6C24A6EE22005F8E1C /* _0108_零矩阵.swift in Sources */,
+				191360ED254FF83900268808 /* LC_03_搜索二维矩阵 ||.swift in Sources */,
 				3119C09825126D09009D0C4A /* _164_最大间距.swift in Sources */,
 				3119AA3924C721790086F1DC /* _53_最大连续子序列和2.swift in Sources */,
 				31149C5624AD611B00570E8A /* _378_有序矩阵中第k个小元素todo.swift in Sources */,
