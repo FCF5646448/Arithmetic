@@ -13,6 +13,7 @@
 		191360ED254FF83900268808 /* LC_03_搜索二维矩阵 ||.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191360EC254FF83900268808 /* LC_03_搜索二维矩阵 ||.swift */; };
 		1923901324C6BC40004F1ADC /* _136_只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1923901224C6BC40004F1ADC /* _136_只出现一次的数字.swift */; };
 		19279F6924EBF850007844C1 /* _0_回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19279F6824EBF850007844C1 /* _0_回文链表.swift */; };
+		192C977A2551009200D91D96 /* LC_04_合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C97792551009200D91D96 /* LC_04_合并两个有序数组.swift */; };
 		192D99F324CC063600A33F48 /* _0_整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192D99F224CC063600A33F48 /* _0_整数反转.swift */; };
 		19334D68249CBFE700250888 /* _25_K个一组翻转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19334D67249CBFE700250888 /* _25_K个一组翻转链表.swift */; };
 		19334D6A249CCBC600250888 /* _2_快速排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19334D69249CCBC600250888 /* _2_快速排序.swift */; };
@@ -101,6 +102,7 @@
 		191360EC254FF83900268808 /* LC_03_搜索二维矩阵 ||.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_03_搜索二维矩阵 ||.swift"; sourceTree = "<group>"; };
 		1923901224C6BC40004F1ADC /* _136_只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_136_只出现一次的数字.swift"; sourceTree = "<group>"; };
 		19279F6824EBF850007844C1 /* _0_回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_回文链表.swift"; sourceTree = "<group>"; };
+		192C97792551009200D91D96 /* LC_04_合并两个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_04_合并两个有序数组.swift"; sourceTree = "<group>"; };
 		192D99F224CC063600A33F48 /* _0_整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_整数反转.swift"; sourceTree = "<group>"; };
 		19334D67249CBFE700250888 /* _25_K个一组翻转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_25_K个一组翻转链表.swift"; sourceTree = "<group>"; };
 		19334D69249CCBC600250888 /* _2_快速排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_2_快速排序.swift"; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				191360E5254FB91500268808 /* LC_01_只出现一次的数字.swift */,
 				191360EA254FF12C00268808 /* LC_02_多数元素.swift */,
 				191360EC254FF83900268808 /* LC_03_搜索二维矩阵 ||.swift */,
+				192C97792551009200D91D96 /* LC_04_合并两个有序数组.swift */,
 			);
 			path = "综合";
 			sourceTree = "<group>";
@@ -515,6 +518,7 @@
 				19F1317124EE95D90017ED34 /* _0_将有序数组转化为二叉搜索树.swift in Sources */,
 				3119318224983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift in Sources */,
 				3115284724BF5CDD000066E8 /* _322_零钱兑换.swift in Sources */,
+				192C977A2551009200D91D96 /* LC_04_合并两个有序数组.swift in Sources */,
 				3121611A24B8C9C90003B0BB /* _0_N皇后问题01.swift in Sources */,
 				1936B8D524ED128B00D4A0DD /* _101_对称二叉树.swift in Sources */,
 				31A5A9E3249D029000C16F0B /* _4_堆排序.swift in Sources */,
