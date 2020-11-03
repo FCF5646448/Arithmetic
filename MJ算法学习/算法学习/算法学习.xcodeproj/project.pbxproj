@@ -67,6 +67,8 @@
 		3136FB0F24B4D60D00FAA2B1 /* _1_汉诺塔问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3136FB0E24B4D60D00FAA2B1 /* _1_汉诺塔问题.swift */; };
 		3136FB1124B4DC0F00FAA2B1 /* _0806_汉诺塔问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3136FB1024B4DC0F00FAA2B1 /* _0806_汉诺塔问题.swift */; };
 		313B0A1C24B371B800C7AF07 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313B0A1B24B371B800C7AF07 /* Graph.swift */; };
+		316F70C62551BAAC00E8B894 /* LC_05_验证回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F70C52551BAAC00E8B894 /* LC_05_验证回文串.swift */; };
+		316F70C82551BD9B00E8B894 /* LC_06_分割回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F70C72551BD9B00E8B894 /* LC_06_分割回文串.swift */; };
 		317AC72D24A8E6F800EAE112 /* _150_逆波兰表达式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317AC72C24A8E6F800EAE112 /* _150_逆波兰表达式.swift */; };
 		317AC72F24A8EE5B00EAE112 /* _224_基本计算器todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317AC72E24A8EE5B00EAE112 /* _224_基本计算器todo.swift */; };
 		31A5A9E1249CF22500C16F0B /* _3_选择排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A5A9E0249CF22500C16F0B /* _3_选择排序.swift */; };
@@ -157,6 +159,8 @@
 		3136FB0E24B4D60D00FAA2B1 /* _1_汉诺塔问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1_汉诺塔问题.swift"; sourceTree = "<group>"; };
 		3136FB1024B4DC0F00FAA2B1 /* _0806_汉诺塔问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0806_汉诺塔问题.swift"; sourceTree = "<group>"; };
 		313B0A1B24B371B800C7AF07 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		316F70C52551BAAC00E8B894 /* LC_05_验证回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_05_验证回文串.swift"; sourceTree = "<group>"; };
+		316F70C72551BD9B00E8B894 /* LC_06_分割回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_06_分割回文串.swift"; sourceTree = "<group>"; };
 		317AC72C24A8E6F800EAE112 /* _150_逆波兰表达式.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_150_逆波兰表达式.swift"; sourceTree = "<group>"; };
 		317AC72E24A8EE5B00EAE112 /* _224_基本计算器todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_224_基本计算器todo.swift"; sourceTree = "<group>"; };
 		31A5A9E0249CF22500C16F0B /* _3_选择排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_3_选择排序.swift"; sourceTree = "<group>"; };
@@ -203,6 +207,8 @@
 				191360EA254FF12C00268808 /* LC_02_多数元素.swift */,
 				191360EC254FF83900268808 /* LC_03_搜索二维矩阵 ||.swift */,
 				192C97792551009200D91D96 /* LC_04_合并两个有序数组.swift */,
+				316F70C52551BAAC00E8B894 /* LC_05_验证回文串.swift */,
+				316F70C72551BD9B00E8B894 /* LC_06_分割回文串.swift */,
 			);
 			path = "综合";
 			sourceTree = "<group>";
@@ -528,6 +534,7 @@
 				31140E7124991EAE00421CC8 /* _226_翻转二叉树.swift in Sources */,
 				31181F8024BCA33400BB92F6 /* _0_海盗装载问题.swift in Sources */,
 				312E520E24BA113800F153C5 /* _0_*N皇后问题02.swift in Sources */,
+				316F70C62551BAAC00E8B894 /* LC_05_验证回文串.swift in Sources */,
 				311C7FF024D1CD16003150E6 /* _16_16_部分排序.swift in Sources */,
 				191360E6254FB91500268808 /* LC_01_只出现一次的数字.swift in Sources */,
 				31D08F7C2497A80000EDD625 /* Fibonac.swift in Sources */,
@@ -570,6 +577,7 @@
 				191360ED254FF83900268808 /* LC_03_搜索二维矩阵 ||.swift in Sources */,
 				3119C09825126D09009D0C4A /* _164_最大间距.swift in Sources */,
 				3119AA3924C721790086F1DC /* _53_最大连续子序列和2.swift in Sources */,
+				316F70C82551BD9B00E8B894 /* LC_06_分割回文串.swift in Sources */,
 				31149C5624AD611B00570E8A /* _378_有序矩阵中第k个小元素todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
