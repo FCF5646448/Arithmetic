@@ -9,6 +9,21 @@
 import Foundation
 
 class Permutation {
+    
+    /*
+     回溯算法
+     result = []
+     def backtrack(路径, 选择列表):
+         if 满足结束条件:
+             result.add(路径)
+             return
+         for 选择 in 选择列表:
+             做选择
+             backtrack(路径, 选择列表)
+             撤销选择
+     
+     */
+    
     /*
      回溯法解决：
      给定一个 没有重复 数字的序列，返回其所有可能的全排列。

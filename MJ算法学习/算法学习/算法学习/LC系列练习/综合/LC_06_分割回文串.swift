@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension LC {
+class LC2 {
     /*
      给定一个字符串 s，将 s 分割成一些子串，使每个子串都是回文串。
 
@@ -30,8 +30,32 @@ extension LC {
      */
     
     // 解析方法，先使用回溯法获取全排序，然后判断是否是回文串，将是回文串的结果添加进数组
+    var result = [String]()
     func partition(_ s: String) -> [[String]] {
-
+        var arr: [Character]  = Array(s)
+        var track: [Character] = []
+        catSubStr(&arr, 0, &track)
+        print(result)
+        return []
+    }
+    
+    func catSubStr(_ arr: inout [Character], _ index: Int, _ track: inout [Character]) {
+        addNewStr(track)
+        for i in index..<arr.count {
+            //做选择
+            track.append(arr[i])
+            //回溯
+            catSubStr(&arr, i + 1, &track)
+            //撤销选择
+            track.removeLast()
+        }
+    }
+    
+    func addNewStr(_ arr: [Character]) {
+        if arr == [] {
+            return
+        }
+        result.append(String(arr))
     }
     
 }

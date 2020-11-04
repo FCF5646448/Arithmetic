@@ -15,11 +15,14 @@ class LC {
 class LCTest {
     func test() {
         
-        var arr = [0]
-        var m = 0
-        var arr2 = [1]
-        var n = 1
-        LC().merge(&arr, m, arr2, n)
+//        var arr = [0]
+//        var m = 0
+//        var arr2 = [1]
+//        var n = 1
+//        LC().merge(&arr, m, arr2, n)
+        
+        
+        LC2().partition("123")
         
     }
 }
