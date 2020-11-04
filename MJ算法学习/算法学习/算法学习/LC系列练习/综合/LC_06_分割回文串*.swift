@@ -8,7 +8,7 @@
 
 import Foundation
 
-class LC2 {
+extension LC {
     /*
      给定一个字符串 s，将 s 分割成一些子串，使每个子串都是回文串。
 
@@ -30,32 +30,49 @@ class LC2 {
      */
     
     // 解析方法，先使用回溯法获取全排序，然后判断是否是回文串，将是回文串的结果添加进数组
-    var result = [String]()
     func partition(_ s: String) -> [[String]] {
         var arr: [Character]  = Array(s)
-        var track: [Character] = []
-        catSubStr(&arr, 0, &track)
-        print(result)
-        return []
+        var result = [[String]]()
+        var track: [String] = []
+        catSubStr(&arr, 0, &track, &result)
+        return result
     }
     
-    func catSubStr(_ arr: inout [Character], _ index: Int, _ track: inout [Character]) {
-        addNewStr(track)
+    //回溯过程
+    func catSubStr(_ arr: inout [Character], _ index: Int, _ track: inout [String], _ result: inout [[String]]) {
+        if arr.count == index {
+            result.append(track)
+            return
+        }
+        
         for i in index..<arr.count {
-            //做选择
-            track.append(arr[i])
+            //剪枝
+            if !isPalindrome(arr, index, i) {
+                continue
+            }
+            //加入子串
+            track.append(String(arr[index...i]))
             //回溯
-            catSubStr(&arr, i + 1, &track)
+            catSubStr(&arr, i + 1, &track, &result)
             //撤销选择
             track.removeLast()
         }
     }
     
-    func addNewStr(_ arr: [Character]) {
-        if arr == [] {
-            return
+    //判断是否回文
+    fileprivate func isPalindrome(_ arr: [Character], _ left:Int, _ right:Int) -> Bool {
+        var l = left
+        var r = right
+        while l < r  {
+            if arr[l] == arr[r] {
+                l += 1
+                r -= 1
+            }else{
+                return false
+            }
         }
-        result.append(String(arr))
+        
+        return true
     }
     
 }

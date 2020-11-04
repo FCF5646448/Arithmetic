@@ -22,7 +22,7 @@ class LCTest {
 //        LC().merge(&arr, m, arr2, n)
         
         
-        LC2().partition("123")
+        print(LC().partition("aab"))
         
     }
 }
