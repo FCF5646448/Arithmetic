@@ -27,7 +27,40 @@ extension LC {
      来源：力扣（LeetCode）
      著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
      */
+    // 从例子中可以看出 使用过的 单词就得从 字符串中移除，字典中出现过的词可以重复出现，但是满足true的条件是字典中所有的单词必须被包含进字符串中
+    
     func wordBreak(_ s: String, _ wordDict: [String]) -> Bool {
-        for
+        
+        
+        xxxxxxxxx
+        
+        
+        if wordDict.count > 0 {
+            //
+            var subStr = s
+            var subDict = wordDict
+            if let first = wordDict.first, subStr.contains(first) {
+                subString(&subStr, first)
+                subDict.remove(at: 0)
+                return wordBreak(subStr, subDict)
+            }else{
+                return false
+            }
+        }else if s.count > 0 {
+            //字典为空，s不为空
+            return true
+        }else{
+            //
+            return true
+        }
     }
+    
+    // 移除子串
+    func subString(_ originStr: inout String, _ target: String) {
+        guard let range = originStr.range(of: target) else {
+            return
+        }
+        originStr.removeSubrange(range)
+    }
+    
 }

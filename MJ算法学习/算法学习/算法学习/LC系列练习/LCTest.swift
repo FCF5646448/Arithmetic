@@ -22,7 +22,7 @@ class LCTest {
 //        LC().merge(&arr, m, arr2, n)
         
         
-        print(LC().partition("aab"))
+        LC().wordBreak("a", [])
         
     }
 }
