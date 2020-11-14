@@ -83,7 +83,7 @@
 		31D08F822497C40000EDD625 /* _237_删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D08F812497C40000EDD625 /* _237_删除链表中的节点.swift */; };
 		31D08F842497CCD900EDD625 /* _206_反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D08F832497CCD900EDD625 /* _206_反转链表.swift */; };
 		31D08F862497D21E00EDD625 /* _141_判断环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D08F852497D21E00EDD625 /* _141_判断环形链表.swift */; };
-		31D8570125530C630054BB4E /* LC_07_单词拆分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D8570025530C630054BB4E /* LC_07_单词拆分.swift */; };
+		31D8570125530C630054BB4E /* LC_07_单词拆分(抄).swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D8570025530C630054BB4E /* LC_07_单词拆分(抄).swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -113,6 +113,7 @@
 		19375EC224FE76C900326648 /* _215_数组中第K个最大元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_215_数组中第K个最大元素.swift"; sourceTree = "<group>"; };
 		193B3BD424C574F400ED8C5F /* _121_买卖股票的最佳时机.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_121_买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
 		193B3BDE24C5A01500ED8C5F /* _122_买卖股票的最佳时机2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_122_买卖股票的最佳时机2.swift"; sourceTree = "<group>"; };
+		193C2E1F255F7BA5008336F8 /* 算法刷题方式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "算法刷题方式.md"; sourceTree = "<group>"; };
 		1942B76E255E7951006CA723 /* 回溯算法笔记.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "回溯算法笔记.md"; sourceTree = "<group>"; };
 		194C7C0224C8102500A8B5BA /* _350_两个数组的交集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_350_两个数组的交集.swift"; sourceTree = "<group>"; };
 		197F868524C9421200DC1501 /* _283_移动零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_283_移动零.swift"; sourceTree = "<group>"; };
@@ -180,7 +181,7 @@
 		31D08F812497C40000EDD625 /* _237_删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_237_删除链表中的节点.swift"; sourceTree = "<group>"; };
 		31D08F832497CCD900EDD625 /* _206_反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_206_反转链表.swift"; sourceTree = "<group>"; };
 		31D08F852497D21E00EDD625 /* _141_判断环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_141_判断环形链表.swift"; sourceTree = "<group>"; };
-		31D8570025530C630054BB4E /* LC_07_单词拆分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_07_单词拆分.swift"; sourceTree = "<group>"; };
+		31D8570025530C630054BB4E /* LC_07_单词拆分(抄).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_07_单词拆分(抄).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,7 +213,7 @@
 				192C97792551009200D91D96 /* LC_04_合并两个有序数组.swift */,
 				316F70C52551BAAC00E8B894 /* LC_05_验证回文串.swift */,
 				316F70C72551BD9B00E8B894 /* LC_06_分割回文串*.swift */,
-				31D8570025530C630054BB4E /* LC_07_单词拆分.swift */,
+				31D8570025530C630054BB4E /* LC_07_单词拆分(抄).swift */,
 			);
 			path = "综合";
 			sourceTree = "<group>";
@@ -433,6 +434,7 @@
 				31140E6B249913A600421CC8 /* 二叉树 */,
 				31A5A9E4249D095700C16F0B /* 堆 */,
 				313B0A1A24B3717D00C7AF07 /* 图 */,
+				193C2E1F255F7BA5008336F8 /* 算法刷题方式.md */,
 			);
 			path = "算法学习";
 			sourceTree = "<group>";
@@ -580,7 +582,7 @@
 				31140E6D2499166800421CC8 /* _102_二叉树的层次遍历.swift in Sources */,
 				3113BA6C24A6EE22005F8E1C /* _0108_零矩阵.swift in Sources */,
 				191360ED254FF83900268808 /* LC_03_搜索二维矩阵 ||.swift in Sources */,
-				31D8570125530C630054BB4E /* LC_07_单词拆分.swift in Sources */,
+				31D8570125530C630054BB4E /* LC_07_单词拆分(抄).swift in Sources */,
 				3119C09825126D09009D0C4A /* _164_最大间距.swift in Sources */,
 				3119AA3924C721790086F1DC /* _53_最大连续子序列和2.swift in Sources */,
 				316F70C82551BD9B00E8B894 /* LC_06_分割回文串*.swift in Sources */,

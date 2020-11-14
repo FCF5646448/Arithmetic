@@ -9,7 +9,7 @@
 import Foundation
 
 class LC {
-    
+    var res = false
 }
 
 class LCTest {
