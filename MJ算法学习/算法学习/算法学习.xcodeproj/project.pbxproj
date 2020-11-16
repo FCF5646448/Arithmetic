@@ -83,7 +83,7 @@
 		31D08F822497C40000EDD625 /* _237_删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D08F812497C40000EDD625 /* _237_删除链表中的节点.swift */; };
 		31D08F842497CCD900EDD625 /* _206_反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D08F832497CCD900EDD625 /* _206_反转链表.swift */; };
 		31D08F862497D21E00EDD625 /* _141_判断环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D08F852497D21E00EDD625 /* _141_判断环形链表.swift */; };
-		31D8570125530C630054BB4E /* LC_07_单词拆分(抄).swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D8570025530C630054BB4E /* LC_07_单词拆分(抄).swift */; };
+		31D8570125530C630054BB4E /* LC_07_单词拆分(抄)(动态规划+记忆回溯).swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D8570025530C630054BB4E /* LC_07_单词拆分(抄)(动态规划+记忆回溯).swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -181,7 +181,7 @@
 		31D08F812497C40000EDD625 /* _237_删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_237_删除链表中的节点.swift"; sourceTree = "<group>"; };
 		31D08F832497CCD900EDD625 /* _206_反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_206_反转链表.swift"; sourceTree = "<group>"; };
 		31D08F852497D21E00EDD625 /* _141_判断环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_141_判断环形链表.swift"; sourceTree = "<group>"; };
-		31D8570025530C630054BB4E /* LC_07_单词拆分(抄).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_07_单词拆分(抄).swift"; sourceTree = "<group>"; };
+		31D8570025530C630054BB4E /* LC_07_单词拆分(抄)(动态规划+记忆回溯).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_07_单词拆分(抄)(动态规划+记忆回溯).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,7 +213,7 @@
 				192C97792551009200D91D96 /* LC_04_合并两个有序数组.swift */,
 				316F70C52551BAAC00E8B894 /* LC_05_验证回文串.swift */,
 				316F70C72551BD9B00E8B894 /* LC_06_分割回文串*.swift */,
-				31D8570025530C630054BB4E /* LC_07_单词拆分(抄).swift */,
+				31D8570025530C630054BB4E /* LC_07_单词拆分(抄)(动态规划+记忆回溯).swift */,
 			);
 			path = "综合";
 			sourceTree = "<group>";
@@ -582,7 +582,7 @@
 				31140E6D2499166800421CC8 /* _102_二叉树的层次遍历.swift in Sources */,
 				3113BA6C24A6EE22005F8E1C /* _0108_零矩阵.swift in Sources */,
 				191360ED254FF83900268808 /* LC_03_搜索二维矩阵 ||.swift in Sources */,
-				31D8570125530C630054BB4E /* LC_07_单词拆分(抄).swift in Sources */,
+				31D8570125530C630054BB4E /* LC_07_单词拆分(抄)(动态规划+记忆回溯).swift in Sources */,
 				3119C09825126D09009D0C4A /* _164_最大间距.swift in Sources */,
 				3119AA3924C721790086F1DC /* _53_最大连续子序列和2.swift in Sources */,
 				316F70C82551BD9B00E8B894 /* LC_06_分割回文串*.swift in Sources */,
