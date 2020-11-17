@@ -124,8 +124,37 @@ extension LC {
         
     }
     
-    
-    
-    
+//    
+//    /*
+//     练习 方法二优化 ：DFS回溯算法 + 缓存。
+//     */
+//    func wordBreak4(_ s: String, _ wordDict: [String]) -> Bool {
+//        var cache = Array(repeating: -1, count: s.count) //存储当前下标之前的s是否能被拆分
+//        return canbreak2(s, wordDict, &cache, 0, s.count)
+//    }
+//    
+//    func canbreak2(_ s: String,_ wordDict: [String], _ arr: inout Array<Int>, _ start:Int, _ length: Int)->Bool {
+//        if start == length {
+//            return true
+//        }
+//        if arr[start] != -1 {
+//            if arr[start] == 1 {
+//                return true
+//            }else{
+//                return false
+//            }
+//        }
+//        
+//        for i in start + 1 ..< length + 1 {
+//            // 从i分割子串
+//            let preSubStr = String(s[s.index(s.startIndex, offsetBy: start) ... s.index(s.startIndex, offsetBy: i)])
+//            if wordDict.contains(preSubStr) && canbreak2(s, wordDict, &arr, i, length) {
+//                arr[start] = 1
+//                return true
+//            }
+//        }
+//        arr[start] = 0
+//        return false
+//    }
     
 }

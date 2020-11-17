@@ -24,6 +24,7 @@
 		194C7C0324C8102500A8B5BA /* _350_两个数组的交集.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194C7C0224C8102500A8B5BA /* _350_两个数组的交集.swift */; };
 		197F868624C9421200DC1501 /* _283_移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F868524C9421200DC1501 /* _283_移动零.swift */; };
 		197F868924C9738F00DC1501 /* _36_*有效的数独.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F868824C9738F00DC1501 /* _36_*有效的数独.swift */; };
+		1996BFF825636E2F0011A2D0 /* LC_08_单词拆分II (回溯+记忆 抄）.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1996BFF725636E2F0011A2D0 /* LC_08_单词拆分II (回溯+记忆 抄）.swift */; };
 		19F1317124EE95D90017ED34 /* _0_将有序数组转化为二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F1317024EE95D90017ED34 /* _0_将有序数组转化为二叉搜索树.swift */; };
 		3113BA6C24A6EE22005F8E1C /* _0108_零矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3113BA6B24A6EE22005F8E1C /* _0108_零矩阵.swift */; };
 		3113BA6E24A6F3F3005F8E1C /* _498_对角线遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3113BA6D24A6F3F3005F8E1C /* _498_对角线遍历.swift */; };
@@ -118,6 +119,7 @@
 		194C7C0224C8102500A8B5BA /* _350_两个数组的交集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_350_两个数组的交集.swift"; sourceTree = "<group>"; };
 		197F868524C9421200DC1501 /* _283_移动零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_283_移动零.swift"; sourceTree = "<group>"; };
 		197F868824C9738F00DC1501 /* _36_*有效的数独.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_36_*有效的数独.swift"; sourceTree = "<group>"; };
+		1996BFF725636E2F0011A2D0 /* LC_08_单词拆分II (回溯+记忆 抄）.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_08_单词拆分II (回溯+记忆 抄）.swift"; sourceTree = "<group>"; };
 		19F1317024EE95D90017ED34 /* _0_将有序数组转化为二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_将有序数组转化为二叉搜索树.swift"; sourceTree = "<group>"; };
 		3113BA6B24A6EE22005F8E1C /* _0108_零矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0108_零矩阵.swift"; sourceTree = "<group>"; };
 		3113BA6D24A6F3F3005F8E1C /* _498_对角线遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_498_对角线遍历.swift"; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 				316F70C52551BAAC00E8B894 /* LC_05_验证回文串.swift */,
 				316F70C72551BD9B00E8B894 /* LC_06_分割回文串*.swift */,
 				31D8570025530C630054BB4E /* LC_07_单词拆分(抄)(动态规划+记忆回溯).swift */,
+				1996BFF725636E2F0011A2D0 /* LC_08_单词拆分II (回溯+记忆 抄）.swift */,
 			);
 			path = "综合";
 			sourceTree = "<group>";
@@ -516,6 +519,7 @@
 				3136FB0D24B4CCCC00FAA2B1 /* _0_爬楼梯问题.swift in Sources */,
 				3116BACB24B1B4B200AD4FAC /* _0_二分搜索.swift in Sources */,
 				31181F7E24BCA0CC00BB92F6 /* Greedy.swift in Sources */,
+				1996BFF825636E2F0011A2D0 /* LC_08_单词拆分II (回溯+记忆 抄）.swift in Sources */,
 				3113BA6E24A6F3F3005F8E1C /* _498_对角线遍历.swift in Sources */,
 				3136FB1124B4DC0F00FAA2B1 /* _0806_汉诺塔问题.swift in Sources */,
 				3119AA3D24C72F440086F1DC /* _1143_最长公共子序列.swift in Sources */,

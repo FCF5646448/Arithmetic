@@ -22,7 +22,7 @@ class LCTest {
 //        LC().merge(&arr, m, arr2, n)
         
         
-        LC().wordBreak("a", [])
+        LC().wordBreakII2("pineapplepenapple", ["apple", "pen", "applepen", "pine", "pineapple"])
         
     }
 }
