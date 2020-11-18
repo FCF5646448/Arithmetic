@@ -101,9 +101,10 @@ extension LC {
     /*
      注意字典的设定
      优化+缓存
+     缓存某一子串对应的所有切割结果集合
      */
     func wordBreakII2(_ s: String, _ wordDict: [String]) -> [String] {
-        var allWordStr = [String:[String]]()   //表示子串所对应的所有子串切割集合
+        var allWordStr = [String:[String]]()   //表示某一子串所对应的所有子串切割集合
         
         let result = canBreak4(wordDict, &allWordStr, s)
         print(result)
@@ -118,18 +119,19 @@ extension LC {
             return [""]
         }
         var res = [String]()
-        // 反过来做
+        // 反过来做，使用字典的词，回溯拼凑字符串
         for word in wordDict {
             let len = word.count
             if word.count > s.count {
                 continue
             }
+            //找到前面字符串
             let subStr = String(s[s.index(s.startIndex, offsetBy: 0) ..< s.index(s.startIndex, offsetBy: len)])
             if subStr != word {
                 continue
             }
             
-            //剩余子串
+            //剩余子串接着查找
             let newStr = String(s[s.index(s.startIndex, offsetBy: len) ..< s.index(s.startIndex, offsetBy: s.count)])
             
             // 字符串newStr所对应的所有子串切割集合

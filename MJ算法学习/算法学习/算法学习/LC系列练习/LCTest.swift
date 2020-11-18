@@ -22,7 +22,24 @@ class LCTest {
 //        LC().merge(&arr, m, arr2, n)
         
         
-        LC().wordBreakII2("pineapplepenapple", ["apple", "pen", "applepen", "pine", "pineapple"])
+//        LC().wordBreakII2("pineapplepenapple", ["apple", "pen", "applepen", "pine", "pineapple"])
+        
+        
+        let trie = Trie()
+
+        trie.insert("apple");
+        trie.search("apple");   // 返回 true
+        trie.search("app");     // 返回 false
+        trie.startsWith("app"); // 返回 true
+        trie.insert("app");
+        trie.search("app");     // 返回 true
+        
+        
+        let map = [Int:Int]()
+        for (key,value) in map {
+            print(key)
+        }
+        
         
     }
 }
