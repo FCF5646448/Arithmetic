@@ -52,9 +52,10 @@ import Foundation
 
 
 class Trie {
+    // 从数据结构可知，每个结点是一个26位字母组成的数组。
     // 前缀树节点
     class TrieNode {
-        //存放子节点, 数组大小为R，也就是下标不能超过25
+        //存放子节点, 数组大小为26。
         var childs = [TrieNode?](repeating: nil, count: 26)
         var isEnd = false
         

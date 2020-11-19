@@ -11,6 +11,8 @@
 		191360E6254FB91500268808 /* LC_01_只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191360E5254FB91500268808 /* LC_01_只出现一次的数字.swift */; };
 		191360EB254FF12C00268808 /* LC_02_多数元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191360EA254FF12C00268808 /* LC_02_多数元素.swift */; };
 		191360ED254FF83900268808 /* LC_03_搜索二维矩阵 ||.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191360EC254FF83900268808 /* LC_03_搜索二维矩阵 ||.swift */; };
+		191B1495256623F50095EB55 /* LC_11_有效的字母异位词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191B1494256623F50095EB55 /* LC_11_有效的字母异位词.swift */; };
+		191B1497256653BF0095EB55 /* LC_10_单词搜索II  抄.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191B1496256653BF0095EB55 /* LC_10_单词搜索II  抄.swift */; };
 		1923901324C6BC40004F1ADC /* _136_只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1923901224C6BC40004F1ADC /* _136_只出现一次的数字.swift */; };
 		19279F6924EBF850007844C1 /* _0_回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19279F6824EBF850007844C1 /* _0_回文链表.swift */; };
 		192C977A2551009200D91D96 /* LC_04_合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C97792551009200D91D96 /* LC_04_合并两个有序数组.swift */; };
@@ -105,6 +107,8 @@
 		191360E5254FB91500268808 /* LC_01_只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_01_只出现一次的数字.swift"; sourceTree = "<group>"; };
 		191360EA254FF12C00268808 /* LC_02_多数元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_02_多数元素.swift"; sourceTree = "<group>"; };
 		191360EC254FF83900268808 /* LC_03_搜索二维矩阵 ||.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_03_搜索二维矩阵 ||.swift"; sourceTree = "<group>"; };
+		191B1494256623F50095EB55 /* LC_11_有效的字母异位词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_11_有效的字母异位词.swift"; sourceTree = "<group>"; };
+		191B1496256653BF0095EB55 /* LC_10_单词搜索II  抄.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_10_单词搜索II  抄.swift"; sourceTree = "<group>"; };
 		1923901224C6BC40004F1ADC /* _136_只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_136_只出现一次的数字.swift"; sourceTree = "<group>"; };
 		19279F6824EBF850007844C1 /* _0_回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_回文链表.swift"; sourceTree = "<group>"; };
 		192C97792551009200D91D96 /* LC_04_合并两个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_04_合并两个有序数组.swift"; sourceTree = "<group>"; };
@@ -220,6 +224,8 @@
 				31D8570025530C630054BB4E /* LC_07_单词拆分(抄)(动态规划+记忆回溯).swift */,
 				1996BFF725636E2F0011A2D0 /* LC_08_单词拆分II (回溯+记忆 抄）.swift */,
 				19492D482564BAD50065338C /* LC_09_实现Trie(前缀树).swift */,
+				191B1496256653BF0095EB55 /* LC_10_单词搜索II  抄.swift */,
+				191B1494256623F50095EB55 /* LC_11_有效的字母异位词.swift */,
 			);
 			path = "综合";
 			sourceTree = "<group>";
@@ -531,6 +537,8 @@
 				31181878249A724A00344678 /* _1_归并排序.swift in Sources */,
 				31D08F862497D21E00EDD625 /* _141_判断环形链表.swift in Sources */,
 				31181F8224BCA6F000BB92F6 /* _0_零钱兑换问题.swift in Sources */,
+				191B1497256653BF0095EB55 /* LC_10_单词搜索II  抄.swift in Sources */,
+				191B1495256623F50095EB55 /* LC_11_有效的字母异位词.swift in Sources */,
 				194C7C0324C8102500A8B5BA /* _350_两个数组的交集.swift in Sources */,
 				312E521024BA1A9200F153C5 /* _46_全排列.swift in Sources */,
 				19334D68249CBFE700250888 /* _25_K个一组翻转链表.swift in Sources */,
