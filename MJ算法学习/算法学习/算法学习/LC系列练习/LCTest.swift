@@ -25,21 +25,28 @@ class LCTest {
 //        LC().wordBreakII2("pineapplepenapple", ["apple", "pen", "applepen", "pine", "pineapple"])
         
         
-        let trie = Trie()
-
-        trie.insert("apple");
-        trie.search("apple");   // 返回 true
-        trie.search("app");     // 返回 false
-        trie.startsWith("app"); // 返回 true
-        trie.insert("app");
-        trie.search("app");     // 返回 true
+//        let trie = Trie()
+//
+//        trie.insert("apple");
+//        trie.search("apple");   // 返回 true
+//        trie.search("app");     // 返回 false
+//        trie.startsWith("app"); // 返回 true
+//        trie.insert("app");
+//        trie.search("app");     // 返回 true
+//
+//
+//        let map = [Int:Int]()
+//        for (key,value) in map {
+//            print(key)
+//        }
+        
+        var arr = [1,2,3]
+        let t = arr.removeLast()
+        arr.insert(t, at: 0)
         
         
-        let map = [Int:Int]()
-        for (key,value) in map {
-            print(key)
-        }
-        
+        let result = LC().maxProduct([0,2])
+        print(result)
         
     }
 }

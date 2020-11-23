@@ -26,6 +26,12 @@ extension DynamicPrograming {
      
      */
     
+    /*
+     动态规定来做：
+     字符串i的最大连续子序列和 = max(字符串i-1的最大连续子序列和 + 第i个字符的大小, 字符串i-1的最大连续子序列和 )
+     
+     
+     */
     func maxSubArray(_ nums: [Int]) -> Int {
         guard nums.count > 0 else{
             return 0
