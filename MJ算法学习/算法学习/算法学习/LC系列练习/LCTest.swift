@@ -40,13 +40,15 @@ class LCTest {
 //            print(key)
 //        }
         
-        var arr = [1,2,3]
-        let t = arr.removeLast()
-        arr.insert(t, at: 0)
+//        var arr = [1,2,3]
+//        let t = arr.removeLast()
+//        arr.insert(t, at: 0)
+//
+//
+//        let result = LC().maxProduct([0,2])
+//        print(result)
         
-        
-        let result = LC().maxProduct([0,2])
-        print(result)
+        LC().productExceptSelf([9,0,-2])
         
     }
 }

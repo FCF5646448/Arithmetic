@@ -14,6 +14,7 @@
 		191B1495256623F50095EB55 /* LC_11_有效的字母异位词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191B1494256623F50095EB55 /* LC_11_有效的字母异位词.swift */; };
 		191B1497256653BF0095EB55 /* LC_10_单词搜索II (略).swift in Sources */ = {isa = PBXBuildFile; fileRef = 191B1496256653BF0095EB55 /* LC_10_单词搜索II (略).swift */; };
 		1923901324C6BC40004F1ADC /* _136_只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1923901224C6BC40004F1ADC /* _136_只出现一次的数字.swift */; };
+		1924C631257230B300FDDCEC /* LC_17_除自身以外数组的乘积（*抄）.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1924C630257230B300FDDCEC /* LC_17_除自身以外数组的乘积（*抄）.swift */; };
 		19279F6924EBF850007844C1 /* _0_回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19279F6824EBF850007844C1 /* _0_回文链表.swift */; };
 		192C977A2551009200D91D96 /* LC_04_合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C97792551009200D91D96 /* LC_04_合并两个有序数组.swift */; };
 		192D99F324CC063600A33F48 /* _0_整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192D99F224CC063600A33F48 /* _0_整数反转.swift */; };
@@ -24,11 +25,12 @@
 		19334D6A249CCBC600250888 /* _2_快速排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19334D69249CCBC600250888 /* _2_快速排序.swift */; };
 		1936B8D524ED128B00D4A0DD /* _101_对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1936B8D424ED128B00D4A0DD /* _101_对称二叉树.swift */; };
 		19375EC324FE76C900326648 /* _215_数组中第K个最大元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19375EC224FE76C900326648 /* _215_数组中第K个最大元素.swift */; };
+		193A776C25709B7900D934B3 /* LC_16_递增的三元子序列(*抄).swift in Sources */ = {isa = PBXBuildFile; fileRef = 193A776B25709B7900D934B3 /* LC_16_递增的三元子序列(*抄).swift */; };
 		193B3BD524C574F400ED8C5F /* _121_买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193B3BD424C574F400ED8C5F /* _121_买卖股票的最佳时机.swift */; };
 		193B3BDF24C5A01500ED8C5F /* _122_买卖股票的最佳时机2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193B3BDE24C5A01500ED8C5F /* _122_买卖股票的最佳时机2.swift */; };
 		193F8827256BA604009D38C6 /* LC_13_旋转数组(*妙).swift in Sources */ = {isa = PBXBuildFile; fileRef = 193F8826256BA604009D38C6 /* LC_13_旋转数组(*妙).swift */; };
 		193F8829256BC5D7009D38C6 /* LC_14_移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193F8828256BC5D6009D38C6 /* LC_14_移动零.swift */; };
-		193F882B256BCEA3009D38C6 /* LC_15_打乱数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193F882A256BCEA3009D38C6 /* LC_15_打乱数组.swift */; };
+		193F882B256BCEA3009D38C6 /* LC_15_打乱数组(略).swift in Sources */ = {isa = PBXBuildFile; fileRef = 193F882A256BCEA3009D38C6 /* LC_15_打乱数组(略).swift */; };
 		19492D492564BAD50065338C /* LC_09_实现Trie(前缀树).swift in Sources */ = {isa = PBXBuildFile; fileRef = 19492D482564BAD50065338C /* LC_09_实现Trie(前缀树).swift */; };
 		194C7C0324C8102500A8B5BA /* _350_两个数组的交集.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194C7C0224C8102500A8B5BA /* _350_两个数组的交集.swift */; };
 		197F868624C9421200DC1501 /* _283_移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F868524C9421200DC1501 /* _283_移动零.swift */; };
@@ -116,6 +118,7 @@
 		191B1494256623F50095EB55 /* LC_11_有效的字母异位词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_11_有效的字母异位词.swift"; sourceTree = "<group>"; };
 		191B1496256653BF0095EB55 /* LC_10_单词搜索II (略).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_10_单词搜索II (略).swift"; sourceTree = "<group>"; };
 		1923901224C6BC40004F1ADC /* _136_只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_136_只出现一次的数字.swift"; sourceTree = "<group>"; };
+		1924C630257230B300FDDCEC /* LC_17_除自身以外数组的乘积（*抄）.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_17_除自身以外数组的乘积（*抄）.swift"; sourceTree = "<group>"; };
 		19279F6824EBF850007844C1 /* _0_回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_回文链表.swift"; sourceTree = "<group>"; };
 		192C97792551009200D91D96 /* LC_04_合并两个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_04_合并两个有序数组.swift"; sourceTree = "<group>"; };
 		192D99F224CC063600A33F48 /* _0_整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_整数反转.swift"; sourceTree = "<group>"; };
@@ -126,12 +129,13 @@
 		19334D69249CCBC600250888 /* _2_快速排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_2_快速排序.swift"; sourceTree = "<group>"; };
 		1936B8D424ED128B00D4A0DD /* _101_对称二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_101_对称二叉树.swift"; sourceTree = "<group>"; };
 		19375EC224FE76C900326648 /* _215_数组中第K个最大元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_215_数组中第K个最大元素.swift"; sourceTree = "<group>"; };
+		193A776B25709B7900D934B3 /* LC_16_递增的三元子序列(*抄).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_16_递增的三元子序列(*抄).swift"; sourceTree = "<group>"; };
 		193B3BD424C574F400ED8C5F /* _121_买卖股票的最佳时机.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_121_买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
 		193B3BDE24C5A01500ED8C5F /* _122_买卖股票的最佳时机2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_122_买卖股票的最佳时机2.swift"; sourceTree = "<group>"; };
 		193C2E1F255F7BA5008336F8 /* 算法刷题方式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "算法刷题方式.md"; sourceTree = "<group>"; };
 		193F8826256BA604009D38C6 /* LC_13_旋转数组(*妙).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_13_旋转数组(*妙).swift"; sourceTree = "<group>"; };
 		193F8828256BC5D6009D38C6 /* LC_14_移动零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_14_移动零.swift"; sourceTree = "<group>"; };
-		193F882A256BCEA3009D38C6 /* LC_15_打乱数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_15_打乱数组.swift"; sourceTree = "<group>"; };
+		193F882A256BCEA3009D38C6 /* LC_15_打乱数组(略).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_15_打乱数组(略).swift"; sourceTree = "<group>"; };
 		1942B76E255E7951006CA723 /* 回溯算法笔记.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "回溯算法笔记.md"; sourceTree = "<group>"; };
 		19492D482564BAD50065338C /* LC_09_实现Trie(前缀树).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_09_实现Trie(前缀树).swift"; sourceTree = "<group>"; };
 		194C7C0224C8102500A8B5BA /* _350_两个数组的交集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_350_两个数组的交集.swift"; sourceTree = "<group>"; };
@@ -219,14 +223,14 @@
 			isa = PBXGroup;
 			children = (
 				1932DC9C2567CAA200E88321 /* JZTest.swift */,
-				1932DC992567CA4D00E88321 /* 剑指Offer系列 */,
 				191360E2254FB8BD00268808 /* LCTest.swift */,
-				191360E4254FB8FA00268808 /* 综合 */,
+				1932DC992567CA4D00E88321 /* 剑指Offer系列 */,
+				191360E4254FB8FA00268808 /* 综合汇总 */,
 			);
 			path = "LC系列练习";
 			sourceTree = "<group>";
 		};
-		191360E4254FB8FA00268808 /* 综合 */ = {
+		191360E4254FB8FA00268808 /* 综合汇总 */ = {
 			isa = PBXGroup;
 			children = (
 				191360E5254FB91500268808 /* LC_01_只出现一次的数字.swift */,
@@ -243,9 +247,11 @@
 				1932DC972567A60E00E88321 /* LC_12_乘积最大子数组(*妙).swift */,
 				193F8826256BA604009D38C6 /* LC_13_旋转数组(*妙).swift */,
 				193F8828256BC5D6009D38C6 /* LC_14_移动零.swift */,
-				193F882A256BCEA3009D38C6 /* LC_15_打乱数组.swift */,
+				193F882A256BCEA3009D38C6 /* LC_15_打乱数组(略).swift */,
+				193A776B25709B7900D934B3 /* LC_16_递增的三元子序列(*抄).swift */,
+				1924C630257230B300FDDCEC /* LC_17_除自身以外数组的乘积（*抄）.swift */,
 			);
-			path = "综合";
+			path = "综合汇总";
 			sourceTree = "<group>";
 		};
 		1923901124C6BC1C004F1ADC /* 位运算 */ = {
@@ -549,6 +555,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31CAF3CB24ACCBD900EA0906 /* _145_二叉树的后序遍历.swift in Sources */,
+				1924C631257230B300FDDCEC /* LC_17_除自身以外数组的乘积（*抄）.swift in Sources */,
 				197F868624C9421200DC1501 /* _283_移动零.swift in Sources */,
 				19334D6A249CCBC600250888 /* _2_快速排序.swift in Sources */,
 				3136FB0D24B4CCCC00FAA2B1 /* _0_爬楼梯问题.swift in Sources */,
@@ -557,6 +564,7 @@
 				1996BFF825636E2F0011A2D0 /* LC_08_单词拆分II (** 回溯+记忆 抄）.swift in Sources */,
 				3113BA6E24A6F3F3005F8E1C /* _498_对角线遍历.swift in Sources */,
 				3136FB1124B4DC0F00FAA2B1 /* _0806_汉诺塔问题.swift in Sources */,
+				193A776C25709B7900D934B3 /* LC_16_递增的三元子序列(*抄).swift in Sources */,
 				3119AA3D24C72F440086F1DC /* _1143_最长公共子序列.swift in Sources */,
 				311612AB249E577A007AB6EB /* _88_合并两个有序数组.swift in Sources */,
 				191360E3254FB8BD00268808 /* LCTest.swift in Sources */,
@@ -585,7 +593,7 @@
 				312E520E24BA113800F153C5 /* _0_*N皇后问题02.swift in Sources */,
 				316F70C62551BAAC00E8B894 /* LC_05_验证回文串.swift in Sources */,
 				311C7FF024D1CD16003150E6 /* _16_16_部分排序.swift in Sources */,
-				193F882B256BCEA3009D38C6 /* LC_15_打乱数组.swift in Sources */,
+				193F882B256BCEA3009D38C6 /* LC_15_打乱数组(略).swift in Sources */,
 				191360E6254FB91500268808 /* LC_01_只出现一次的数字.swift in Sources */,
 				31D08F7C2497A80000EDD625 /* Fibonac.swift in Sources */,
 				31D08F802497BAEF00EDD625 /* LinkList.swift in Sources */,

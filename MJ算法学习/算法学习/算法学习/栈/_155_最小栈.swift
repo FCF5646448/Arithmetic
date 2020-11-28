@@ -7,3 +7,38 @@
 //
 
 import Foundation
+
+class MinStack {
+    var list = [Int]()
+    
+    init() {
+        
+    }
+    
+    func push(_ x: Int) {
+        list.append(x)
+    }
+    
+    func pop() {
+        list.removeLast()
+    }
+    
+    func top() -> Int {
+        guard list.count > 0 else {
+            return 0
+        }
+        return list[list.count - 1]
+    }
+    
+    func getMin() -> Int {
+        guard list.count > 0 else {
+            return 0
+        }
+        var min:Int = list.first!
+        for i in 1..<list.count {
+            min = min > list[i] ?list[i] : min
+        }
+        return min
+    }
+    
+}
