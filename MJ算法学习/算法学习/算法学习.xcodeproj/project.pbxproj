@@ -17,6 +17,7 @@
 		1924C631257230B300FDDCEC /* LC_17_除自身以外数组的乘积（*抄）.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1924C630257230B300FDDCEC /* LC_17_除自身以外数组的乘积（*抄）.swift */; };
 		19279F6924EBF850007844C1 /* _0_回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19279F6824EBF850007844C1 /* _0_回文链表.swift */; };
 		192C977A2551009200D91D96 /* LC_04_合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C97792551009200D91D96 /* LC_04_合并两个有序数组.swift */; };
+		192D50C0257A4342009BBA52 /* LC_18_数组中的第K个最大元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192D50BF257A4342009BBA52 /* LC_18_数组中的第K个最大元素.swift */; };
 		192D99F324CC063600A33F48 /* _0_整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192D99F224CC063600A33F48 /* _0_整数反转.swift */; };
 		1932DC982567A60E00E88321 /* LC_12_乘积最大子数组(*妙).swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932DC972567A60E00E88321 /* LC_12_乘积最大子数组(*妙).swift */; };
 		1932DC9B2567CA8400E88321 /* JZ_48_最长不含重复字符的子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932DC9A2567CA8400E88321 /* JZ_48_最长不含重复字符的子串.swift */; };
@@ -121,6 +122,7 @@
 		1924C630257230B300FDDCEC /* LC_17_除自身以外数组的乘积（*抄）.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_17_除自身以外数组的乘积（*抄）.swift"; sourceTree = "<group>"; };
 		19279F6824EBF850007844C1 /* _0_回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_回文链表.swift"; sourceTree = "<group>"; };
 		192C97792551009200D91D96 /* LC_04_合并两个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_04_合并两个有序数组.swift"; sourceTree = "<group>"; };
+		192D50BF257A4342009BBA52 /* LC_18_数组中的第K个最大元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_18_数组中的第K个最大元素.swift"; sourceTree = "<group>"; };
 		192D99F224CC063600A33F48 /* _0_整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_整数反转.swift"; sourceTree = "<group>"; };
 		1932DC972567A60E00E88321 /* LC_12_乘积最大子数组(*妙).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_12_乘积最大子数组(*妙).swift"; sourceTree = "<group>"; };
 		1932DC9A2567CA8400E88321 /* JZ_48_最长不含重复字符的子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JZ_48_最长不含重复字符的子串.swift"; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 				193F882A256BCEA3009D38C6 /* LC_15_打乱数组(略).swift */,
 				193A776B25709B7900D934B3 /* LC_16_递增的三元子序列(*抄).swift */,
 				1924C630257230B300FDDCEC /* LC_17_除自身以外数组的乘积（*抄）.swift */,
+				192D50BF257A4342009BBA52 /* LC_18_数组中的第K个最大元素.swift */,
 			);
 			path = "综合汇总";
 			sourceTree = "<group>";
@@ -578,6 +581,7 @@
 				19334D68249CBFE700250888 /* _25_K个一组翻转链表.swift in Sources */,
 				31164A5824A7504800A95202 /* _20_有效的括号.swift in Sources */,
 				19F1317124EE95D90017ED34 /* _0_将有序数组转化为二叉搜索树.swift in Sources */,
+				192D50C0257A4342009BBA52 /* LC_18_数组中的第K个最大元素.swift in Sources */,
 				3119318224983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift in Sources */,
 				19492D492564BAD50065338C /* LC_09_实现Trie(前缀树).swift in Sources */,
 				3115284724BF5CDD000066E8 /* _322_零钱兑换.swift in Sources */,

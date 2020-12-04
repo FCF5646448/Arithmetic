@@ -16,7 +16,7 @@ class Heap {
     //批量建堆
     
     /*
-     从第一个非叶子节点开始下r虑
+     从第一个非叶子节点开始下虑
      */
     func siftDown(_ arr: inout [Int], _ index:Int, _ size:Int) {
         

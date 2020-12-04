@@ -60,6 +60,4 @@ extension Heap {
         }
         nums[i] = element
     }
-
-
 }

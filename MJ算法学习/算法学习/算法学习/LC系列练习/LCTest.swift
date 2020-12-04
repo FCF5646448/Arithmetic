@@ -48,7 +48,7 @@ class LCTest {
 //        let result = LC().maxProduct([0,2])
 //        print(result)
         
-        LC().productExceptSelf([9,0,-2])
+        LC().findKthLargest([3,2,1,5,6,4], 2)
         
     }
 }
