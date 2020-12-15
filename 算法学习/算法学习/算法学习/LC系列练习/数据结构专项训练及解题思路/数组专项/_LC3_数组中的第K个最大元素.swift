@@ -94,4 +94,51 @@ extension LC3 {
         }
         nums[i] = element
     }
+    
+    /*
+     方法2：快速排序 略
+     因为
+     */
+//    func findKthLargestII(_ nums: [Int], _ k: Int) -> Int {
+//
+//        var n = nums
+//        quickSort(&n, 0, n.count - 1)
+//
+//        return 0
+//    }
+//
+//    private func quickSort(_ nums: inout [Int], _ left: Int, _ right: Int) {
+//        //
+//        if left > right {
+//            return
+//        }
+//
+//
+//        var l = left
+//        var r = right
+//        let temp = nums[l]
+//
+//        while l < r {
+//            // 右侧找出小于等于标志位的数值
+//            while l < r && nums[r] >= temp {
+//                r -= 1
+//            }
+//
+//            while l < r && nums[l] <= temp {
+//                l += 1
+//            }
+//
+//            if l < r {
+//                (nums[l], nums[r]) = (nums[r], nums[l])
+//            }
+//        }
+//
+//         nums[left] = nums[l]
+//        nums[l] = temp
+//
+//        quickSort(&nums, left, l-1)
+//        quickSort(&nums, l + 1, right)
+//
+//    }
+    
 }

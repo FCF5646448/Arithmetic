@@ -22,7 +22,7 @@ extension Sort {
     
     //这里的end是开区间。
     fileprivate func sort(_ arr:inout [Int], _ begin:Int, _ end:Int) {
-        if end - begin > 2 {return}
+        guard end - begin > 1 else{ return }
         
         //先切割
         let mid = (begin + end) >> 1
