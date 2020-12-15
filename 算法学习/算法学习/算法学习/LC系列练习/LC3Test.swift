@@ -20,7 +20,9 @@ class LC3 {
 //        var num = [3,2,4,1,5,7,6,9,8,0]
 //        mergeSort(&num, 0, num.count)
 //        print(num)
-        mergetest() 
+//        mergetest()
+        
+        twoSum([2,7,11,15], 9)
     }
     
 }
