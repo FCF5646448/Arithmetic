@@ -85,6 +85,8 @@
 		313B0A1C24B371B800C7AF07 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313B0A1B24B371B800C7AF07 /* Graph.swift */; };
 		31622D282588FB12002C0447 /* _LC3*_两数之和II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31622D272588FB12002C0447 /* _LC3*_两数之和II.swift */; };
 		31622D2A25890FDE002C0447 /* _LC3*_盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31622D2925890FDE002C0447 /* _LC3*_盛最多水的容器.swift */; };
+		316B82E7258BAF0C00584C13 /* _LC3*_长度最小的子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316B82E6258BAF0C00584C13 /* _LC3*_长度最小的子数组.swift */; };
+		316B82EA258BCC5E00584C13 /* _LC3_设计循环队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316B82E9258BCC5E00584C13 /* _LC3_设计循环队列.swift */; };
 		316F70C62551BAAC00E8B894 /* LC_05_验证回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F70C52551BAAC00E8B894 /* LC_05_验证回文串.swift */; };
 		316F70C82551BD9B00E8B894 /* LC_06_分割回文串*.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F70C72551BD9B00E8B894 /* LC_06_分割回文串*.swift */; };
 		317AC72D24A8E6F800EAE112 /* _150_逆波兰表达式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317AC72C24A8E6F800EAE112 /* _150_逆波兰表达式.swift */; };
@@ -203,6 +205,8 @@
 		313B0A1B24B371B800C7AF07 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		31622D272588FB12002C0447 /* _LC3*_两数之和II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_LC3*_两数之和II.swift"; sourceTree = "<group>"; };
 		31622D2925890FDE002C0447 /* _LC3*_盛最多水的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_LC3*_盛最多水的容器.swift"; sourceTree = "<group>"; };
+		316B82E6258BAF0C00584C13 /* _LC3*_长度最小的子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_LC3*_长度最小的子数组.swift"; sourceTree = "<group>"; };
+		316B82E9258BCC5E00584C13 /* _LC3_设计循环队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_LC3_设计循环队列.swift"; sourceTree = "<group>"; };
 		316F70C52551BAAC00E8B894 /* LC_05_验证回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_05_验证回文串.swift"; sourceTree = "<group>"; };
 		316F70C72551BD9B00E8B894 /* LC_06_分割回文串*.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_06_分割回文串*.swift"; sourceTree = "<group>"; };
 		317AC72C24A8E6F800EAE112 /* _150_逆波兰表达式.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_150_逆波兰表达式.swift"; sourceTree = "<group>"; };
@@ -459,6 +463,14 @@
 			path = "图";
 			sourceTree = "<group>";
 		};
+		316B82E8258BBF0600584C13 /* 队列&栈专项 */ = {
+			isa = PBXGroup;
+			children = (
+				316B82E9258BCC5E00584C13 /* _LC3_设计循环队列.swift */,
+			);
+			path = "队列&栈专项";
+			sourceTree = "<group>";
+		};
 		318929EE2585B1AB002EE334 /* 数组专项 */ = {
 			isa = PBXGroup;
 			children = (
@@ -471,6 +483,7 @@
 				312416E22587B752007A8C7A /* _LC3_合并两个有序数组.swift */,
 				31622D272588FB12002C0447 /* _LC3*_两数之和II.swift */,
 				31622D2925890FDE002C0447 /* _LC3*_盛最多水的容器.swift */,
+				316B82E6258BAF0C00584C13 /* _LC3*_长度最小的子数组.swift */,
 			);
 			path = "数组专项";
 			sourceTree = "<group>";
@@ -479,6 +492,7 @@
 			isa = PBXGroup;
 			children = (
 				318929EE2585B1AB002EE334 /* 数组专项 */,
+				316B82E8258BBF0600584C13 /* 队列&栈专项 */,
 			);
 			path = "数据结构专项训练及解题思路";
 			sourceTree = "<group>";
@@ -646,6 +660,7 @@
 				31181F8024BCA33400BB92F6 /* _0_海盗装载问题.swift in Sources */,
 				312E520E24BA113800F153C5 /* _0_*N皇后问题02.swift in Sources */,
 				316F70C62551BAAC00E8B894 /* LC_05_验证回文串.swift in Sources */,
+				316B82E7258BAF0C00584C13 /* _LC3*_长度最小的子数组.swift in Sources */,
 				311C7FF024D1CD16003150E6 /* _16_16_部分排序.swift in Sources */,
 				193F882B256BCEA3009D38C6 /* LC_15_打乱数组(略).swift in Sources */,
 				191360E6254FB91500268808 /* LC_01_只出现一次的数字.swift in Sources */,
@@ -702,6 +717,7 @@
 				312416E32587B752007A8C7A /* _LC3_合并两个有序数组.swift in Sources */,
 				3119AA3924C721790086F1DC /* _53_最大连续子序列和2.swift in Sources */,
 				316F70C82551BD9B00E8B894 /* LC_06_分割回文串*.swift in Sources */,
+				316B82EA258BCC5E00584C13 /* _LC3_设计循环队列.swift in Sources */,
 				31149C5624AD611B00570E8A /* _378_有序矩阵中第k个小元素todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
