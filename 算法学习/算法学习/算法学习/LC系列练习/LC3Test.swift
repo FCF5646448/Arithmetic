@@ -25,16 +25,19 @@ class LC3 {
 //        twoSum([2,7,11,15], 9)
 //        minSubArrayLen(11,[1,2,3,4,5])
         
-        let circularQueue = MyCircularQueue(3); // 设置长度为 3
-        let r = circularQueue.enQueue(1)    // 返回 true
-        let r1 = circularQueue.enQueue(2)    // 返回 true
-        let r2 = circularQueue.enQueue(3)    // 返回 true
-        let r3 = circularQueue.enQueue(4)    // 返回 false，队列已满
-        let r4 = circularQueue.Rear()    // 返回 3
-        let r5 = circularQueue.isFull()  // 返回 true
-        let r6 = circularQueue.deQueue() // 返回 true
-        let r7 = circularQueue.enQueue(4)    // 返回 true
-        let r8 = circularQueue.Rear()    // 返回 4
+//        let circularQueue = MyCircularQueue(3); // 设置长度为 3
+//        let r = circularQueue.enQueue(1)    // 返回 true
+//        let r1 = circularQueue.enQueue(2)    // 返回 true
+//        let r2 = circularQueue.enQueue(3)    // 返回 true
+//        let r3 = circularQueue.enQueue(4)    // 返回 false，队列已满
+//        let r4 = circularQueue.Rear()    // 返回 3
+//        let r5 = circularQueue.isFull()  // 返回 true
+//        let r6 = circularQueue.deQueue() // 返回 true
+//        let r7 = circularQueue.enQueue(4)    // 返回 true
+//        let r8 = circularQueue.Rear()    // 返回 4
+        
+        
+        let n = numIslands([["1","1","1","1","0"],["1","1","0","1","0"],["1","1","0","0","0"],["0","0","0","0","0"]])
     }
     
 }

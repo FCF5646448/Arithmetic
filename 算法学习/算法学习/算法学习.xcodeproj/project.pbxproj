@@ -85,8 +85,11 @@
 		313B0A1C24B371B800C7AF07 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313B0A1B24B371B800C7AF07 /* Graph.swift */; };
 		31622D282588FB12002C0447 /* _LC3*_两数之和II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31622D272588FB12002C0447 /* _LC3*_两数之和II.swift */; };
 		31622D2A25890FDE002C0447 /* _LC3*_盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31622D2925890FDE002C0447 /* _LC3*_盛最多水的容器.swift */; };
+		3163A8CE258F9C5800F96BFF /* _236_二叉树的最近公共祖先.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3163A8CD258F9C5800F96BFF /* _236_二叉树的最近公共祖先.swift */; };
+		3163A8D0258FA1E200F96BFF /* _99_恢复二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3163A8CF258FA1E200F96BFF /* _99_恢复二叉搜索树.swift */; };
 		316B82E7258BAF0C00584C13 /* _LC3*_长度最小的子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316B82E6258BAF0C00584C13 /* _LC3*_长度最小的子数组.swift */; };
 		316B82EA258BCC5E00584C13 /* _LC3_设计循环队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316B82E9258BCC5E00584C13 /* _LC3_设计循环队列.swift */; };
+		316D6AE4258D00E0001D2E38 /* _LC3*_岛屿数量.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316D6AE3258D00E0001D2E38 /* _LC3*_岛屿数量.swift */; };
 		316F70C62551BAAC00E8B894 /* LC_05_验证回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F70C52551BAAC00E8B894 /* LC_05_验证回文串.swift */; };
 		316F70C82551BD9B00E8B894 /* LC_06_分割回文串*.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F70C72551BD9B00E8B894 /* LC_06_分割回文串*.swift */; };
 		317AC72D24A8E6F800EAE112 /* _150_逆波兰表达式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317AC72C24A8E6F800EAE112 /* _150_逆波兰表达式.swift */; };
@@ -205,8 +208,13 @@
 		313B0A1B24B371B800C7AF07 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		31622D272588FB12002C0447 /* _LC3*_两数之和II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_LC3*_两数之和II.swift"; sourceTree = "<group>"; };
 		31622D2925890FDE002C0447 /* _LC3*_盛最多水的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_LC3*_盛最多水的容器.swift"; sourceTree = "<group>"; };
+		3163A8CD258F9C5800F96BFF /* _236_二叉树的最近公共祖先.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_236_二叉树的最近公共祖先.swift"; sourceTree = "<group>"; };
+		3163A8CF258FA1E200F96BFF /* _99_恢复二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_99_恢复二叉搜索树.swift"; sourceTree = "<group>"; };
 		316B82E6258BAF0C00584C13 /* _LC3*_长度最小的子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_LC3*_长度最小的子数组.swift"; sourceTree = "<group>"; };
 		316B82E9258BCC5E00584C13 /* _LC3_设计循环队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_LC3_设计循环队列.swift"; sourceTree = "<group>"; };
+		316D6AE1258CF820001D2E38 /* 数组算法总结.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "数组算法总结.md"; sourceTree = "<group>"; };
+		316D6AE2258CF83B001D2E38 /* 队列&栈算法总结.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "队列&栈算法总结.md"; sourceTree = "<group>"; };
+		316D6AE3258D00E0001D2E38 /* _LC3*_岛屿数量.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_LC3*_岛屿数量.swift"; sourceTree = "<group>"; };
 		316F70C52551BAAC00E8B894 /* LC_05_验证回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_05_验证回文串.swift"; sourceTree = "<group>"; };
 		316F70C72551BD9B00E8B894 /* LC_06_分割回文串*.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_06_分割回文串*.swift"; sourceTree = "<group>"; };
 		317AC72C24A8E6F800EAE112 /* _150_逆波兰表达式.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_150_逆波兰表达式.swift"; sourceTree = "<group>"; };
@@ -344,6 +352,8 @@
 				31CAF3CA24ACCBD900EA0906 /* _145_二叉树的后序遍历.swift */,
 				1936B8D424ED128B00D4A0DD /* _101_对称二叉树.swift */,
 				19F1317024EE95D90017ED34 /* _0_将有序数组转化为二叉搜索树.swift */,
+				3163A8CD258F9C5800F96BFF /* _236_二叉树的最近公共祖先.swift */,
+				3163A8CF258FA1E200F96BFF /* _99_恢复二叉搜索树.swift */,
 			);
 			path = "二叉树";
 			sourceTree = "<group>";
@@ -466,7 +476,9 @@
 		316B82E8258BBF0600584C13 /* 队列&栈专项 */ = {
 			isa = PBXGroup;
 			children = (
+				316D6AE2258CF83B001D2E38 /* 队列&栈算法总结.md */,
 				316B82E9258BCC5E00584C13 /* _LC3_设计循环队列.swift */,
+				316D6AE3258D00E0001D2E38 /* _LC3*_岛屿数量.swift */,
 			);
 			path = "队列&栈专项";
 			sourceTree = "<group>";
@@ -474,6 +486,7 @@
 		318929EE2585B1AB002EE334 /* 数组专项 */ = {
 			isa = PBXGroup;
 			children = (
+				316D6AE1258CF820001D2E38 /* 数组算法总结.md */,
 				318929EF2585B1E1002EE334 /* _LC3_移动零.swift */,
 				318929F42585B8AD002EE334 /* _LC3_移除元素.swift */,
 				318929F62585BB6F002EE334 /* _LC3_删除排序数组中的重复项.swift */,
@@ -644,6 +657,7 @@
 				19F1317124EE95D90017ED34 /* _0_将有序数组转化为二叉搜索树.swift in Sources */,
 				311253E025867B220012308F /* _LC3_数组中的第K个最大元素.swift in Sources */,
 				192D50C0257A4342009BBA52 /* LC_18_数组中的第K个最大元素.swift in Sources */,
+				316D6AE4258D00E0001D2E38 /* _LC3*_岛屿数量.swift in Sources */,
 				3119318224983C5C00BF558D /* _62_约瑟夫环_圆圈中最后剩下数字.swift in Sources */,
 				19492D492564BAD50065338C /* LC_09_实现Trie(前缀树).swift in Sources */,
 				3115284724BF5CDD000066E8 /* _322_零钱兑换.swift in Sources */,
@@ -673,6 +687,7 @@
 				317AC72F24A8EE5B00EAE112 /* _224_基本计算器todo.swift in Sources */,
 				19375EC324FE76C900326648 /* _215_数组中第K个最大元素.swift in Sources */,
 				31149C5824AD65C100570E8A /* _0_TopK找出数组中前k个最小数.swift in Sources */,
+				3163A8D0258FA1E200F96BFF /* _99_恢复二叉搜索树.swift in Sources */,
 				311AAA002512DDD50051E9C4 /* _977_有序数组的平方.swift in Sources */,
 				1923901324C6BC40004F1ADC /* _136_只出现一次的数字.swift in Sources */,
 				31D08F842497CCD900EDD625 /* _206_反转链表.swift in Sources */,
@@ -695,6 +710,7 @@
 				31CAF3C924ACCBAA00EA0906 /* _94_二叉树的中序遍历.swift in Sources */,
 				31A5A9E1249CF22500C16F0B /* _3_选择排序.swift in Sources */,
 				312E521224BA23A600F153C5 /* _30_组合总和.swift in Sources */,
+				3163A8CE258F9C5800F96BFF /* _236_二叉树的最近公共祖先.swift in Sources */,
 				31175DAF24BE041900FC466F /* _53_最大子序和.swift in Sources */,
 				197F868924C9738F00DC1501 /* _36_*有效的数独.swift in Sources */,
 				192D99F324CC063600A33F48 /* _0_整数反转.swift in Sources */,

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class TreeNode {
+class TreeNode: Equatable {
     var val: Int
     var left: TreeNode?
     var right: TreeNode?
@@ -16,6 +16,10 @@ class TreeNode {
         self.val = val
         self.left = nil
         self.right = nil
+    }
+    
+    static func == (lhs: TreeNode, rhs: TreeNode) -> Bool {
+        return lhs.left == rhs.left && lhs.right == rhs.right && lhs.val == rhs.val
     }
 }
 
