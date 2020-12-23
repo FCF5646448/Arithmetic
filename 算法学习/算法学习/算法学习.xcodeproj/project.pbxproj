@@ -101,6 +101,9 @@
 		318929F52585B8AD002EE334 /* _LC3_移除元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318929F42585B8AD002EE334 /* _LC3_移除元素.swift */; };
 		318929F72585BB6F002EE334 /* _LC3_删除排序数组中的重复项.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318929F62585BB6F002EE334 /* _LC3_删除排序数组中的重复项.swift */; };
 		318929F92585C3F6002EE334 /* _LC3*_删除排序数组中的重复项II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318929F82585C3F6002EE334 /* _LC3*_删除排序数组中的重复项II.swift */; };
+		319ABFC7259393DD007F3C31 /* _17_电话号码的字母组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319ABFC6259393DD007F3C31 /* _17_电话号码的字母组合.swift */; };
+		319ABFC925939417007F3C31 /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319ABFC825939417007F3C31 /* DFS.swift */; };
+		319ABFCB2593A7BB007F3C31 /* _DFS_46_全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319ABFCA2593A7BB007F3C31 /* _DFS_46_全排列.swift */; };
 		31A5A9E1249CF22500C16F0B /* _3_选择排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A5A9E0249CF22500C16F0B /* _3_选择排序.swift */; };
 		31A5A9E3249D029000C16F0B /* _4_堆排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A5A9E2249D029000C16F0B /* _4_堆排序.swift */; };
 		31A5A9E7249D0AC500C16F0B /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A5A9E6249D0AC500C16F0B /* Heap.swift */; };
@@ -228,6 +231,9 @@
 		318929F42585B8AD002EE334 /* _LC3_移除元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_LC3_移除元素.swift"; sourceTree = "<group>"; };
 		318929F62585BB6F002EE334 /* _LC3_删除排序数组中的重复项.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_LC3_删除排序数组中的重复项.swift"; sourceTree = "<group>"; };
 		318929F82585C3F6002EE334 /* _LC3*_删除排序数组中的重复项II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_LC3*_删除排序数组中的重复项II.swift"; sourceTree = "<group>"; };
+		319ABFC6259393DD007F3C31 /* _17_电话号码的字母组合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_17_电话号码的字母组合.swift"; sourceTree = "<group>"; };
+		319ABFC825939417007F3C31 /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
+		319ABFCA2593A7BB007F3C31 /* _DFS_46_全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_DFS_46_全排列.swift"; sourceTree = "<group>"; };
 		31A5A9E0249CF22500C16F0B /* _3_选择排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_3_选择排序.swift"; sourceTree = "<group>"; };
 		31A5A9E2249D029000C16F0B /* _4_堆排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_4_堆排序.swift"; sourceTree = "<group>"; };
 		31A5A9E5249D097D00C16F0B /* 堆.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "堆.md"; sourceTree = "<group>"; };
@@ -516,6 +522,16 @@
 			path = "数据结构专项训练及解题思路";
 			sourceTree = "<group>";
 		};
+		319ABFC525939387007F3C31 /* DFS */ = {
+			isa = PBXGroup;
+			children = (
+				319ABFC825939417007F3C31 /* DFS.swift */,
+				319ABFC6259393DD007F3C31 /* _17_电话号码的字母组合.swift */,
+				319ABFCA2593A7BB007F3C31 /* _DFS_46_全排列.swift */,
+			);
+			path = DFS;
+			sourceTree = "<group>";
+		};
 		31A5A9E4249D095700C16F0B /* 堆 */ = {
 			isa = PBXGroup;
 			children = (
@@ -560,6 +576,7 @@
 				31140E6B249913A600421CC8 /* 二叉树 */,
 				31A5A9E4249D095700C16F0B /* 堆 */,
 				313B0A1A24B3717D00C7AF07 /* 图 */,
+				319ABFC525939387007F3C31 /* DFS */,
 				193C2E1F255F7BA5008336F8 /* 算法刷题方式.md */,
 			);
 			path = "算法学习";
@@ -685,7 +702,10 @@
 				311C7FF024D1CD16003150E6 /* _16_16_部分排序.swift in Sources */,
 				193F882B256BCEA3009D38C6 /* LC_15_打乱数组(略).swift in Sources */,
 				191360E6254FB91500268808 /* LC_01_只出现一次的数字.swift in Sources */,
+				319ABFC925939417007F3C31 /* DFS.swift in Sources */,
 				31D08F7C2497A80000EDD625 /* Fibonac.swift in Sources */,
+				319ABFCB2593A7BB007F3C31 /* _DFS_46_全排列.swift in Sources */,
+				319ABFC7259393DD007F3C31 /* _17_电话号码的字母组合.swift in Sources */,
 				31D08F802497BAEF00EDD625 /* LinkList.swift in Sources */,
 				311886BD2513B65B00519933 /* _203_移除链表元素.swift in Sources */,
 				193B3BD524C574F400ED8C5F /* _121_买卖股票的最佳时机.swift in Sources */,

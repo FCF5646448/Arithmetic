@@ -59,6 +59,8 @@ import Foundation
 
 
 // LC 系统测试
-LCTest().test()
-LC3().test()
+//LCTest().test()
+//LC3().test()
+
+DFS().test()
 
