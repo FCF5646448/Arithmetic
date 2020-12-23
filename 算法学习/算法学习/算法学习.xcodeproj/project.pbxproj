@@ -71,6 +71,8 @@
 		3119C09825126D09009D0C4A /* _164_最大间距.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3119C09725126D09009D0C4A /* _164_最大间距.swift */; };
 		311AAA002512DDD50051E9C4 /* _977_有序数组的平方.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AA9FF2512DDD50051E9C4 /* _977_有序数组的平方.swift */; };
 		311C7FF024D1CD16003150E6 /* _16_16_部分排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311C7FEF24D1CD16003150E6 /* _16_16_部分排序.swift */; };
+		311E612F2592413A00219542 /* _0_marrors遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311E612E2592413A00219542 /* _0_marrors遍历.swift */; };
+		311E61332592538500219542 /* _333_最大BST子树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311E61322592538500219542 /* _333_最大BST子树.swift */; };
 		3121611A24B8C9C90003B0BB /* _0_N皇后问题01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3121611924B8C9C90003B0BB /* _0_N皇后问题01.swift */; };
 		3122273624A5D58E008D8989 /* _56_合并区间.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3122273524A5D58E008D8989 /* _56_合并区间.swift */; };
 		3122273824A5EE18008D8989 /* _0107_旋转矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3122273724A5EE18008D8989 /* _0107_旋转矩阵.swift */; };
@@ -194,6 +196,8 @@
 		3119C09725126D09009D0C4A /* _164_最大间距.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_164_最大间距.swift"; sourceTree = "<group>"; };
 		311AA9FF2512DDD50051E9C4 /* _977_有序数组的平方.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_977_有序数组的平方.swift"; sourceTree = "<group>"; };
 		311C7FEF24D1CD16003150E6 /* _16_16_部分排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_16_16_部分排序.swift"; sourceTree = "<group>"; };
+		311E612E2592413A00219542 /* _0_marrors遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_marrors遍历.swift"; sourceTree = "<group>"; };
+		311E61322592538500219542 /* _333_最大BST子树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_333_最大BST子树.swift"; sourceTree = "<group>"; };
 		3121611924B8C9C90003B0BB /* _0_N皇后问题01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_N皇后问题01.swift"; sourceTree = "<group>"; };
 		3122273524A5D58E008D8989 /* _56_合并区间.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_56_合并区间.swift"; sourceTree = "<group>"; };
 		3122273724A5EE18008D8989 /* _0107_旋转矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0107_旋转矩阵.swift"; sourceTree = "<group>"; };
@@ -354,6 +358,8 @@
 				19F1317024EE95D90017ED34 /* _0_将有序数组转化为二叉搜索树.swift */,
 				3163A8CD258F9C5800F96BFF /* _236_二叉树的最近公共祖先.swift */,
 				3163A8CF258FA1E200F96BFF /* _99_恢复二叉搜索树.swift */,
+				311E612E2592413A00219542 /* _0_marrors遍历.swift */,
+				311E61322592538500219542 /* _333_最大BST子树.swift */,
 			);
 			path = "二叉树";
 			sourceTree = "<group>";
@@ -664,6 +670,7 @@
 				192C977A2551009200D91D96 /* LC_04_合并两个有序数组.swift in Sources */,
 				3121611A24B8C9C90003B0BB /* _0_N皇后问题01.swift in Sources */,
 				1936B8D524ED128B00D4A0DD /* _101_对称二叉树.swift in Sources */,
+				311E612F2592413A00219542 /* _0_marrors遍历.swift in Sources */,
 				31A5A9E3249D029000C16F0B /* _4_堆排序.swift in Sources */,
 				318929F52585B8AD002EE334 /* _LC3_移除元素.swift in Sources */,
 				317AC72D24A8E6F800EAE112 /* _150_逆波兰表达式.swift in Sources */,
@@ -712,6 +719,7 @@
 				312E521224BA23A600F153C5 /* _30_组合总和.swift in Sources */,
 				3163A8CE258F9C5800F96BFF /* _236_二叉树的最近公共祖先.swift in Sources */,
 				31175DAF24BE041900FC466F /* _53_最大子序和.swift in Sources */,
+				311E61332592538500219542 /* _333_最大BST子树.swift in Sources */,
 				197F868924C9738F00DC1501 /* _36_*有效的数独.swift in Sources */,
 				192D99F324CC063600A33F48 /* _0_整数反转.swift in Sources */,
 				31D08F822497C40000EDD625 /* _237_删除链表中的节点.swift in Sources */,
