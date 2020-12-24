@@ -51,7 +51,7 @@ extension DFS {
         /*
          正在搜索index层
          */
-        func dfs(_ index:Int) {
+        private func dfs(_ index:Int) {
             // 已经进入到最后一层了，不能再深入了
             if index == numStr.count  {
                 // 得到了一个正确的解

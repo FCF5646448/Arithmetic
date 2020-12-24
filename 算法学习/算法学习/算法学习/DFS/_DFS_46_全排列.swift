@@ -41,13 +41,14 @@ extension DFS {
         
         var result: [[Int]] = []
         var item: [Int] = [Int](repeating: -1, count: nums.count)
+        // 表示第i个字母已经被使用
         var used: [Bool] = [Bool](repeating: false, count: nums.count)
         dfs(0, nums, &result, &item, &used)
         
         return result
     }
     
-    func dfs(_ idx: Int, _ nums: [Int], _ result: inout [[Int]], _ item: inout [Int], _ used: inout [Bool]) {
+    private func dfs(_ idx: Int, _ nums: [Int], _ result: inout [[Int]], _ item: inout [Int], _ used: inout [Bool]) {
         if idx == nums.count {
             result.append(item)
             return
