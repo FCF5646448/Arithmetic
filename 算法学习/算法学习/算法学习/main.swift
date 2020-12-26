@@ -64,5 +64,7 @@ import Foundation
 
 //DFS().test()
 
-HF().test()
+//HF().test()
+LRUCache.test()
+
 
