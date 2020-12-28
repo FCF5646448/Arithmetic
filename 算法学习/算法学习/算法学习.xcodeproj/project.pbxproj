@@ -61,6 +61,10 @@
 		311612AD249E628D007AB6EB /* _75_颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311612AC249E628D007AB6EB /* _75_颜色分类.swift */; };
 		31164A5824A7504800A95202 /* _20_有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31164A5724A7504800A95202 /* _20_有效的括号.swift */; };
 		3116BACB24B1B4B200AD4FAC /* _0_二分搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3116BACA24B1B4B200AD4FAC /* _0_二分搜索.swift */; };
+		3117252D259A29A200A95DE5 /* _7_整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3117252C259A29A200A95DE5 /* _7_整数反转.swift */; };
+		3117252F259A305B00A95DE5 /* _253_会议室II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3117252E259A305B00A95DE5 /* _253_会议室II.swift */; };
+		31172531259A392F00A95DE5 /* _11_能盛放最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31172530259A392F00A95DE5 /* _11_能盛放最多水的容器.swift */; };
+		31172533259A3E2200A95DE5 /* _42_接雨水.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31172532259A3E2200A95DE5 /* _42_接雨水.swift */; };
 		31175D5324F410F100CF38BA /* _155_最小栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31175D5224F410F100CF38BA /* _155_最小栈.swift */; };
 		31175DAF24BE041900FC466F /* _53_最大子序和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31175DAE24BE041900FC466F /* _53_最大子序和.swift */; };
 		31181874249A504900344678 /* _0_冒泡排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31181873249A504900344678 /* _0_冒泡排序.swift */; };
@@ -206,6 +210,11 @@
 		311612AC249E628D007AB6EB /* _75_颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_75_颜色分类.swift"; sourceTree = "<group>"; };
 		31164A5724A7504800A95202 /* _20_有效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_20_有效的括号.swift"; sourceTree = "<group>"; };
 		3116BACA24B1B4B200AD4FAC /* _0_二分搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_二分搜索.swift"; sourceTree = "<group>"; };
+		3117252C259A29A200A95DE5 /* _7_整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_7_整数反转.swift"; sourceTree = "<group>"; };
+		3117252E259A305B00A95DE5 /* _253_会议室II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_253_会议室II.swift"; sourceTree = "<group>"; };
+		31172530259A392F00A95DE5 /* _11_能盛放最多水的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_11_能盛放最多水的容器.swift"; sourceTree = "<group>"; };
+		31172532259A3E2200A95DE5 /* _42_接雨水.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_42_接雨水.swift"; sourceTree = "<group>"; };
+		31172534259A466500A95DE5 /* 刷题经验总结.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "刷题经验总结.md"; sourceTree = "<group>"; };
 		31175D5224F410F100CF38BA /* _155_最小栈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_155_最小栈.swift"; sourceTree = "<group>"; };
 		31175DAE24BE041900FC466F /* _53_最大子序和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_53_最大子序和.swift"; sourceTree = "<group>"; };
 		31181873249A504900344678 /* _0_冒泡排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_冒泡排序.swift"; sourceTree = "<group>"; };
@@ -541,6 +550,10 @@
 				310376DC2598D53E003D563E /* _50_Pow_x的n次方.swift */,
 				310376DE2598E2A3003D563E /* _剑指62_圆圈中最后剩下的数字.swift */,
 				310376E02598E764003D563E /* _54_螺旋矩阵.swift */,
+				3117252C259A29A200A95DE5 /* _7_整数反转.swift */,
+				3117252E259A305B00A95DE5 /* _253_会议室II.swift */,
+				31172530259A392F00A95DE5 /* _11_能盛放最多水的容器.swift */,
+				31172532259A3E2200A95DE5 /* _42_接雨水.swift */,
 			);
 			path = "高频题";
 			sourceTree = "<group>";
@@ -627,9 +640,11 @@
 		31D08F722497A77400EDD625 /* 算法学习 */ = {
 			isa = PBXGroup;
 			children = (
+				193C2E1F255F7BA5008336F8 /* 算法刷题方式.md */,
+				31172534259A466500A95DE5 /* 刷题经验总结.md */,
+				31D08F732497A77400EDD625 /* main.swift */,
 				191360E1254FB89600268808 /* LC系列练习 */,
 				3121611824B8B5D90003B0BB /* 数据结构 */,
-				31D08F732497A77400EDD625 /* main.swift */,
 				3136FB0A24B4CCA900FAA2B1 /* 算法技巧 */,
 				19334D65249CBFC100250888 /* 练习 */,
 				31181872249A503000344678 /* 排序 */,
@@ -642,7 +657,6 @@
 				313B0A1A24B3717D00C7AF07 /* 图 */,
 				319ABFC525939387007F3C31 /* DFS */,
 				31517513259634A400A6E02F /* 高频题 */,
-				193C2E1F255F7BA5008336F8 /* 算法刷题方式.md */,
 			);
 			path = "算法学习";
 			sourceTree = "<group>";
@@ -784,6 +798,7 @@
 				3167D0E62594E81300B211EC /* _47_全排列II.swift in Sources */,
 				31181876249A505B00344678 /* Sort.swift in Sources */,
 				317AC72F24A8EE5B00EAE112 /* _224_基本计算器todo.swift in Sources */,
+				3117252F259A305B00A95DE5 /* _253_会议室II.swift in Sources */,
 				19375EC324FE76C900326648 /* _215_数组中第K个最大元素.swift in Sources */,
 				310376DD2598D53E003D563E /* _50_Pow_x的n次方.swift in Sources */,
 				31149C5824AD65C100570E8A /* _0_TopK找出数组中前k个最小数.swift in Sources */,
@@ -803,6 +818,7 @@
 				191360EB254FF12C00268808 /* LC_02_多数元素.swift in Sources */,
 				311612AD249E628D007AB6EB /* _75_颜色分类.swift in Sources */,
 				31CAF3C724ACCB6800EA0906 /* _144_二叉树的前序遍历.swift in Sources */,
+				31172533259A3E2200A95DE5 /* _42_接雨水.swift in Sources */,
 				3119066F24A50F8700525CD8 /* _35_搜索插入位置.swift in Sources */,
 				19279F6924EBF850007844C1 /* _0_回文链表.swift in Sources */,
 				31140E6F2499168700421CC8 /* BinaryTree.swift in Sources */,
@@ -813,10 +829,12 @@
 				318929F72585BB6F002EE334 /* _LC3_删除排序数组中的重复项.swift in Sources */,
 				31CAF3C924ACCBAA00EA0906 /* _94_二叉树的中序遍历.swift in Sources */,
 				31A5A9E1249CF22500C16F0B /* _3_选择排序.swift in Sources */,
+				3117252D259A29A200A95DE5 /* _7_整数反转.swift in Sources */,
 				193989B22599C70B00283038 /* Practice.swift in Sources */,
 				312E521224BA23A600F153C5 /* _30_组合总和.swift in Sources */,
 				3163A8CE258F9C5800F96BFF /* _236_二叉树的最近公共祖先.swift in Sources */,
 				31175DAF24BE041900FC466F /* _53_最大子序和.swift in Sources */,
+				31172531259A392F00A95DE5 /* _11_能盛放最多水的容器.swift in Sources */,
 				311E61332592538500219542 /* _333_最大BST子树.swift in Sources */,
 				197F868924C9738F00DC1501 /* _36_*有效的数独.swift in Sources */,
 				192D99F324CC063600A33F48 /* _0_整数反转.swift in Sources */,

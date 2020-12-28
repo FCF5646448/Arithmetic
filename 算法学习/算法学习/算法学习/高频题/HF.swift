@@ -13,6 +13,8 @@ import Foundation
 class HF {
     
     func test() {
-        print(threeSum([-1,0,1,2,-1,-4]))
+//        print(threeSum([-1,0,1,2,-1,-4]))
+//        print(minMeetingRooms([[7,10],[2,4]]))
+        print(trap([0]))
     }
 }
