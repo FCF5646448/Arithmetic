@@ -26,6 +26,8 @@
 		19334D6A249CCBC600250888 /* _2_快速排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19334D69249CCBC600250888 /* _2_快速排序.swift */; };
 		1936B8D524ED128B00D4A0DD /* _101_对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1936B8D424ED128B00D4A0DD /* _101_对称二叉树.swift */; };
 		19375EC324FE76C900326648 /* _215_数组中第K个最大元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19375EC224FE76C900326648 /* _215_数组中第K个最大元素.swift */; };
+		1937817E259C504F00C3CA1F /* _1_有序数组中目标数字的重复个数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1937817D259C504F00C3CA1F /* _1_有序数组中目标数字的重复个数.swift */; };
+		19378180259C505A00C3CA1F /* MS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1937817F259C505A00C3CA1F /* MS.swift */; };
 		193989B02599C6F800283038 /* _6_Z字形变换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193989AF2599C6F800283038 /* _6_Z字形变换.swift */; };
 		193989B22599C70B00283038 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193989B12599C70B00283038 /* Practice.swift */; };
 		193989B42599D5E700283038 /* _12_整数转罗马数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193989B32599D5E700283038 /* _12_整数转罗马数字.swift */; };
@@ -171,6 +173,8 @@
 		19334D69249CCBC600250888 /* _2_快速排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_2_快速排序.swift"; sourceTree = "<group>"; };
 		1936B8D424ED128B00D4A0DD /* _101_对称二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_101_对称二叉树.swift"; sourceTree = "<group>"; };
 		19375EC224FE76C900326648 /* _215_数组中第K个最大元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_215_数组中第K个最大元素.swift"; sourceTree = "<group>"; };
+		1937817D259C504F00C3CA1F /* _1_有序数组中目标数字的重复个数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1_有序数组中目标数字的重复个数.swift"; sourceTree = "<group>"; };
+		1937817F259C505A00C3CA1F /* MS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MS.swift; sourceTree = "<group>"; };
 		193989AF2599C6F800283038 /* _6_Z字形变换.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_6_Z字形变换.swift"; sourceTree = "<group>"; };
 		193989B12599C70B00283038 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
 		193989B32599D5E700283038 /* _12_整数转罗马数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_12_整数转罗马数字.swift"; sourceTree = "<group>"; };
@@ -382,6 +386,15 @@
 				193989B32599D5E700283038 /* _12_整数转罗马数字.swift */,
 			);
 			path = "练习";
+			sourceTree = "<group>";
+		};
+		1937817C259C501900C3CA1F /* MS */ = {
+			isa = PBXGroup;
+			children = (
+				1937817F259C505A00C3CA1F /* MS.swift */,
+				1937817D259C504F00C3CA1F /* _1_有序数组中目标数字的重复个数.swift */,
+			);
+			path = MS;
 			sourceTree = "<group>";
 		};
 		1943567925972F5200D0AEDE /* LRU */ = {
@@ -657,6 +670,7 @@
 				313B0A1A24B3717D00C7AF07 /* 图 */,
 				319ABFC525939387007F3C31 /* DFS */,
 				31517513259634A400A6E02F /* 高频题 */,
+				1937817C259C501900C3CA1F /* MS */,
 			);
 			path = "算法学习";
 			sourceTree = "<group>";
@@ -840,6 +854,7 @@
 				192D99F324CC063600A33F48 /* _0_整数反转.swift in Sources */,
 				31D08F822497C40000EDD625 /* _237_删除链表中的节点.swift in Sources */,
 				3119066D24A50D2500525CD8 /* _724._寻找数组的中心索引.swift in Sources */,
+				19378180259C505A00C3CA1F /* MS.swift in Sources */,
 				3136FB0F24B4D60D00FAA2B1 /* _1_汉诺塔问题.swift in Sources */,
 				1932DC9B2567CA8400E88321 /* JZ_48_最长不含重复字符的子串.swift in Sources */,
 				313B0A1C24B371B800C7AF07 /* Graph.swift in Sources */,
@@ -853,6 +868,7 @@
 				31140E6D2499166800421CC8 /* _102_二叉树的层次遍历.swift in Sources */,
 				3113BA6C24A6EE22005F8E1C /* _0108_零矩阵.swift in Sources */,
 				191360ED254FF83900268808 /* LC_03_搜索二维矩阵 ||.swift in Sources */,
+				1937817E259C504F00C3CA1F /* _1_有序数组中目标数字的重复个数.swift in Sources */,
 				31D8570125530C630054BB4E /* LC_07_单词拆分(*抄)(动态规划+记忆回溯).swift in Sources */,
 				1932DC9D2567CAA200E88321 /* JZTest.swift in Sources */,
 				315175152596356600A6E02F /* HF.swift in Sources */,
