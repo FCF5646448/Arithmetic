@@ -139,6 +139,8 @@
 		31D08F842497CCD900EDD625 /* _206_反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D08F832497CCD900EDD625 /* _206_反转链表.swift */; };
 		31D08F862497D21E00EDD625 /* _141_判断环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D08F852497D21E00EDD625 /* _141_判断环形链表.swift */; };
 		31D8570125530C630054BB4E /* LC_07_单词拆分(*抄)(动态规划+记忆回溯).swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D8570025530C630054BB4E /* LC_07_单词拆分(*抄)(动态规划+记忆回溯).swift */; };
+		31DF118825A4B49700CD7B0F /* _LC_最长公共前缀.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DF118725A4B49700CD7B0F /* _LC_最长公共前缀.swift */; };
+		31DF118A25A4BD5200CD7B0F /* _LC_最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DF118925A4BD5200CD7B0F /* _LC_最长回文子串.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -296,6 +298,8 @@
 		31D08F832497CCD900EDD625 /* _206_反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_206_反转链表.swift"; sourceTree = "<group>"; };
 		31D08F852497D21E00EDD625 /* _141_判断环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_141_判断环形链表.swift"; sourceTree = "<group>"; };
 		31D8570025530C630054BB4E /* LC_07_单词拆分(*抄)(动态规划+记忆回溯).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_07_单词拆分(*抄)(动态规划+记忆回溯).swift"; sourceTree = "<group>"; };
+		31DF118725A4B49700CD7B0F /* _LC_最长公共前缀.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_LC_最长公共前缀.swift"; sourceTree = "<group>"; };
+		31DF118925A4BD5200CD7B0F /* _LC_最长回文子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_LC_最长回文子串.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -595,6 +599,8 @@
 				31622D272588FB12002C0447 /* _LC3*_两数之和II.swift */,
 				31622D2925890FDE002C0447 /* _LC3*_盛最多水的容器.swift */,
 				316B82E6258BAF0C00584C13 /* _LC3*_长度最小的子数组.swift */,
+				31DF118725A4B49700CD7B0F /* _LC_最长公共前缀.swift */,
+				31DF118925A4BD5200CD7B0F /* _LC_最长回文子串.swift */,
 			);
 			path = "数组专项";
 			sourceTree = "<group>";
@@ -749,6 +755,7 @@
 			files = (
 				31CAF3CB24ACCBD900EA0906 /* _145_二叉树的后序遍历.swift in Sources */,
 				1924C631257230B300FDDCEC /* LC_17_除自身以外数组的乘积（*抄）.swift in Sources */,
+				31DF118A25A4BD5200CD7B0F /* _LC_最长回文子串.swift in Sources */,
 				197F868624C9421200DC1501 /* _283_移动零.swift in Sources */,
 				19334D6A249CCBC600250888 /* _2_快速排序.swift in Sources */,
 				3136FB0D24B4CCCC00FAA2B1 /* _0_爬楼梯问题.swift in Sources */,
@@ -872,6 +879,7 @@
 				31D8570125530C630054BB4E /* LC_07_单词拆分(*抄)(动态规划+记忆回溯).swift in Sources */,
 				1932DC9D2567CAA200E88321 /* JZTest.swift in Sources */,
 				315175152596356600A6E02F /* HF.swift in Sources */,
+				31DF118825A4B49700CD7B0F /* _LC_最长公共前缀.swift in Sources */,
 				1943568025975E6100D0AEDE /* _16.25_LRU_缓存.swift in Sources */,
 				3119C09825126D09009D0C4A /* _164_最大间距.swift in Sources */,
 				312416E32587B752007A8C7A /* _LC3_合并两个有序数组.swift in Sources */,
