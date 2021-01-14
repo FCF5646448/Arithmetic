@@ -85,6 +85,7 @@
 		3119AA3D24C72F440086F1DC /* _1143_最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3119AA3C24C72F440086F1DC /* _1143_最长公共子序列.swift */; };
 		3119C09825126D09009D0C4A /* _164_最大间距.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3119C09725126D09009D0C4A /* _164_最大间距.swift */; };
 		311AAA002512DDD50051E9C4 /* _977_有序数组的平方.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AA9FF2512DDD50051E9C4 /* _977_有序数组的平方.swift */; };
+		311ABFBD25AF57BF006B86BB /* _86_分割链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311ABFBC25AF57BF006B86BB /* _86_分割链表.swift */; };
 		311C7FF024D1CD16003150E6 /* _16_16_部分排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311C7FEF24D1CD16003150E6 /* _16_16_部分排序.swift */; };
 		311E612F2592413A00219542 /* _0_marrors遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311E612E2592413A00219542 /* _0_marrors遍历.swift */; };
 		311E61332592538500219542 /* _333_最大BST子树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311E61322592538500219542 /* _333_最大BST子树.swift */; };
@@ -239,6 +240,7 @@
 		3119AA3C24C72F440086F1DC /* _1143_最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1143_最长公共子序列.swift"; sourceTree = "<group>"; };
 		3119C09725126D09009D0C4A /* _164_最大间距.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_164_最大间距.swift"; sourceTree = "<group>"; };
 		311AA9FF2512DDD50051E9C4 /* _977_有序数组的平方.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_977_有序数组的平方.swift"; sourceTree = "<group>"; };
+		311ABFBC25AF57BF006B86BB /* _86_分割链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_86_分割链表.swift"; sourceTree = "<group>"; };
 		311C7FEF24D1CD16003150E6 /* _16_16_部分排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_16_16_部分排序.swift"; sourceTree = "<group>"; };
 		311E612E2592413A00219542 /* _0_marrors遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0_marrors遍历.swift"; sourceTree = "<group>"; };
 		311E61322592538500219542 /* _333_最大BST子树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_333_最大BST子树.swift"; sourceTree = "<group>"; };
@@ -513,13 +515,6 @@
 			path = "回溯";
 			sourceTree = "<group>";
 		};
-		3121611824B8B5D90003B0BB /* 数据结构 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "数据结构";
-			sourceTree = "<group>";
-		};
 		3130D31824AA33BD00508777 /* 队列 */ = {
 			isa = PBXGroup;
 			children = (
@@ -663,7 +658,6 @@
 				31172534259A466500A95DE5 /* 刷题经验总结.md */,
 				31D08F732497A77400EDD625 /* main.swift */,
 				191360E1254FB89600268808 /* LC系列练习 */,
-				3121611824B8B5D90003B0BB /* 数据结构 */,
 				3136FB0A24B4CCA900FAA2B1 /* 算法技巧 */,
 				19334D65249CBFC100250888 /* 练习 */,
 				31181872249A503000344678 /* 排序 */,
@@ -691,6 +685,7 @@
 				31D08F832497CCD900EDD625 /* _206_反转链表.swift */,
 				31D08F852497D21E00EDD625 /* _141_判断环形链表.swift */,
 				19279F6824EBF850007844C1 /* _0_回文链表.swift */,
+				311ABFBC25AF57BF006B86BB /* _86_分割链表.swift */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -866,6 +861,7 @@
 				1932DC9B2567CA8400E88321 /* JZ_48_最长不含重复字符的子串.swift in Sources */,
 				313B0A1C24B371B800C7AF07 /* Graph.swift in Sources */,
 				1943567B259737AD00D0AEDE /* LRU.swift in Sources */,
+				311ABFBD25AF57BF006B86BB /* _86_分割链表.swift in Sources */,
 				3122273624A5D58E008D8989 /* _56_合并区间.swift in Sources */,
 				193B3BDF24C5A01500ED8C5F /* _122_买卖股票的最佳时机2.swift in Sources */,
 				312C021824B18EE000335CF7 /* _5_插入排序.swift in Sources */,

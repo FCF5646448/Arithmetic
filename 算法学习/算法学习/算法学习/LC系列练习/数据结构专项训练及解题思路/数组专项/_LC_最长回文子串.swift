@@ -29,9 +29,51 @@ extension LC3{
      著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
      */
     
-    // TODO 
+    /*
+     动态规划
+     状态dp[i][j] 表示子串s[i..j]是否为回文子串
+     动态转移方程：dp[i][j] = (s[i] == s[j]) && dp[i+1][j-1]
+     边界条件：j - 1 - (i + 1) + 1 < 2, 整理得 j - i < 3
+     - 初始化：dp[i][i] = true
+     - 输出：
+     */
     func longestPalindrome(_ s: String) -> String {
-        return ""
+        guard s.count > 1 else {
+            return s
+        }
+        
+        var maxlen = 1
+        var begin = 0
+        
+        var dp = ([[Bool]])(repeating: ([Bool])(repeating: false, count: s.count), count: s.count)
+        for i in 0..<s.count {
+            dp[i][i] = true
+        }
+        
+        let charArr = Array(s)
+        //
+        for j in 1..<s.count {
+            for i in 0..<j {
+                if charArr[i] != charArr[j] {
+                    dp[i][j] = false
+                }else {
+                    if j - i < 3  {
+                        dp[i][j] = true
+                    }else {
+                        dp[i][j] = dp[i + 1][j - 1]
+                    }
+                }
+                
+                //
+                if dp[i][j] && j - i + 1 > maxlen {
+                    maxlen = j - i + 1
+                    begin = i
+                }
+                
+            }
+        }
+        
+        return String(s[s.index(s.startIndex, offsetBy: begin)..<s.index(s.startIndex, offsetBy: begin + maxlen)])
     }
     
     /*

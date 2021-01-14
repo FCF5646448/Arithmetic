@@ -60,7 +60,7 @@ import Foundation
 
 // LC 系统测试
 //LCTest().test()
-LC3().test()
+//LC3().test()
 
 //DFS().test()
 
@@ -71,3 +71,4 @@ LC3().test()
 
 //MS().test()
 
+LinkList().test()
