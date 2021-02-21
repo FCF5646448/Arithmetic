@@ -71,4 +71,6 @@ import Foundation
 
 //MS().test()
 
-LinkList().test()
+//LinkList().test()
+
+JZ().test()

@@ -101,6 +101,10 @@
 		3136FB0F24B4D60D00FAA2B1 /* _1_汉诺塔问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3136FB0E24B4D60D00FAA2B1 /* _1_汉诺塔问题.swift */; };
 		3136FB1124B4DC0F00FAA2B1 /* _0806_汉诺塔问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3136FB1024B4DC0F00FAA2B1 /* _0806_汉诺塔问题.swift */; };
 		313B0A1C24B371B800C7AF07 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313B0A1B24B371B800C7AF07 /* Graph.swift */; };
+		314BF2BF25E2A36B00A7AE51 /* JZ_03数组中重复的数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314BF2BE25E2A36B00A7AE51 /* JZ_03数组中重复的数.swift */; };
+		314BF2C125E2ADF600A7AE51 /* JZ_03_1不修改数组找出重复的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314BF2C025E2ADF600A7AE51 /* JZ_03_1不修改数组找出重复的数字.swift */; };
+		314BF2C325E2B04100A7AE51 /* JZ_04二维数组中查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314BF2C225E2B04100A7AE51 /* JZ_04二维数组中查找.swift */; };
+		314BF2C525E2B56700A7AE51 /* JZ_05替换空格.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314BF2C425E2B56700A7AE51 /* JZ_05替换空格.swift */; };
 		315175152596356600A6E02F /* HF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315175142596356600A6E02F /* HF.swift */; };
 		31517517259635D300A6E02F /* _HF_283_移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31517516259635D300A6E02F /* _HF_283_移动零.swift */; };
 		31517519259641BB00A6E02F /* _15_三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31517518259641BB00A6E02F /* _15_三数之和.swift */; };
@@ -256,6 +260,10 @@
 		3136FB0E24B4D60D00FAA2B1 /* _1_汉诺塔问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1_汉诺塔问题.swift"; sourceTree = "<group>"; };
 		3136FB1024B4DC0F00FAA2B1 /* _0806_汉诺塔问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_0806_汉诺塔问题.swift"; sourceTree = "<group>"; };
 		313B0A1B24B371B800C7AF07 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		314BF2BE25E2A36B00A7AE51 /* JZ_03数组中重复的数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JZ_03数组中重复的数.swift"; sourceTree = "<group>"; };
+		314BF2C025E2ADF600A7AE51 /* JZ_03_1不修改数组找出重复的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JZ_03_1不修改数组找出重复的数字.swift"; sourceTree = "<group>"; };
+		314BF2C225E2B04100A7AE51 /* JZ_04二维数组中查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JZ_04二维数组中查找.swift"; sourceTree = "<group>"; };
+		314BF2C425E2B56700A7AE51 /* JZ_05替换空格.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JZ_05替换空格.swift"; sourceTree = "<group>"; };
 		315175142596356600A6E02F /* HF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HF.swift; sourceTree = "<group>"; };
 		31517516259635D300A6E02F /* _HF_283_移动零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_HF_283_移动零.swift"; sourceTree = "<group>"; };
 		31517518259641BB00A6E02F /* _15_三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_15_三数之和.swift"; sourceTree = "<group>"; };
@@ -365,6 +373,10 @@
 			isa = PBXGroup;
 			children = (
 				1932DC9A2567CA8400E88321 /* JZ_48_最长不含重复字符的子串.swift */,
+				314BF2BE25E2A36B00A7AE51 /* JZ_03数组中重复的数.swift */,
+				314BF2C025E2ADF600A7AE51 /* JZ_03_1不修改数组找出重复的数字.swift */,
+				314BF2C225E2B04100A7AE51 /* JZ_04二维数组中查找.swift */,
+				314BF2C425E2B56700A7AE51 /* JZ_05替换空格.swift */,
 			);
 			path = "剑指Offer系列";
 			sourceTree = "<group>";
@@ -758,6 +770,7 @@
 				31181F7E24BCA0CC00BB92F6 /* Greedy.swift in Sources */,
 				31622D2A25890FDE002C0447 /* _LC3*_盛最多水的容器.swift in Sources */,
 				1996BFF825636E2F0011A2D0 /* LC_08_单词拆分II (** 回溯+记忆 抄）.swift in Sources */,
+				314BF2BF25E2A36B00A7AE51 /* JZ_03数组中重复的数.swift in Sources */,
 				3113BA6E24A6F3F3005F8E1C /* _498_对角线遍历.swift in Sources */,
 				3136FB1124B4DC0F00FAA2B1 /* _0806_汉诺塔问题.swift in Sources */,
 				193A776C25709B7900D934B3 /* LC_16_递增的三元子序列(*抄).swift in Sources */,
@@ -770,6 +783,7 @@
 				31D08F862497D21E00EDD625 /* _141_判断环形链表.swift in Sources */,
 				31181F8224BCA6F000BB92F6 /* _0_零钱兑换问题.swift in Sources */,
 				191B1497256653BF0095EB55 /* LC_10_单词搜索II (略).swift in Sources */,
+				314BF2C125E2ADF600A7AE51 /* JZ_03_1不修改数组找出重复的数字.swift in Sources */,
 				191B1495256623F50095EB55 /* LC_11_有效的字母异位词.swift in Sources */,
 				194C7C0324C8102500A8B5BA /* _350_两个数组的交集.swift in Sources */,
 				312E521024BA1A9200F153C5 /* _46_全排列.swift in Sources */,
@@ -788,6 +802,7 @@
 				1936B8D524ED128B00D4A0DD /* _101_对称二叉树.swift in Sources */,
 				311E612F2592413A00219542 /* _0_marrors遍历.swift in Sources */,
 				31A5A9E3249D029000C16F0B /* _4_堆排序.swift in Sources */,
+				314BF2C325E2B04100A7AE51 /* JZ_04二维数组中查找.swift in Sources */,
 				318929F52585B8AD002EE334 /* _LC3_移除元素.swift in Sources */,
 				317AC72D24A8E6F800EAE112 /* _150_逆波兰表达式.swift in Sources */,
 				31175D5324F410F100CF38BA /* _155_最小栈.swift in Sources */,
@@ -821,6 +836,7 @@
 				3167D0EA2595082300B211EC /* _113_路径总和II.swift in Sources */,
 				3163A8D0258FA1E200F96BFF /* _99_恢复二叉搜索树.swift in Sources */,
 				311AAA002512DDD50051E9C4 /* _977_有序数组的平方.swift in Sources */,
+				314BF2C525E2B56700A7AE51 /* JZ_05替换空格.swift in Sources */,
 				1923901324C6BC40004F1ADC /* _136_只出现一次的数字.swift in Sources */,
 				31D08F842497CCD900EDD625 /* _206_反转链表.swift in Sources */,
 				31181874249A504900344678 /* _0_冒泡排序.swift in Sources */,
