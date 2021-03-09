@@ -16,6 +16,10 @@ class JZ {
 //        var nums = [2,3,1,0,2,5,3]
 //        print(duplicate2(&nums))
         
-        _ = findTargetInMatrix([[1,2,8,9],[2,4,9,12],[4,7,10,13],[6,8,11,15]],14)
+//        _ = findTargetInMatrix([[1,2,8,9],[2,4,9,12],[4,7,10,13],[6,8,11,15]],14)
+        
+//        _ = replaceSpace("wearehappy.")
+        
+        print(fib(5))
     }
 }
