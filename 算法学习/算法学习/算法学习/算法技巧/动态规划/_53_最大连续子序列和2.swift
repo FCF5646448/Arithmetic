@@ -14,9 +14,9 @@ extension DynamicPrograming {
      状态转移方程：
      dp[i] 是指以nums[i]为节点的最大连续子序列和
      if dp[i - 1] <= 0 {
-        dp[i] = nums[i]
+     dp[i] = nums[i]
      }else{
-        dp[i] = dp[i - 1] + nums[i]
+     dp[i] = dp[i - 1] + nums[i]
      }
      
      初始状态
@@ -51,21 +51,22 @@ extension DynamicPrograming {
     }
     
     func maxSubArray1(_ nums: [Int]) -> Int {
-        guard nums.count > 0 else{
+        guard nums.count > 0 else {
             return 0
         }
         var dp = Array(repeating: 0, count: nums.count)
         dp[0] = nums[0]
-        var maxSub:Int = dp[0]
+        var maxSub: Int = dp[0]
         for i in 1..<nums.count {
             if dp[i - 1] <= 0 {
+                // 0~i-1的最大子序列和<=0,那么0~i的最大子序列和就是nums[i]
                 dp[i] = nums[i]
             }else{
-                dp[i] = dp[i - 1] + nums[i]
+                // 0~i-1的最大子序列和>0,那么0~i的最大子序列和就是nums[i] + dp[i - 1]
+                dp[i] = dp[i-1] + nums[i]
             }
             maxSub = max(dp[i], maxSub)
         }
-        
         return maxSub
     }
 }
