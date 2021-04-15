@@ -20,6 +20,7 @@ class JZ {
         
 //        _ = replaceSpace("wearehappy.")
         
-        print(fib(5))
+        print(search([2,2], 1))
+        
     }
 }
