@@ -132,6 +132,9 @@
 		316D6AE4258D00E0001D2E38 /* _LC3*_岛屿数量.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316D6AE3258D00E0001D2E38 /* _LC3*_岛屿数量.swift */; };
 		316F70C62551BAAC00E8B894 /* LC_05_验证回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F70C52551BAAC00E8B894 /* LC_05_验证回文串.swift */; };
 		316F70C82551BD9B00E8B894 /* LC_06_分割回文串*.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316F70C72551BD9B00E8B894 /* LC_06_分割回文串*.swift */; };
+		31736AC526288D11005F7FAA /* 最大连续个数1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31736AC426288D11005F7FAA /* 最大连续个数1.swift */; };
+		31736AC726289987005F7FAA /* BFS_690员工的重要性.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31736AC626289987005F7FAA /* BFS_690员工的重要性.swift */; };
+		31736ACA26289A1F005F7FAA /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31736AC926289A1F005F7FAA /* Queue.swift */; };
 		3173A63325E94ADD001C6FBD /* JZ_06从尾到头打印链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3173A63225E94ADD001C6FBD /* JZ_06从尾到头打印链表.swift */; };
 		3175708B25ED343600F91733 /* JZ_07重建二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3175708A25ED343600F91733 /* JZ_07重建二叉树.swift */; };
 		317AC72D24A8E6F800EAE112 /* _150_逆波兰表达式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317AC72C24A8E6F800EAE112 /* _150_逆波兰表达式.swift */; };
@@ -306,6 +309,9 @@
 		316D6AE3258D00E0001D2E38 /* _LC3*_岛屿数量.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_LC3*_岛屿数量.swift"; sourceTree = "<group>"; };
 		316F70C52551BAAC00E8B894 /* LC_05_验证回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_05_验证回文串.swift"; sourceTree = "<group>"; };
 		316F70C72551BD9B00E8B894 /* LC_06_分割回文串*.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC_06_分割回文串*.swift"; sourceTree = "<group>"; };
+		31736AC426288D11005F7FAA /* 最大连续个数1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "最大连续个数1.swift"; sourceTree = "<group>"; };
+		31736AC626289987005F7FAA /* BFS_690员工的重要性.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BFS_690员工的重要性.swift"; path = "算法学习/队列专项突破/BFS_690员工的重要性.swift"; sourceTree = SOURCE_ROOT; };
+		31736AC926289A1F005F7FAA /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		3173A63225E94ADD001C6FBD /* JZ_06从尾到头打印链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JZ_06从尾到头打印链表.swift"; sourceTree = "<group>"; };
 		3175708A25ED343600F91733 /* JZ_07重建二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JZ_07重建二叉树.swift"; sourceTree = "<group>"; };
 		317AC72C24A8E6F800EAE112 /* _150_逆波兰表达式.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_150_逆波兰表达式.swift"; sourceTree = "<group>"; };
@@ -550,6 +556,7 @@
 				3122273724A5EE18008D8989 /* _0107_旋转矩阵.swift */,
 				3113BA6B24A6EE22005F8E1C /* _0108_零矩阵.swift */,
 				3113BA6D24A6F3F3005F8E1C /* _498_对角线遍历.swift */,
+				31736AC426288D11005F7FAA /* 最大连续个数1.swift */,
 			);
 			path = "数组专项突破";
 			sourceTree = "<group>";
@@ -564,13 +571,6 @@
 				312E521124BA23A600F153C5 /* _30_组合总和.swift */,
 			);
 			path = "回溯";
-			sourceTree = "<group>";
-		};
-		3130D31824AA33BD00508777 /* 队列 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "队列";
 			sourceTree = "<group>";
 		};
 		3136FB0A24B4CCA900FAA2B1 /* 算法技巧 */ = {
@@ -629,6 +629,15 @@
 				316D6AE3258D00E0001D2E38 /* _LC3*_岛屿数量.swift */,
 			);
 			path = "队列&栈专项";
+			sourceTree = "<group>";
+		};
+		31736AC8262899C7005F7FAA /* 队列专项突破 */ = {
+			isa = PBXGroup;
+			children = (
+				31736AC926289A1F005F7FAA /* Queue.swift */,
+				31736AC626289987005F7FAA /* BFS_690员工的重要性.swift */,
+			);
+			path = "队列专项突破";
 			sourceTree = "<group>";
 		};
 		318929EE2585B1AB002EE334 /* 数组专项 */ = {
@@ -713,8 +722,8 @@
 				19334D65249CBFC100250888 /* 练习 */,
 				31181872249A503000344678 /* 排序 */,
 				3119318024983C2D00BF558D /* 数组专项突破 */,
+				31736AC8262899C7005F7FAA /* 队列专项突破 */,
 				3113BA6F24A70DF5005F8E1C /* 栈 */,
-				3130D31824AA33BD00508777 /* 队列 */,
 				31D08F7D2497B9EC00EDD625 /* 链表 */,
 				31140E6B249913A600421CC8 /* 二叉树 */,
 				31A5A9E4249D095700C16F0B /* 堆 */,
@@ -819,6 +828,7 @@
 				311612AB249E577A007AB6EB /* _88_合并两个有序数组.swift in Sources */,
 				191360E3254FB8BD00268808 /* LCTest.swift in Sources */,
 				31181878249A724A00344678 /* _1_归并排序.swift in Sources */,
+				31736ACA26289A1F005F7FAA /* Queue.swift in Sources */,
 				31517517259635D300A6E02F /* _HF_283_移动零.swift in Sources */,
 				31D08F862497D21E00EDD625 /* _141_判断环形链表.swift in Sources */,
 				31181F8224BCA6F000BB92F6 /* _0_零钱兑换问题.swift in Sources */,
@@ -881,6 +891,7 @@
 				3167D0EA2595082300B211EC /* _113_路径总和II.swift in Sources */,
 				3163A8D0258FA1E200F96BFF /* _99_恢复二叉搜索树.swift in Sources */,
 				311AAA002512DDD50051E9C4 /* _977_有序数组的平方.swift in Sources */,
+				31736AC526288D11005F7FAA /* 最大连续个数1.swift in Sources */,
 				314BF2C525E2B56700A7AE51 /* JZ_05替换空格.swift in Sources */,
 				3118FBC92607984700333AC1 /* JZ_45把数组排成最小的数.swift in Sources */,
 				1923901324C6BC40004F1ADC /* _136_只出现一次的数字.swift in Sources */,
@@ -903,6 +914,7 @@
 				19279F6924EBF850007844C1 /* _0_回文链表.swift in Sources */,
 				311BF3FD25EFCF53001F984E /* JZ_10斐波那契数列.swift in Sources */,
 				31140E6F2499168700421CC8 /* BinaryTree.swift in Sources */,
+				31736AC726289987005F7FAA /* BFS_690员工的重要性.swift in Sources */,
 				193989B02599C6F800283038 /* _6_Z字形变换.swift in Sources */,
 				194356822597658000D0AEDE /* LRUTest.swift in Sources */,
 				318929F22585B221002EE334 /* LC3Test.swift in Sources */,
