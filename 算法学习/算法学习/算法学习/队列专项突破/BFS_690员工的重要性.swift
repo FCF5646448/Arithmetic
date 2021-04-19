@@ -47,9 +47,9 @@ extension Queue {
         }
         
         while !queue.isEmpty {
-            var firstSub = queue.removeFirst()
+            let firstSub = queue.removeFirst()
             for id in firstSub.subordinates {
-                if let emp = employees.first{ $0.id == id} {
+                if let emp = employees.first(where: { $0.id == id}) {
                     importance += emp.importance
                     queue.append(emp)
                 }
