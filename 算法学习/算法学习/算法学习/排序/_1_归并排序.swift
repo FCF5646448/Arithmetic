@@ -65,3 +65,40 @@ extension Sort {
 }
 
 
+extension Sort {
+    func s(_ nums: inout [Int], _ begin: Int, _ end: Int) {
+        guard end > begin else{
+            return
+        }
+        
+        let m = (begin + end) >> 2
+        s(&nums, begin, m)
+        s(&nums, m, end)
+        
+        
+    }
+    
+    func mg(_ nums: inout [Int], _ begin: Int, _ mid: Int, _ end: Int) {
+        var temArr = [Int]() //存数组begin~mid的部分
+        var li = 0
+        let le = mid - begin
+        var oi = mid
+        let oe = end
+        var curr = begin
+        for i in li..<le {
+            temArr.append(nums[begin + i])
+        }
+        
+        while li < le {
+            if oi < oe && nums[oi] < temArr[li] {
+                nums[curr] = nums[oi]
+                curr += 1
+                oi += 1
+            }else {
+                nums[curr] = temArr[li]
+                li += 1
+                curr += 1
+            }
+        }
+    }
+}
