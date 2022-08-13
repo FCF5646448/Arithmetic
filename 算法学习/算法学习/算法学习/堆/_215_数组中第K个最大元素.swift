@@ -75,7 +75,7 @@ extension Heap {
         //从堆的第一个非叶子节点开始进行下滤，使得数组成为堆
         var i = k/2 - 1
         while i >= 0 {
-            shiftD(&heap, 0, k)
+            shiftD(&heap, i, k)
             i -= 1
         }
         

@@ -50,7 +50,7 @@ extension Heap {
         let size = k
         var i = size/2 - 1
         while i >= 0 {
-            siftDown3(&heap, i, size)
+            siftDown(&heap, i, size)
             i -= 1
         }
         
