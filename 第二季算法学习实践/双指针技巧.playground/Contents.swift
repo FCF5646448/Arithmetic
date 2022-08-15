@@ -14,6 +14,30 @@ class ListNode {
     convenience init() {
         self.init(0, nil)
     }
+    
+    
+    /// 找出倒数第K个节点，要背
+    func findFromEnd(head: ListNode, k: Int) -> ListNode? {
+        var fast: ListNode? = head
+        var slow: ListNode? = head
+        var i = 1
+        while fast != nil {
+            if i > k {
+                fast = fast!.next
+                slow = slow!.next
+            } else {
+                fast = fast!.next
+            }
+            i += 1
+        }
+        // 这里不能用等于
+        if i > k {
+            print(slow!.val)
+            return slow
+        } else {
+            return nil
+        }
+    }
 }
 
 extension ListNode {
@@ -72,7 +96,7 @@ extension ListNode {
     
     // 23 合并k个升序链表 使用最小堆
     func mergeKLists(_ lists: [ListNode?]) -> ListNode? {
-        // 建立小顶堆
+        // 下虑 建立小顶堆
         func shiftUp(array: inout [ListNode], index: Int) {
             let element = array[index]
             var index = index
@@ -114,98 +138,76 @@ extension ListNode {
         return dummy.next
     }
     
-    // 23 合并k个升序链表 使用最小堆
+    /// 23 合并k个升序链表 使用最小堆
+    /// 使用优先级队列
     func mergeKLists2(_ lists: [ListNode?]) -> ListNode? {
-        // 建立小顶堆
-        func shiftDown(array: inout [ListNode], index: Int) {
-            let element = array[index]
-            let size = array.count
-            let half = size / 2
-            var index = index
-            while index < half {
-                var childIndex = index * 2 + 1
-                var child = array[childIndex]
-                let rightIndx = childIndex + 1
-                if rightIndx < size && array[rightIndx].val < child.val {
-                    childIndex = rightIndx
-                    child = array[rightIndx]
+        // 维护队列的优先级
+        func enqueue(priority: inout [ListNode], _ element: ListNode) {
+            for (index, otherElement) in priority.enumerated() {
+                if element.val < otherElement.val {
+                    priority.insert(element, at: index)
+                    return
                 }
-                
-                if element.val < child.val {
-                    break
-                }
-                
-                array[index] = child
-                index = childIndex
             }
-            array[index] = element
-        }
-        
-        // 链表入堆
-        var array = [ListNode]()
-        for node in lists {
-            var temp = node
-            while temp != nil {
-                let currentNode = temp
-                temp = temp!.next
-                currentNode!.next = nil
-                
-                array.append(currentNode!)
-            }
-        }
-        
-        // 下虑调整
-        var index = array.count / 2 - 1
-        while index >= 0 {
-            shiftDown(array: &array, index: index)
-            index -= 1
+            priority.append(element)
         }
         
         // 重新创建链表
         let dummy = ListNode()
         var p: ListNode? = dummy
-        for node in array {
-            p?.next = node
+        
+        var priorityArray: [ListNode] = []
+        
+        for node in lists {
+            if let node = node {
+                enqueue(priority: &priorityArray, node)
+            }
+        }
+        
+        while !priorityArray.isEmpty {
+            let fitst = priorityArray.removeFirst()
+            p?.next = fitst
+            if let next = fitst.next {
+                enqueue(priority: &priorityArray, next)
+            }
             p = p?.next
         }
         
         return dummy.next
     }
     
-    // 批量建小顶堆
-    func buildHeap(array: [Int]) {
-        func shiftDown(array: inout [Int], index: Int, size: Int) {
-            let element = array[index]
-            var index = index
-            while index < size / 2 {
-                var childIndex = index * 2 + 1
-                var child = array[childIndex]
-                let rightIndx = childIndex + 1
-                if rightIndx < size && array[rightIndx] < child {
-                    childIndex = rightIndx
-                    child = array[rightIndx]
-                }
-                
-                guard element > child else {
-                    break
-                }
-                
-                array[index] = child
-                index = childIndex
-            }
-            array[index] = element
+    /// 19 删除链表的倒数第K个节点，先找到第k+1个节点，也就是前一个节点
+    func removeNthFromEnd(_ head: ListNode?, _ n: Int) -> ListNode? {
+        guard head != nil else {
+            return nil
+        }
+        let pre = findFromEnd(head: head!, k: n + 1)
+        if pre != nil {
+            pre!.next = pre!.next!.next
+            return head
+        } else {
+            // 没找到就说明是第一个元素
+            return head?.next
+        }
+    }
+    
+    /// 876 链表的中间节点（快慢指针）
+    func middleNode(_ head: ListNode?) -> ListNode? {
+        guard head != nil else {
+            return nil
         }
         
-        guard array.count > 0 else { return }
-        var array = array
-        var index = array.count / 2 - 1
-        while index >= 0 {
-            shiftDown(array: &array, index: index, size: array.count)
-            index -= 1
+        // 小于2个节点的情况
+        if head?.next == nil {
+            return head
         }
-        print(array)
+        
+        var fast = head
+        var slow = head
+        while fast != nil && fast?.next != nil {
+            fast = fast?.next?.next
+            slow = slow?.next
+        }
+        return slow
     }
 }
-
-let node = ListNode()
-node.buildHeap(array: [1,4,5,1,3,4,2,6])
