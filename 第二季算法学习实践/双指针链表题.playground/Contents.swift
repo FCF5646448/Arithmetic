@@ -39,8 +39,8 @@ class ListNode: Equatable {
         }
     }
     
-    static func ==(lhs: ListNode?, rhs: ListNode?) -> Bool {
-        
+    static func ==(lhs: ListNode, rhs: ListNode) -> Bool {
+        return lhs.val == rhs.val && lhs.next == rhs.next
     }
 }
 
@@ -217,6 +217,7 @@ extension ListNode {
     }
     
     /// 查找链表中环的入口节点
+    /// 注意，这里节点相等，使用===
     func detectCycle(_ head: ListNode?) -> ListNode? {
         guard head != nil else { return nil }
         var fast: ListNode? = head
@@ -226,7 +227,7 @@ extension ListNode {
             slow = slow?.next
             if let fast = fast,
                let slow = slow,
-               fast.val == slow.val {
+               fast === slow {
                 // 相交
                 break
             }
@@ -238,7 +239,7 @@ extension ListNode {
         
         // 慢指针从头开始，与快指针同步移动
         slow = head
-        while fast!.val != slow!.val {
+        while !(fast! === slow!) {
             fast = fast?.next
             slow = slow?.next
         }
@@ -263,64 +264,22 @@ extension ListNode {
         return false
     }
     
-    /// 寻找两个正序数组的中位数
-    func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
-        // 维护一个优先级队列
-        func enqueue(_ priorityArray: inout [Int], n: Int) {
-            for (index, oldNum) in priorityArray.enumerated() {
-                if n < oldNum {
-                    priorityArray.insert(index, at: n)
-                    return
-                }
-            }
-            priorityArray.append(n)
-            print("priorityArray :\(priorityArray)")
-        }
+    /// https://leetcode.cn/problems/intersection-of-two-linked-lists/submissions/
+    /// 查找两个链表的相交节点
+    func getIntersectionNode(_ headA: ListNode?, _ headB: ListNode?) -> ListNode? {
+        guard headA != nil && headB != nil else { return nil }
+        var p1: ListNode? = headA
+        var p2: ListNode? = headB
         
-        let allCount = nums1.count + nums2.count
-        guard allCount > 0 else {
-            return 0
-        }
-        
-        let midIndex = allCount/2
-        
-        var priorityArray = [Int]()
-        var p1 = 0
-        var p2 = 0
-        while p1 < nums1.count || p2 < nums2.count {
-            // 小的先入队
-            if p1 < nums1.count && p2 < nums2.count {
-                if nums1[p1] <= nums2[p2] {
-                    enqueue(&priorityArray, n: nums1[p1])
-                    p1 += 1
-                } else {
-                    enqueue(&priorityArray, n: nums2[p2])
-                    p2 += 1
-                }
-            } else if p1 < nums1.count {
-                enqueue(&priorityArray, n: nums1[p1])
-                p1 += 1
-            } else if p2 < nums2.count {
-                enqueue(&priorityArray, n: nums2[p2])
-                p2 += 1
-            }
-            if priorityArray.count > midIndex {
-                break
+        while !(p1 === p2) {
+            p1 = p1?.next
+            p2 = p2?.next
+            if p1 == nil && p2 != nil {
+                p1 = headB
+            } else if p2 == nil && p1 != nil {
+                p2 = headA
             }
         }
-        
-        if allCount % 2 == 0 {
-            // 偶数
-            let preMid = midIndex - 1
-            let preValue = priorityArray[preMid]
-            let midValue = priorityArray[midIndex]
-            print("偶数--- (midIndex:\(midIndex), value:\(midValue); (preMid:\(preMid), value:\(preValue)")
-            return Double(preValue + midValue) / 2.0
-        } else {
-            // 奇数
-            let midValue = priorityArray[midIndex]
-            print("奇数---(index:\(midIndex), value:\(midValue))")
-            return Double(midValue)
-        }
+        return p1
     }
 }
