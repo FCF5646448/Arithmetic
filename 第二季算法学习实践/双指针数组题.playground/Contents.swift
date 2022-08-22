@@ -2,6 +2,28 @@ import UIKit
 
 var greeting = "Hello, playground"
 
+/// 26 删除有序数组中的重复项
+func removeDuplicates(_ nums: inout [Int]) -> Int {
+    guard nums.count > 0 else {
+        return 0
+    }
+    var slow = 0
+    var fast = 1
+    while fast < nums.count {
+        if nums[slow] == nums[fast] {
+            fast += 1
+        } else {
+            slow += 1
+            if slow != fast {
+                (nums[slow], nums[fast]) = (nums[fast], nums[slow])
+            }
+            fast += 1
+        }
+    }
+    return slow + 1
+}
+
+
 
 /// 寻找两个正序数组的中位数
 func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
