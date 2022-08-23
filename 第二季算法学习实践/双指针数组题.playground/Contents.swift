@@ -1,4 +1,5 @@
 import UIKit
+import CoreGraphics
 
 var greeting = "Hello, playground"
 
@@ -21,6 +22,71 @@ func removeDuplicates(_ nums: inout [Int]) -> Int {
         }
     }
     return slow + 1
+}
+
+/// 27. 移除指定元素，返回新的长度
+func removeElement(_ nums: inout [Int], _ val: Int) -> Int {
+    guard nums.count > 0 else {
+        return 0
+    }
+    var slow = 0
+    var fast = 0
+    while fast < nums.count {
+        if nums[fast] != val {
+            nums[slow] = nums[fast]
+            slow += 1
+        }
+        fast += 1
+    }
+    
+//    while fast < nums.count {
+//        fast += 1
+//        if nums[slow] == val {
+//            if fast < nums.count && nums[fast] != val {
+//                (nums[slow], nums[fast]) = (nums[fast], nums[slow])
+//                slow += 1
+//            }
+//        } else {
+//            slow += 1
+//        }
+//    }
+    return slow
+ }
+
+/// 283.移动零
+func moveZeroes(_ nums: inout [Int]) {
+    guard nums.count > 0 else {
+        return
+    }
+    var slow = 0
+    var fast = 0
+    while fast < nums.count {
+        if nums[fast] != 0 {
+            (nums[slow], nums[fast]) = (nums[fast],nums[slow])
+            slow += 1
+        }
+        fast += 1
+    }
+}
+
+///  167.两数之和|| 输入有序数组
+func twoSum(_ numbers: [Int], _ target: Int) -> [Int] {
+    guard numbers.count > 0 else {
+        return []
+    }
+    var left = 0
+    var right = numbers.count - 1
+    while left < right {
+        let sum = numbers[left] + numbers[right]
+        if sum == target {
+            return [left + 1, right + 1]
+        } else if sum < target {
+            left += 1
+        } else if sum > target {
+            right -= 1
+        }
+    }
+    return []
 }
 
 
