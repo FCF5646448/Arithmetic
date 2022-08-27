@@ -89,6 +89,67 @@ func twoSum(_ numbers: [Int], _ target: Int) -> [Int] {
     return []
 }
 
+/// 344.反转字符串
+func reverseString(_ s: inout [Character]) {
+    guard s.count > 0 else {
+        return
+    }
+    var left = 0
+    var right = s.count - 1
+    while left < right {
+        (s[left], s[right]) = (s[right], s[left])
+        left += 1
+        right -= 1
+    }
+}
+
+/// 5.最长回文子串(策略不行，会超出时间)
+func longestPalindrome(_ s: String) -> String {
+    func checkIsPalindrome(_ sArr: [Character]) -> Bool {
+        guard sArr.count > 0 else {
+            return false
+        }
+        var left = 0
+        var right = sArr.count - 1
+        while left < right {
+            if sArr[left] != sArr[right] {
+                return false
+            }
+            left += 1
+            right -= 1
+        }
+        return true
+    }
+    
+    let sArr = Array(s)
+    var resultArr = [Character]()
+    var left = 0
+    var right = sArr.count - 1
+    while left <= right {
+        let subArr = Array(sArr[left...right])
+        debugPrint("left:\(left), right:\(right) subArr:\(String(subArr))")
+        if subArr.count <= resultArr.count {
+            left += 1
+            right = sArr.count - 1
+            continue
+        }
+        if checkIsPalindrome(subArr) {
+            resultArr = subArr
+            left += 1
+            right = sArr.count - 1
+            continue
+        }
+        right -= 1
+        if left > right {
+            left += 1
+            right = sArr.count - 1
+        }
+    }
+    debugPrint(String(resultArr))
+    return String(resultArr)
+}
+
+_ = longestPalindrome("a")
 
 
 /// 寻找两个正序数组的中位数
