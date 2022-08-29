@@ -152,6 +152,40 @@ func longestPalindrome(_ s: String) -> String {
 _ = longestPalindrome("a")
 
 
+/// 5.最长回文子串2(双指针技巧)
+func longestPalindrome2(_ s: String) -> String {
+    // 在s中寻找以s[l]和s[r]为中心的最长回文串，
+    func palindrome(_ sArr: [Character], l: Int, r: Int) -> String {
+        var l = l
+        var r = r
+        while l >= 0 && r < sArr.count && sArr[l] == sArr[r] {
+            l -= 1
+            r += 1
+        }
+        // 注意这个取值范围
+        let subString = String(sArr[l+1..<r])
+        debugPrint(subString)
+        return subString
+    }
+    
+    var res = ""
+    let sArr = Array(s)
+    for i in 0..<sArr.count {
+        let s1 = palindrome(sArr, l: i, r: i)
+        let s2 = palindrome(sArr, l: i, r: i+1)
+        res = res.count > s1.count ? res: s1
+        res = res.count > s2.count ? res: s2
+    }
+    debugPrint(res)
+    return res
+}
+
+
+
+
+
+
+
 /// 寻找两个正序数组的中位数
 func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
     // 维护一个优先级队列
