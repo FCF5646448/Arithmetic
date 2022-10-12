@@ -1,4 +1,5 @@
 import UIKit
+import Foundation
 
 var greeting = "Hello, playground"
 
@@ -90,6 +91,120 @@ func levelOrder(_ root: TreeNode?) -> [TreeNode] {
     }
     return res.flatMap({ $0 })
 }
+
+// 判断是否是一个有效二叉树
+func isValidST(_ root: TreeNode?, min: Int = Int.min, max: Int = Int.max) -> Bool {
+    guard let root = root else {
+        return true
+    }
+    
+    if min >= root.value || max <= root.value {
+        return false
+    }
+    
+    return isValidST(root.left, min: min, max: root.value) && isValidST(root.right, min: root.value, max: max)
+}
+
+func searchBST(_ root: TreeNode?, _ val: Int) -> TreeNode? {
+    guard let root = root else {
+        return nil
+    }
+    
+    if val < root.value {
+        return searchBST(root.left, val)
+    } else if val > root.value {
+        return searchBST(root.right, val)
+    } else if val == root.value {
+        return root
+    }
+    return nil
+}
+
+
+/// 删除二叉树的节点
+func deleteNode(_ root: TreeNode?, _ key: Int) -> TreeNode? {
+    guard let root = root else {
+        return nil
+    }
+    
+    if key < root.value {
+        root.left = deleteNode(root.left, key)
+        return deleteNode(root.left, key)
+    } else if key > root.value {
+        root.right = deleteNode(root.right, key)
+    } else {
+        // 删除节点。
+        if let head = root.right {
+            // 返回以右节点为根节点的新树
+            var node = head
+            while node.left != nil {
+                node = node.left!
+            }
+            node.left = root.left
+            return head
+        } else {
+            return root.left
+        }
+    }
+    return root
+}
+
+func isBalanced(_ root: TreeNode?) -> Bool {
+    func maxHeight(_ root: TreeNode?) -> Int {
+        guard let root = root else {
+            return 0
+        }
+        
+        return max(maxHeight(root.left), maxHeight(root.right)) + 1
+    }
+    
+    guard let root = root else {
+        return true
+    }
+    
+    let leftH = maxHeight(root.left)
+    let rightH = maxHeight(root.right)
+    if abs(leftH - rightH) > 1 {
+        return false
+    }
+    
+    return isBalanced(root.left) && isBalanced(root.right)
+}
+
+func countNodes0(_ root: TreeNode?) -> Int {
+    guard let root = root else {
+        return 0
+    }
+    
+    return countNodes0(root.left) + countNodes0(root.right) + 1
+}
+
+func countNodes(_ root: TreeNode?) -> Int {
+    // 计算层级
+    func countLevel(_ root: TreeNode?) -> Int {
+        var root = root
+        var level = 0
+        while root != nil {
+            level += 1
+            root = root?.left
+        }
+        return level
+    }
+       
+    guard let root = root else {
+        return 0
+    }
+    
+    let lLevel = countLevel(root.left)
+    let rLevel = countLevel(root.right)
+    if lLevel == rLevel {
+        // 层级相等，则右子树为完全二叉树，左子树为满二叉树，满二叉树的节点个数 = 2^h-1个节点 也就是 （1<<h - 1）
+        return countNodes(root.right) + (1 << lLevel)
+    } else {
+        return countNodes(root.left) + (1 << rLevel)
+    }
+}
+
 
 
 class TreeTest {
