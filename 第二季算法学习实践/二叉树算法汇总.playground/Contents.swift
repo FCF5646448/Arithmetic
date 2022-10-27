@@ -237,6 +237,45 @@ class TreeTest {
         bfs.forEach { $0.print() }
         print("------------end-----------")
     }
+    
+    func generate(_ numRows: Int) -> [[Int]] {
+        var result = [[Int]]()
+        for i in 0..<numRows {
+            var rows = [Int]()
+            for j in 0...i {
+                if j == 0 || i == j {
+                    debugPrint("1:(\(i), \(j))")
+                    rows.append(1)
+                } else {
+                    debugPrint("2:(\(i), \(j))")
+                    let num = result[i-1][j-1] + result[i-1][j]
+                    rows.append(num)
+                }
+            }
+            result.append(rows)
+        }
+        return result
+    }
+    
+    func getRow(_ rowIndex: Int) -> [Int] {
+        guard rowIndex == 0 else {
+            return [1]
+        }
+        let oldNums = getRow(rowIndex - 1)
+        print("row:\(rowIndex), \(oldNums)")
+        var newRows = [Int]()
+        for j in 0...rowIndex {
+            if j == 0 || j == rowIndex {
+                newRows.append(1)
+            } else {
+                let num = oldNums[j-1] + oldNums[j]
+                newRows.append(num)
+            }
+        }
+        return newRows
+    }
 }
 
 TreeTest().test()
+
+debugPrint(TreeTest().getRow(3))
