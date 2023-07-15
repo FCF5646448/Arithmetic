@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		31A428812A62C515000035C3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A428802A62C515000035C3 /* main.swift */; };
+		31A4288A2A62C6B6000035C3 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A428892A62C6B6000035C3 /* List.swift */; };
+		31A4288C2A62C915000035C3 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4288B2A62C915000035C3 /* LinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		31A4287D2A62C515000035C3 /* 数据结构与算法分析 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数据结构与算法分析"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A428802A62C515000035C3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		31A428892A62C6B6000035C3 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		31A4288B2A62C915000035C3 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,27 @@
 		31A4287F2A62C515000035C3 /* 数据结构与算法分析 */ = {
 			isa = PBXGroup;
 			children = (
+				31A428872A62C66C000035C3 /* 章节 */,
 				31A428802A62C515000035C3 /* main.swift */,
 			);
 			path = "数据结构与算法分析";
+			sourceTree = "<group>";
+		};
+		31A428872A62C66C000035C3 /* 章节 */ = {
+			isa = PBXGroup;
+			children = (
+				31A428882A62C677000035C3 /* 3表栈队列 */,
+			);
+			path = "章节";
+			sourceTree = "<group>";
+		};
+		31A428882A62C677000035C3 /* 3表栈队列 */ = {
+			isa = PBXGroup;
+			children = (
+				31A428892A62C6B6000035C3 /* List.swift */,
+				31A4288B2A62C915000035C3 /* LinkedList.swift */,
+			);
+			path = "3表栈队列";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A4288C2A62C915000035C3 /* LinkedList.swift in Sources */,
 				31A428812A62C515000035C3 /* main.swift in Sources */,
+				31A4288A2A62C6B6000035C3 /* List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
